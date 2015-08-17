@@ -63,7 +63,7 @@ a.nav {
 /* BROKER STYLES*/
 
 #broker {
-   font-family: Forum, cursive;
+   font-family:Forum, cursive;
    font-size:.95rem;
    line-height:114%;
    margin:0px;
@@ -105,7 +105,7 @@ a.nav {
 
 #intro {
    background-color:#e9e0cf !important;
-   margin:30px 0px 10px 0px;
+   margin:30px 0px 0px 0px;
    padding:20px;
    color:#444444 !important;
    font-family: Forum, cursive;
@@ -125,10 +125,9 @@ a.nav {
    padding:1% 2%}
 
 .kudos {
-
-   font-family: 'Arapey', serif;
+   font-family: 'Forum', cursive;
    color: #fe9e0cf;
-   font-size: .95em;
+   font-size: .93em;
    font-style: italic;
    line-height: 100%;
    text-align: left }
