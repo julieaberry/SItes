@@ -1,0 +1,649 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+body {max-width: 320px;padding: 10px;background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 2em; margin: 0 auto; position: relative; max-width: 350px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -khtml-transform: rotate(0deg); -ms-transform: rotate(0deg); -chrome-transform: rotate(0deg); transform: rotate(0deg); max-width: 240px; position: relative; top: 30px; right: 0px; margin: 0 auto; text-align: center;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 0px; top: 205px; letter-spacing: -0.035em; text-align: center; margin: 0 auto;}
+.contact a {text-decoration: none!important;}
+.blog {display:none}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; font-size: 1.5em; position: relative; left: 0px; top: -65px; max-width: 300px; text-align: center; }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+.main-section {min-height:160px; padding-top: 70px;}
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px; a {padding-right: 10px; text-decoration: none!important;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
+.codestar {font-family:"EA Font v1.5 by Ghettoshark"; position: relative; font-size: .7em; width: 175px; left: 55px; top: -34px; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg);}
+.portfolio {font-family: "Dancing Script", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -27px; width: 215px; a {padding-left: 10px;} }
+.resume {font-family: "Cardo", Arial, "Helvetica Neue", sans-serif; position: relative; left: 190px; top: -270px; width: 180px;}
+.writing {font-family: "Lato", Arial, "Helvetica Neue", sans-serif; position: relative; left: 270px; top: 20px; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg);}
+.linkedin {position: relative; left: 340px; top: -190px!important; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -khtml-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -chrome-transform: rotate(-90deg); transform: rotate(-90deg); width: 200px;}
+#notes {position: absolute; bottom: 5; width: 100%; margin: 0 auto; display: block; }
+#notes p {font-family: Cabin, "Gill Sans", Geneva, "Helevetica Neue", sans-serif; color: #666; font-size: 11px; text-align: center; }
+#notes a:hover {text-decoration: underline; color: #1B9881;}
+a:hover, a:visited, a:link, a:active {text-decoration: none !important; }
+}

@@ -1,0 +1,321 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julie A. Berry | Portfolio</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://www.julieaberry.com/assets/css/portfolio.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    
+    <style>
+      .main-section {min-height:160px; }
+    </style>
+
+  </head>
+  <body>
+  
+  
+  <!---->
+  
+  
+<div class="off-canvas-wrap docs-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="right tab-bar-section">
+        <h1 class="title">Portfolio</h1>
+      </section>
+
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Portfolio</label></li>
+        <li><a href="http://www.julieaberry.com">Home</a></li>
+        <li><a href="http://www.julieaberry.com/aboutme">About Me</a></li>
+        <li><a href="http://www.julieaberry.com/resume">Resume</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+      <div class="row">
+
+      <div class="large-12 columns">
+        <h1>JULIE A. BERRY</h1>
+        <h2><span style='margin-left:1.0in'>Portfolio</span></h2>
+      </div>
+      
+      </div>
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+  
+  <!---->
+    
+    <hr />
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="header">
+          <h3>WEB DESIGN & DEVELOPMENT</h3>
+        </div><!-- ./ header -->
+      </div>
+    </div>
+   
+    <div class="row">
+    
+      <div class="large-3 columns">   <!-------  CARD 1 ---------->
+        <div class="card">
+          <div class="container">
+	    <div class="front">
+	      <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-vapercube.png">
+            </div>
+	    <div class="back">
+	    <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-vapercube400.png">
+	    </div><!-- ./ back -->
+          </div><!-- ./ container -->    
+        </div><!-- ./ card -->  
+        
+        <div class="code_card center">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+          <p><b>CLIENT:</b> Vaper Cube, Inc.</P>
+          <p><b>ROLE:</b> Front-End Developer</p>
+          <p><b>FRAMEWORK:</b> Drupal</p>
+          <p>E-Commerce, Animation, Parallax, Bootstrap, Custom Javascript</p>
+          <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+        </div><!-- /. code card -->       
+  
+      </div><!-- ./ col --> 
+      
+      
+      <div class="large-3 columns">    <!-------  CARD 2 ---------->
+        <div class="card">
+          <div class="container">
+	    <div class="front">
+	      <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-wed.png" />
+            </div>
+	    <div class="back">
+	      <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-wed-full400.png" />
+	    </div><!-- ./ back -->
+       </div><!-- ./ container -->    
+     </div><!-- ./ card -->   
+     
+     <div class="code_card center">
+        <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+        <p><b>CLIENT:</b> Jenny and Johnny Berry</P>
+        <p><b>ROLE:</b> Designer &amp; Developer</p>
+        <p><b>FRAMEWORK:</b> Foundation</p>
+        <p>User Interaction, Animation, Custom Images, Custom Javacsript, multiple API</p>
+        <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+      </div><!-- /. code card -->
+     
+   </div><!-- ./ col --> 
+   
+   <div class="large-3 columns">    <!-------  CARD 3 ---------->
+    <div class="card">
+      <div class="container">
+	<div class="front">
+	<!-- <div class="scrolldown animate bounce center" id="arrow"></div> -->
+	  <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-codestar1.png" />
+	  
+        </div>
+        <div class="back">
+	  <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-codestar400.png" />
+	</div><!-- ./ back -->
+      </div><!-- ./ container -->    
+    </div><!-- ./ card -->   
+    
+    <div class="code_card center">
+        <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+        <p><b>CLIENT:</b> Codestar Dev</P>
+        <p><b>ROLE:</b> Designer &amp; Developer</p>
+        <p><b>FRAMEWORK:</b> Foundation</p>
+        <p>User Interaction, Animation, Bootstrap, Custom Images, Custom Javascript</p>
+        <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+      </div><!-- /. code card -->
+    
+  </div><!-- ./ col --> 
+  
+  <div class="large-3 columns">   <!-------  CARD 4 ---------->
+        <div class="card">
+          <div class="container">
+	    <div class="front">
+	      <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-1.png">
+            </div>
+	    <div class="back">
+	    <img src="http://www.julieaberry.com/assets/img/portfolio/card/card-hjc400.png">
+	    </div><!-- ./ back -->
+          </div><!-- ./ container -->    
+        </div><!-- ./ card -->   
+        
+        <div class="code_card center">
+        <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+        <p><b>CLIENT:</b> Heath J.E. Cunningham</P>
+        <p><b>ROLE:</b> Designer &amp; Developer</p>
+        <p><b>FRAMEWORK:</b> Foundation</p>
+        <p>Custom Images, Multiple Landing Pages, MLS IDX Integration</p>
+        <img src="http://www.julieaberry.com/assets/img/portfolio/dotz.png">
+      </div><!-- /. code card -->
+        
+      </div><!-- ./ col --> 
+      
+  </div><!-- ./ row -->
+   
+    
+<hr />
+
+
+ <!---- /////// LOGOS ROW \\\\\\ ------>   
+      
+   
+     <div class="row">
+      <div class="large-12 columns">
+        <div class="header">
+          <h3>LOGO</h3>
+        </div><!-- ./ header -->
+      </div><!-- ./ col 12 -->
+    </div>  <!-- ./ row -->
+    
+     <div class="row">
+     
+      <div class="large-2 columns">
+        <div class="logo">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/logo/jnj.png">
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 12 -->
+
+      <div class="large-2 columns">
+        <div class="logo">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/logo/codestar.png">
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 12 -->
+    
+      <div class="large-2 columns">
+        <div class="logo">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/logo/hjc.png">
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 12 -->
+    
+      <div class="large-2 columns">
+        <div class="logo">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/logo/leads.jpg">
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 12 -->
+    
+      <div class="large-2 columns">
+        <div class="logo">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/logo/bai.png">
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 12 -->
+    
+      <div class="large-2 columns">
+        <div class="logo">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/logo/bai-badge.png">
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 12 -->
+      
+    </div>  <!-- ./ row -->
+    
+    
+   
+   
+   
+<hr />
+ <!---- /////// WRITING ROW \\\\\\ ------>   
+   
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="header">
+          <h3>WRITING</h3>
+        </div><!-- ./ header -->
+      </div>
+    </div>
+
+
+   <div class="row">
+   
+      <div class="large-2 columns">
+        <div class="100word-essay">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/clear.png">
+        </div><!-- ./ 100word-essay -->
+      </div><!-- ./ col 2 -->
+      
+      <div class="large-10 columns">
+        <div class="100word-essay">
+          <p>&quot;Devlin boats are the product of Sam Devlin, a native of the Pacific Northwest. In 1977, he started his own boatbuilding business out of his love and passion for boats. Devlin’s boats are known for their sheet marine plywood and epoxy technology, making his boatbuilding kits perfect for the home-based enthusiast. You won’t find a Devlin at any travelling boat show, but there are plenty out there on the water; each one being unique to the creativity of its builder. Fans of Devlin claim very few maintenance problems due to the simplicity of design and extremely high quality of materials.  &quot;</p>
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 10 -->      
+      
+      <div class="large-2 columns">
+        <div class="100word-essay">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/clear.png">
+        </div><!-- ./ 100word-essay --> 
+      </div><!-- ./ col 2 -->
+            
+      </div><!-- ./ row -->     
+      
+      
+      
+      <div class="row">  
+      
+      <div class="large-2 columns">
+        <div class="100word-essay">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/clear.png">
+        </div><!-- ./ 100word-essay --> 
+      </div><!-- ./ col 2 -->
+      
+      <div class="large-10 columns">
+        <div class="100word-essay">
+         <p>&quot;Vern taught me how to ride horses, and how to cuss. Sometimes after riding lessons Mom and I stayed to chat, and laugh until we peed. One day Vern had surgery. I know because when she came back she farted so loud and so often I stopped giggling about it. She told me it was because they took half her guts out. I still remember my vision of Vern with half her guts strewn beside her.  Mom used to say Vern was so tight she could squeeze the shit out of a nickel. I thought that was pretty funny too.&quot;</p>
+        </div><!-- ./ logo -->
+      </div><!-- ./ col 10 -->
+
+      <div class="large-2 columns">
+        <div class="100word-essay">
+          <img src="http://www.julieaberry.com/assets/img/portfolio/clear.png">
+        </div><!-- ./ 100word-essay --> 
+      </div><!-- ./ col 2 -->
+
+
+    </div><!-- ./ row -->  
+    
+<?php include("includes/footer.html");?>
+  <footer class="center">
+    <P class="center"><small>&copy;Codestar Dev 2015 ALL RIGHTS RESERVED</small></p>
+  </footer> 
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="http://www.julieaberry.com/assets/js/foundation.min.js"></script>
+    <script type="text/javascript" src="http://www.julieaberry.com/assets/js/vendor/fontsmoothie.min.js"></script>
+    <script type="text/javascript" src="http://www.julieaberry.com/assets/js/foundation/foundation.offcanvas.js"></script>
+    
+    <script>
+      $(document).foundation();
+    </script>
+    
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Crimson+Text:400,400italic,600:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+  
+  </body>
+</html>

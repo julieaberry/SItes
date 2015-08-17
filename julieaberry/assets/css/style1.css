@@ -1,0 +1,26 @@
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Crushed);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(http://fonts.googleapis.com/css?family=Cardo);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Bentham);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+@font-face{font-family:"EA Font v1.5 by Ghettoshark";src:url("http://codestardev.com/font/EASPORTS15.eot?") format("eot"),url("http://codestardev.com/font/EASPORTS15.woff") format("woff"),url("http://codestardev.com/font/EASPORTS15.ttf") format("truetype"),url("http://codestardev.com/font/EASPORTS15.svg#EASPORTS") format("svg");font-weight:normal;font-style:normal;}
+
+body {background: url("http://www.julieaberry.com/img/bokeh.jpg");background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-webkit-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-moz-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");-ms-background-image: url("http://www.julieaberry.com/img/bokeh.jpg");background-repeat: no-repeat; background-size: cover; position: relative; color: #000000; background-color: #ffffff;  /* -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); */  }
+a {border: 0; outline: 0; text-decoration: none!important; color: #000;}
+a:hover {color: #096; text-decoration: none!important;}
+ul, li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+ul {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+li {list-style: none; text-decoration: none!important; padding: 0; margin: 0;}
+.typography {font-size: 4em; margin: 70px auto; position: relative; width: 800px;}
+.name {font-family: "Crimson Text"; color: #096; font-size: 1em; position: relative; text-align: center; margin: 20px auto; top: 280px;}
+.about {font-family: "Permanent Marker", Arial, "Helvetica Neue", sans-serif; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -khtml-transform: rotate(90deg); -ms-transform: rotate(90deg); -chrome-transform: rotate(90deg); transform: rotate(90deg); width: 240px; position: relative; top: 50px; right: -306px;}
+.about a {padding-right: 10px; text-decoration: none!important;} }
+.contact {font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; position: relative; left: 452px; top: 35px; letter-spacing: -0.035em;}
+.contact a {text-decoration: none!important;}
+.blog {font-family: "Lobster", Arial, "Helvetica Neue", sans-serif; position: relative; left: 493px; top: 100px;}
