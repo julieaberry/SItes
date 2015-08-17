@@ -7,7 +7,7 @@ h2 {
     margin-top: 1%;
 }
 
-/* ADDITIONAL STYLES*/   
+/* HEADER */   
   
 #header_row {
    margin-bottom:0px;
@@ -21,14 +21,20 @@ h2 {
    z-index=100 }
 
 #header_right {
-   padding: 0;
-   margin: 0 }
+   padding:0;
+   padding-right:20px;
+   margin:0 }
 
 #header_left h1{
    margin-left:-8px }
+
+/* NAV BAR */
 	
 #nav {
    background-color:rgba(0,0,0,.4)!important; }
+
+#nav-row {
+   padding-bottom:10px }
 	
 a.nav {
    background: -moz-linear-gradient(270deg, rgba(189,156,107,1) 0%, rgba(0,0,0,1) 100%)!important; /* ff3.6+ */
@@ -50,6 +56,53 @@ a.nav {
    vertical-align:middle;
    padding:5px 8px 3px 0px }
 
+#topsec {
+    padding-right: 30px;
+    padding-left: 5px }
+
+/* BROKER STYLES*/
+
+#broker {
+   font-family: Forum, cursive;
+   font-size:.95rem;
+   line-height:114%;
+   margin:0px;
+   padding:0px 5px 10px 0px }
+
+.name {
+   width:100%;
+   font-family: "Pinyon Script", cursive;
+   font-size: 1.5rem;
+   padding-top: 15px;
+   padding-bottom:6px;
+   margin-bottom:0px;
+   text-align:center }
+   
+.rep {
+   padding-top:6px;
+   padding-bottom:15px }  
+
+/* INFO SQUARE (below portrait) */
+
+#info-square {
+   border:1px solid #bd9c6b;
+   padding:10px;
+   margin-top:35px }
+
+.broker-logo {
+   padding:10px }
+
+/* ORBIT */
+
+.orbit-container .orbit-slides-container {
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    -webkit-transform: translateZ(0) }
+
+/* ABOUT */
+
 #intro {
    background-color:#e9e0cf !important;
    margin:0px 0px 10px 0px;
@@ -58,6 +111,8 @@ a.nav {
    font-family: Forum, cursive;
    font-size:1rem;
    line-height:100% }
+
+/* KUDOS */
 
 .kudos {
    font-family: 'Arapey', serif;
@@ -142,29 +197,12 @@ td.sold-desc {
 #soldsold {
    padding-right:0 }
    
-/* BROKER STYLES*/
 
-#broker {
-   font-family: Forum, cursive;
-   font-size:.95rem;
-   line-height:114%;
-   margin:0px;
-   padding:0px 0px 10px 0px;
-   text-align:center }
+   
 
-.name {
-   width:100%;
-   font-family: "Pinyon Script", cursive;
-   font-size: 1.3rem;
-   padding-top: 15px;
-   padding-bottom:6px;
-   margin-bottom:0px;
-   text-align:center }
-   
-.rep {
-   padding-top:6px;
-   padding-bottom:15px }  
-   
+
+
+
 /* MOBILE STYLES */
 
 .mob {
@@ -337,6 +375,7 @@ html {
    padding-bottom:2rem }
 
 #row1 {
+   padding:30px;
    margin-bottom:0px;
    margin-top:0px }
 
@@ -560,22 +599,6 @@ html {
    margin-bottom:0 }
       
       
-p.dlid {
-   margin-bottom:0;
-   margin-top:12px;
-   padding-top:12px }
-   
-p.dldesc {
-   font-size:.95em;
-   margin-bottom:15px }
-   
-p.dldescr {
-   font-size:.95em!important; 
-   margin-bottom:0 }
-   
-.dldescr {
-   font-size:.95em!important;
-   margin-bottom:0 }
    
 #mobpic{
    text-align:center;
@@ -589,10 +612,10 @@ p.dldescr {
 h3 {
    font-size: .9rem;  }
 
-#dnldsqr {
+#info-square {
    border:1px solid #bd9c6b;
    padding:10px;
-   margin-top:35px }
+   margin-top:30px }
 
 h7 {
    font-family: Arial,Helvetica;
