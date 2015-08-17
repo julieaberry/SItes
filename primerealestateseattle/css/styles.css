@@ -21,8 +21,7 @@ h2 {
    z-index=100 }
 
 #header_right {
-   padding-top: 9%;
-   padding-bottom: 0;
+   padding: 0;
    margin: 0 }
 	
 #nav {
@@ -257,7 +256,7 @@ a.mobile.visited {
 .email {
    text-align:right;
    padding-top:5px;
-   padding-bottom:10px }
+   padding-bottom:0px }
 	
 .about {
    margin-top:15px;
