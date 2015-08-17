@@ -23,6 +23,9 @@ h2 {
 #header_right {
    padding: 0;
    margin: 0 }
+
+#header_left h1{
+   margin-left:-8px }
 	
 #nav {
    background-color:rgba(0,0,0,.4)!important; }
