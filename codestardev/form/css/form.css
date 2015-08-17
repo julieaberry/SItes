@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+   font-size:100%;
+   font-family: 'Noto Sans', sans-serif;
+   font-size:14px;
+   color:#3a3a3a;
+   background: #ffffff; }
+
+.body {
+   width:576px;
+   margin:0 auto;
+   display:block; 
+   padding-top:0;
+   padding-bottom:0;
+   width: 85%; }
+
+section {
+   border-bottom: 0px solid #dedede; }
+
+#dark {
+   background-color:#666666;
+   background:#666666;
+   text-align:center;
+   padding-top: 20px;
+   padding-bottom: 20px; }
+
+h1 {
+   font-family: 'Syncopate',sans-serif;
+   text-rendering: optimizeLegibility;
+   font-size: 1.8em;
+   font-weight: 700;
+   letter-spacing: 1.1px;
+   color: rgba(255,230,131,0.95);
+   text-align: center;
+   margin: 0;
+   -webkit-text-stroke: rgba(255,230,131,0.7) 0.5px; } 
+
+form {
+   width:459px;
+   margin:20px auto;
+   padding:0;
+   border: 4px solid #820E09;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75); }
+
+label {
+   display: block;
+   margin-top: 0px;
+   letter-spacing: 2px;
+   margin-bottom: 0; 
+   font-size:12px;
+   padding-bottom:0; }
+
+input, textarea {
+   width: 87%;
+   height: 12px;
+   background: #efefef;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border: 1px solid #B1B1B1;
+   padding: 10px;
+   margin-top: 3px;
+   font-size: 0.9em;
+   color: #3a3a3a; }
+
+input:focus, textarea:focus {
+   border:1px solid #97d6eb; }
+
+textarea {
+   height:160px;
+   font-family:Arial, Helvetica, sans-serif;
+   background: #efefef; }
+   
+input{
+   width: 87%;
+   height: 12px;
+   background: #efefef;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border: 1px solid #B1B1B1;
+   padding: 10px;
+   margin-top: 3px;
+   font-size: 0.9em;
+   color: #3a3a3a; }
+   
+#name {
+   margin-top:8px; }
+   
+#email {
+   margin-top:8px;
+   margin-bottom: 6px; }
+   
+#message {
+   margin-top:8px; }
+   
+#nospam {
+   margin-top:8px; }
+   
+
+footer a img {
+   border:none;
+   float:right;
+   margin:0px 10px 40px 0px;
+   width:95px; }
+   
+#footerimg {
+   width: 60px;
+   padding-top: 15px;
+   padding-bottom: 20px; }
+   
+#star {
+   width:50px;
+   margin-right:15px; }
+   
+.btn {
+   display: inline-block;
+   padding: 4px 12px;
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight:700;
+   line-height: 20px;
+   color: #fffff;
+   text-align: center;
+   text-shadow: 0 0px 0px rgba(255,255,255,0.0);
+   vertical-align: middle;
+   cursor: pointer;
+   background-color: #222222;
+   background-image: -moz-linear-gradient(top,#868686,#1D1A1A);
+   background-image: -webkit-gradient(linear,0 0,0 100%,from(#868686),to(#1D1A1A));
+   background-image: -webkit-linear-gradient(top,#868686,#1D1A1A);
+   background-image: -o-linear-gradient(top,#868686,#1D1A1A);
+   background-image: linear-gradient(to bottom,#868686,#1D1A1A);
+   background-repeat: repeat-x;
+   border: 1px solid #cccccc;
+   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+   border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+   border-bottom-color: #b3b3b3;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+   -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+   box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05); }
+   
+   
+#submit {
+   /*background: url("http://form.codestardev.com/img/submit.jpg");
+   background-width: 99px;*/
+   width: 99px;
+   height: 30px;
+   text-indent: -9999px;
+   border: none;
+   margin-top: 20px;
+   cursor: pointer;
+   margin-top: -40px;
+   margin-right: 30px;
+   margin-bottom: 15px;
+   float: right;
+   font-size:1em;
+   color#ffffff; }
+
+#submit:hover {
+   opacity:0.7; }

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<head>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<title>Codestar Dev Design Cost Calculator</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/custom-theme.css" type="text/css" />
+	<link rel="stylesheet" href="css/tiptip.css" type="text/css" />
+	<link rel="stylesheet" href="css/price-calculator.css" type="text/css" />
+	<link rel="stylesheet" href="css/main-style-min.css" type="text/css" />
+	<noscript><style type="text/css">#price-calculator-form {display:none;}</style></noscript>
+	<!--[if lt IE 9]>
+		<style type="text/css">.hidden-checkbox, .hidden-checkbox-recurring {visibility: visible !important;}</style>
+		<script type="text/javascript">
+			$(function(){
+					$("label").removeClass("shiny-label").addClass("shiny-label-ie8");
+					$("input:checked").each(function(index, ele) {
+						$("label[for="+ele.id+"]").addClass("shiny-label-ie8-checked").removeClass("shiny-label-ie8");
+					});
+					
+					$('.hidden-checkbox, .hidden-checkbox-recurring').change(function(e, i) {
+						if(e.srcElement.checked === true) {
+							$("label[for="+e.srcElement.id+"]").addClass('shiny-label-ie8-checked').removeClass('shiny-label-ie8');
+						} else {
+							$("label[for="+e.srcElement.id+"]").addClass('shiny-label-ie8').removeClass('shiny-label-ie8-checked');
+						}
+					});
+			});
+		</script>
+	<![endif]-->
+
+	<!--[if lt IE 8]>
+		<style type="text/css">#price-calculator-form {display:none;}#ieError{display:block!important}</style>
+	<![endif]-->
+	
+	<style>
+.pricing-text {
+ text-align:justify;
+ color:#111; 
+ margin-top: 20px;
+  }
+.costplus {
+ float:left;
+ margin-bottom:20px;
+ font-size:18px;
+ font-weight: 400;
+ letter-spacing:0;
+ line-height:1.1;
+ }
+
+	</style>
+</head>
+<body>
+
+<div class="max-page-width wrapper">
+
+
+<noscript><div class="info-box">Please enable Javascript to use our Price Calculator.</div></noscript>
+<div style="display:none" class="info-box" id="ieError">Please update Internet Explorer to use our Price Calculator</div>
+<!-- Start price calculator -->
+
+
+
+
+<form id="price-calculator-form" name="pricecalculator" class="box-wrapper">
+
+   <div class="price-calculator-slider-wrapper">
+              <br style="clear:both">
+      </div><!-- ./ pricing text -->
+<div class="price-calculator-slider-wrapper">
+         <div class="price-calculator-desc textcolor1"><b>Pages</b>Select the number of pages you want built. <!-- PAGES -->
+          <span class="slider-output" id="slider-page-output">0 pages</span>
+         </div><!-- ./ price-calculator-desc -->
+            <div id="slider-range-number-of-pages" class="slider-range tooltip" title="Count dynamically generated pages as one. i.e. a site with a home page, contact page, about page, and dynamic product page would be three pages total. ">
+            </div><!-- ./ slider-range-number-of-pages -->
+   </div><!-- ./ price-calculator-slider-wrapper --><!-- ./ PAGES -->
+	
+   <div class="price-calculator-slider-wrapper"><!-- LAYOUTS -->
+      <div class="price-calculator-desc textcolor1"><b>Layouts</b>How many additional page styles do you want?
+	    <span class="slider-output" id="slider-layout-output">0 Layouts</span>
+      </div><!-- ./ price-calculator-desc -->
+         <div id="slider-range-number-of-layouts" class="slider-range tooltip" title="Add a layout for additional linked pages, optional dynamic pages, landing pages, user login, etc.">
+         </div><!-- ./ slider-range-number-of-layouts -->
+  </div><!-- ./ price-calculator-slider-wrapper --><!-- ./ LAYOUTS -->
+	
+   <div class="price-calculator-slider-wrapper"><!-- COMPLEXITY -->
+      <div class="price-calculator-desc textcolor1"><b>Complexity</b>
+             <span class="" style="float:right;text-align:right" id="slider-complexity-output">Basic</span>
+      </div><!-- ./ price-calculator-desc -->
+         <div id="slider-range-complexity" class="slider-range">
+         </div><!-- ./ slider-range-complexity -->
+   </div><!-- ./ price-calculator-slider-wrapper --><!-- ./ COMPLEXITY -->
+
+   <div class="price-calculator-slider-wrapper"><!-- EMAIL -->	
+      <div class="price-calculator-desc textcolor1"><b>Email</b>Number of initial email addresses to be set up. 
+             <span class="slider-output" id="slider-email-output">0 Email Addresses</span>
+      </div><!-- ./ price-calculator-desc -->
+         <div id="slider-range-email" class="slider-range">
+         </div><!-- ./ slider-range-email -->
+   </div><!-- ./ price-calculator-slider-wrapper --><!-- ./ EMAIL -->
+
+   <div class="price-calculator-item-wrapper"><!-- OPTIONS -->	
+      <div class="price-calculator-desc textcolor1"><b>Options</b>Select what you want.
+      </div><!-- ./ price-calculator-desc -->
+	     <input type="checkbox" value="true" class="hidden-checkbox" id="r-options-1" name="optionsLogo">
+	        <label for="r-options-1" class="shiny-label shiny-label-left tooltip" title="Have your logo professionally designed">CUSTOM LOGO
+	        </label>
+	     <input type="checkbox" value="true" class="hidden-checkbox" id="r-options-2" name="optionsUpload">
+                <label for="r-options-2" class="shiny-label tooltip" title="Allow users to submit files to your server. Useful for companies that receive large files from clients.">FILE UPLOADING
+                </label>
+             <input type="checkbox" value="true" class="hidden-checkbox" id="r-options-3" name="optionsSearch">
+                <label for="r-options-3" class="shiny-label tooltip" title="Includes a search box for site-wide searches.">SITE SEARCH
+                </label>
+             <input type="checkbox" value="true" class="hidden-checkbox" id="r-options-4" name="optionsRSS">
+		<label for="r-options-4" class="shiny-label tooltip" title="Include syndication feeds on your dynamic content, such as a company blog.">RSS FEED
+		</label>
+             <input type="checkbox" value="true" class="hidden-checkbox" id="r-options-5" name="optionsMobile">
+		<label for="r-options-5" class="shiny-label shiny-label-right tooltip" title="Make your current site look great on all devices">MOBILE FRIENDLY
+		</label>
+   </div><!-- ./ price-calculator-item-wrapper --><!-- ./ OPTIONS -->
+	
+   <div class="price-calculator-item-wrapper"><!-- SOCIAL -->
+      <div class="price-calculator-desc textcolor1"><b>Social</b>Increase visitor interest with dynamically changing social content
+      </div><!-- ./ price-calculator-desc -->
+             <input type="checkbox" value="true" id="r-integration-1" class="hidden-checkbox" name="facebookIntegration">
+                <label for="r-integration-1" class="shiny-label shiny-label-left tooltip" title="Integrate your company Facebook page for continually updating site content. ">FACEBOOK
+                </label>
+             <input type="checkbox" value="true" id="r-integration-2" class="hidden-checkbox" name="twitterIntegration">
+                <label for="r-integration-2" class="shiny-label tooltip" title="Embed your company's twitter feed for a dynamic page">TWITTER
+                </label>
+             <input type="checkbox" value="true" id="r-integration-3" class="hidden-checkbox" name="blogIntegration">
+                <label for="r-integration-3" class="shiny-label tooltip" title="Embed your company's blog">BLOG
+                </label>
+             <input type="checkbox" value="true" id="r-integration-4" class="hidden-checkbox" name="youtubeIntegration">
+                <label for="r-integration-4" class="shiny-label tooltip" title="Embed a Youtube stream to show latest company videos. If you merely want to embed one video (that does not change or update) please do not select this option.">YOUTUBE
+                </label>
+             <input type="checkbox" value="true" id="r-integration-5" class="hidden-checkbox" name="otherIntegration">
+		<label for="r-integration-5" class="shiny-label shiny-label-right tooltip" title="Embed content from other common social sites">OTHER SOCIAL
+		</label>
+   </div><!-- ./ price-calculator-item-wrapper --><!-- ./ SOCIAL -->
+	
+   <div class="price-calculator-item-wrapper"><!-- PHOTOS -->
+      <div class="price-calculator-desc textcolor1"><b>Photos</b>Display photos and images.
+      </div><!-- ./ price-calculator-desc -->
+	       <input type="checkbox" value="true" id="r-photos-1" class="hidden-checkbox" name="gallery">
+	          <label for="r-photos-1" class="shiny-label shiny-label-left tooltip" title="Include a photo gallery on your site. Various animation options are available. This option is for a standard photo gallery with static content. To make add the option of managing the photos, please select the Management button.">GALLERY
+	          </label>
+	       <input type="checkbox" value="true" id="r-photos-2" class="hidden-checkbox" name="slideshow">
+	          <label for="r-photos-2" class="shiny-label tooltip" title="Add an animated slideshow to your site. Perfect for decorating a home page. ">SLIDE SHOW
+	          </label>
+	       <input type="checkbox" value="true" id="r-photos-3" class="hidden-checkbox" name="photoManagement">
+	          <label for="r-photos-3" class="shiny-label tooltip" title="Add the capability to manage photos in your gallery. This option adds considerable cost, so consider how many times the gallery will be updated and if it is more cost effective for us to update the gallery for you. ">IMAGE HOSTING
+	          </label>
+	       <input type="checkbox" value="true" id="r-photos-4" class="hidden-checkbox" name="flickrIntegration">
+	          <label for="r-photos-4" class="shiny-label tooltip" title="Integrate Flickr as a simple and easy to manage gallery. Photo order, and management are all easily managed through a free Flickr account. This is a cost effective alternative to the photo gallery and management options. ">FLICKR
+	          </label>
+	       <input type="checkbox" value="true" id="r-photos-5" class="hidden-checkbox" name="photoIntegration">
+	          <label for="r-photos-5" class="shiny-label shiny-label-right tooltip" title="Add integration to another photo sharing site. Useful for photographers who prefer a site other than Flickr, or want an additional source of photos.">INSTAGRAM
+	          </label>
+   </div><!-- ./ price-calculator-item-wrapper --><!-- ./ PHOTOS -->
+	
+   <div class="price-calculator-item-wrapper"><!-- ./ EVOLUTION -->
+      <div class="price-calculator-desc textcolor1"><b>Dynamic Content</b>for evolving sites
+      </div><!-- ./ price-calculator-desc -->
+             <input type="checkbox" value="true" id="r-evolution-1" class="hidden-checkbox" name="userLogin">
+	        <label for="r-evolution-1" class="shiny-label shiny-label-left tooltip" title="Add a user signup and login feature. This option requires an additional layout and page, and additional pages for the user once logged in. (i.e. a user profile)">USER LOGIN
+	        </label>
+	     <input type="checkbox" value="true" id="r-evolution-2" class="hidden-checkbox" name="userProfile">
+	        <label for="r-evolution-2" class="shiny-label tooltip" title="Add the option for users to create a profile with a user name / avatar. This option requires the User Login option for a secure login. ">USER PROFILE
+	        </label>
+	     <input type="checkbox" value="true" id="r-evolution-3" class="hidden-checkbox" name="products">
+	        <label for="r-evolution-3" class="shiny-label tooltip" title="Manage a dynamic product section. Add, edit, and delete products. Requires basic, intermediate or advanced ecommerce. (For adding a product that is static, such as a t-shirt or cd, this option is not needed.)">PRODUCT (per type)
+	        </label>
+	     <input type="checkbox" value="true" id="r-evolution-4" class="hidden-checkbox" name="cms">
+                <label for="r-evolution-4" class="shiny-label tooltip" title="Manage your site without coding knowledge through a custom Content Management System such as Wordpress, Joomla or Drupal. ">EDITABLE PAGES 
+                </label>
+             <input type="checkbox" value="true" id="r-evolution-5" class="hidden-checkbox" name="comments">
+                <label for="r-evolution-5" class="shiny-label shiny-label-right tooltip" title="Allow user ratings or comments on your content. For user names / avatars on comments, please also select User Profile and User Login">USER COMMENTS
+                </label>
+   </div><!-- ./ price-calculator-item-wrapper --><!-- ./ EVOLUTION -->
+	
+   <div class="price-calculator-item-wrapper"><!-- PAYMENTS -->
+      <div class="price-calculator-desc textcolor1"><b>E-COMMERCE</b>Accept payments through your website.
+      </div><!-- ./ price-calculator-desc -->
+             <input type="checkbox" value="true" id="r-payments-1" class="hidden-checkbox" name="payDonations">
+	        <label for="r-payments-1" class="shiny-label shiny-label-left tooltip" title="Collect donations through a payment gateway such as Google Checkout or PayPal.">DONATIONS
+	        </label>
+	     <input type="checkbox" value="true" id="r-payments-2" class="hidden-checkbox" name="payBasic">
+	        <label for="r-payments-2" class="shiny-label tooltip" title="Sell products through PayPal or Google Checkout.">PAYPAL
+	        </label>
+	     <input type="checkbox" value="true" id="r-payments-3" class="hidden-checkbox" name="payIntermediate">
+	        <label for="r-payments-3" class="shiny-label tooltip" title="Sell products through PayPal or Google Checkout with a custom shopping cart.">SHOPPING CART
+	        </label>
+	     <input type="checkbox" value="true" id="r-payments-4" class="hidden-checkbox" name="payAdvanced">
+	        <label for="r-payments-4" class="shiny-label tooltip" title="Sell products through a financial institution gateway. Custom shopping cart and checkout processing.">CUSTOM CHECKOUT
+	        </label>
+	     <input type="checkbox" value="true" id="r-payments-5" class="hidden-checkbox" name="payDownloadable">
+	        <label for="r-payments-5" class="shiny-label shiny-label-right tooltip" title="Sell downloadable content. i.e. music, ebooks, and videos. No DRM included.">DOWNLOADABLES
+	        </label>
+   </div><!-- ./ price-calculator-item-wrapper --><!-- ./ PAYMENTS -->
+	
+   <div class="price-calculator-item-wrapper"><!-- MANAGEMENT -->
+      <div class="price-calculator-desc textcolor1"><b>Management</b>Services for Codestar Dev to manage
+      </div><!-- ./ price-calculator-desc -->
+            <input type="checkbox" value="true" id="r-management-1" class="hidden-checkbox-recurring" name="manHosting">
+	       <label for="r-management-1" class="shiny-label shiny-label-left tooltip" title="Allow us to handle your website hosting. We manage servers, updates and hosting accounts to keep things simple for you. ">HOSTING
+	       </label>
+	    <input type="checkbox" value="true" id="r-management-2" class="hidden-checkbox-recurring" name="manDomain">
+	       <label for="r-management-2" class="shiny-label tooltip" title="Allow us to manage your domain name. ">DOMAIN NAME
+	       </label>
+	    <input type="checkbox" value="true" id="r-management-3" class="hidden-checkbox-recurring" name="manEmail">
+	       <label for="r-management-3" class="shiny-label tooltip" title="Allow us to manage and update your email accounts. ">EMAIL HOSTING*
+	       </label>
+	    <input type="checkbox" value="true" id="r-management-4" class="hidden-checkbox-recurring" name="manAdvertising">
+	       <label for="r-management-4" class="shiny-label tooltip" title="Allow us to manage your PPC advertising through Google AdWords. We refine ad copy, analyze keywords, manage explore campaigns, and create detailed reports.">ADVERTISING*
+	       </label>
+	    <input type="checkbox" value="true" id="r-management-5" class="hidden-checkbox-recurring" name="manHamilton">
+	       <label for="r-management-5" class="shiny-label shiny-label-right tooltip" title="Use our mailing system to manage mailing lists and send email promotions.">MAILING LISTS*
+	       </label><!-- ./ price-calculator-item-wrapper --><!-- ./ MANAGEMENT -->
+		
+   <div class="price-calculator-desc textcolor1" style="padding-top:10px">*Recurring fees apply.
+      <div class="package-price-wrapper" style="float:right">
+	<span class="package-dollar-sign" style="line-height:0">$</span>
+	<span class="package-price-inner-wrapper">
+	<span class="package-from" style="color:#b22;font-weight:normal;font-size:14px">SMP $<span style="text-decoration:line-through;" id="marketEstimate">0.00</span></span>
+	<span class="package-price" id="currentEstimate">0.00</span>
+	</span><br>
+	<span style="font-size:10px;margin-top:10px;">
+	<a href="javascript:void(0);" onclick="mailLink()" style="border-bottom: #555 3px double;" class="tooltip" title="Send current configuration via email"> Email</a>  
+	<a href="javascript:void(0);" onclick="copyToClipboard(window.location.href)" style="border-bottom: #555 3px double;" class="tooltip" title="Link to the current configuration">Permalink</a> <a href="index.html" style="border-bottom: #555 3px double;" class="tooltip" title="Reset to default configuration">Clear</a></span>
+   </div>
+			
+			
+<div class="package-price-wrapper" style="float:right;padding-right:30px;" id="recurringWrapper">
+       <span class="package-dollar-sign" style="line-height:0">$</span>
+       <span class="package-price-inner-wrapper">
+       <span class="package-from">Recurring:</span>
+       <span class="package-price" id="recurringAmt">10/m</span>
+       </span>
+</div>
+
+       <br>
+       
+</div>
+
+<div class="pricing-text" style="max-width:100%;float:left;margin-top:0">
+       <h2><strong>What You Get</strong></h2>
+   <div class="costplus" >Below is a list of the features of your new site, but that's only half of the picture. You are also buying the help and experience of the Codestar Dev team. Helping businesses grow is what we do all day long, and we love it. We will work with you to create a website that is tailored to fit the needs of you and your customers.
+
+<div class="price-calculator-selected-features box-wrapper">
+      <h2>Selected Features</h2>
+      <ul class="features textcolor1 horizontal-list" id="selectedFeatures"></ul>
+      <h4 id="slider-complexity-output-footer"></h4>
+</div><!-- ./price-calculator-selected-features -->
+	
+	
+<a href="javascript:void(0)" style="font-weight:bold" onclick="showContactBox('Start Project','Congratulations! You are moments away from starting your new project. Please tell us your name, how to contact you, and any additional details that come to mind. We will review your project and contact you with any questions we have. We look forward to hearing from you. </a>
+	
+
+   </div>
+</div>
+
+<br>
+		
+    <br style="clear:both">
+
+</div>
+
+	
+
+
+
+</form>
+<!-- End price calculator -->
+
+</div>
+
+</div>
+
+
+<script type="text/javascript" src="js/main-min.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tipTip.js"></script>
+	<script type="text/javascript" src="js/price-calculator-001.js"></script>
+	<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+
+
+
+</body>
+</html>

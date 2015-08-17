@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <link href='http://fonts.googleapis.com/css?family=Syncopate:400,700|Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Contact Form</title>
+
+<link type="text/css" rel="stylesheet" href="http://codestardev.com/css/foundation.css">
+    <link href="http://codestardev.com/css/bootstrap.css" rel="stylesheet">
+    <link href="http://codestardev.com/css/style.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+
+
+
+    
+<form method="post" action="index.php">
+
+<section id="dark">
+   <h1><img id="star" src="http://form.codestardev.com/img/star_sm.png">Contact Us</h1> 
+</section>
+	
+<section class="body">
+      <input id="name" name="name" placeholder="Your Name">
+      <input id="email" name="email" type="email" placeholder="Email">
+      <textarea id="message" name="message" placeholder="How can we help you?"></textarea>
+   <label>*What is 2+2? (Anti-spam)</label>
+      <input id="sname="human" placeholder="Your Answer">
+            
+      <div class="img" width="30%"><img src="img/logo-sm.png" id="footerimg">   
+      <div class="button"><input class="btn" id="submit" name="submit" type="submit" value="Send"</div></div>
+      
+</section>
+
+
+
+
+        
+</form>
+        
+<script>
+    function myCallbackFunction(data){
+        $('body').text(data.response);
+    }
+</script>
+
+
+</body>
+
+</html>

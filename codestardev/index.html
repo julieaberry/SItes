@@ -1,0 +1,778 @@
+<!----
+   ____             _             _               ___     
+ /     \           | |           | |         ___ |    \ 
+ |  |__/  ___   ___| | ____  ____| |__  __ _|    \  |  | ___ _    _
+ |  |__ /  _  \/ _   |/  _ \/  __|  __/  _` |  |_|  |  |/ _ \  \/  /
+ |  |  \| (_) | (_ ) |   __/\___ \  | | (_) |  | |  |  |  __/\    /
+ \_____/\ ___/ \___,_|\____||____/\___\___,_|__| |____/ \___| \__/
+  
+
+Codestar Dev - Alliance For A Beautiful Web
+-------------------------------------------------------------------------------------------------------------------------------------------------
+http://www.codestardev.com
+
+Copyright (c) 2014, All rights reserved.
+                                        
+   
+   
+                                                
+CREDITS
+-------------------------------------------------------------------------------------------------------------------------------------------------                                      
+DESIGN       : CODESTAR DEV
+DEVELOPMENT  : CODESTAR DEV
+   
+                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------                                           
+WARNING!
+Please read this before you read on any further because I took the time to write it just for you and for anyone else who has nothing better to do
+than to read my code looking for a way to say I can do that too Of course you can do that too my code is not rocket science its not even really
+science its just the shit that leaks from my head to my fingers when I want to see something that I made come alive on the Internet So go ahead
+and read my words and read my code and dont bother wasting your time looking for magic here because magic doesnt exist its all in your head its
+all in my head its all imagination and finding the heart to share it right here on this one page behind the scenes of the Internet If you read
+nothing more in your life you can say you read my thoughts Once The code on this page is not as sacred as you might think it is The language is still
+just common code and if you think you need to borrow from me than go right ahead because I borrowed from other people and I have already moved on and 
+by the time you put it to use you will have moved on too See you all on the next page of the Internet - Julie Berry Unf17t3Rd
+-------------------------------------------------------------------------------------------------------------------------------------------------  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--->
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ewert' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+     <title>CODESTAR DEV | Alliance For A Beautiful Web</title>
+    <link rel="stylesheet" href="assets/css/foundation.css" >
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/vendor/modernizr.js"></script>
+
+
+<meta name="description" content="Creative Seattle Website Re-design Professional Seattle Website Development and Reliable Website Maintenance. Call now (425) 243-3688 for a free consultation.  web designers,web design,website design,website designers,web design companies,web design firm,website development company,web developers, Website, Design, Affordable Website Agency, Award Business Website, Company Web, Custom Web Templates, Corporate, Designer Freelance, Build Websites Design And Development, Design Development Graphic Services, Bootstrap web design" />
+
+<meta name="keywords" content="website builder, websites, web design, custom websites, website templates, website design, redesign website, Drupal, Wordpress, Magento Bootstrap, Foundation, web developer, SEO, ecommerce website, award website, " />
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Codestar Dev" name="author">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Force latest IE rendering engine & Chrome Frame -->
+	<meta https-equiv="X-UA-Compatible"content="IE=edge,chrome=1"/>
+	<!-- Make IE recognise HTML5 elements for styling -->
+	<!--[if lte IE 8]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<noscript>
+	   <strong>Warning!</strong>
+	   Your browser does not support HTML5 so some elements on this page are simulated using JScript. Unfortunately your browser has JScript disabled. Please enable it in order to display this page.
+	</noscript>
+	<![endif]-->
+	<!-- Disable image toolbar in IE6 -->
+	<!--[if lte IE 6]><meta https-equiv="imagetoolbar" content="no" /><![endif]-->
+
+    <meta name="keywords" content="Calculate website development price, Website design fees, Website update cost, Webpage Estimate, Hosting and domain management">
+    <meta name="description" content="Determine web development costs with this free, easy and interactive price calculator. Plan a project according to your budget and needs.">
+
+
+    <link href="https://codestardev.com/favicon.png" rel="shortcut icon">
+    <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+    
+    <style>
+    
+.reveal-modal {position:absolute; z-index:1005; border-radius:3px; background:url("assets/css/img/frame3.png")!important; background-image:url("assets/css/img/frame3.png")!important; -webkit-background-image:url("assets/css/img/frame3.png")!important; -moz-background-image:url("assets/css/img/frame3.png")!important; -ms-background-image:url("assets/css/img/frame3.png")!important; background-repeat:no-repeat !important; border:solid 0px #666666; box-shadow:0 0 0px rgba(0, 0, 0, 0.0); padding:1.875rem; width:30%; max-width:30%; height:40%; top:0; left:0; right:0; margin:0 auto; text-align:center; color:white;}
+.reveal-modal h2 {font-size: 1.6rem; color:white;}
+.reveal-modal p {font-size:1.1rem; text-align:center; line-height:1; margin:0 auto; padding:0; }
+p.head {font-size:1.3rem; padding:0; line-height:1.0; }
+table {background:rgba(255, 255, 255, 0); margin-bottom:1.25rem; border:solid 0px rgba(221, 221, 221, 0); table-layout:fixed; width:100%; text-align:center;}
+tr {border:0px solid #666666;}
+td{border:0px solid #666666;padding:5px; background:rgba(255, 255, 255, 0); text-align:center!important;}
+.reveal-modal-bg {position:fixed; top:0; bottom:0; left:0; right:0; z-index:1004; left:0;}
+.pointer {width:45%; padding-top: 5%;}
+.pointer01a {-ms-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.pointer01b {-ms-transform:rotate(-30deg); -moz-transform:rotate(-30deg); -webkit-transform:rotate(-30deg); transform:rotate(-30deg);}
+.pointer02a {-ms-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.pointer02b {-ms-transform:rotate(10deg); -moz-transform:rotate(10deg); -webkit-transform:rotate(10deg); transform:rotate(10deg);}
+.pointer03a {-ms-transform:rotate(25deg); -moz-transform:rotate(25deg); -webkit-transform:rotate(25deg); transform:rotate(25deg);}
+.pointer03b {-ms-transform:rotate(-20deg); -moz-transform:rotate(-20deg); -webkit-transform:rotate(-20deg); transform:rotate(-20deg);}
+.pointer04a {-ms-transform:rotate(-5deg); -moz-transform:rotate(-5deg); -webkit-transform:rotate(-5deg); transform:rotate(-5deg);}
+.pointer04b {-ms-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.pointer05a {-ms-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.pointer05b {-ms-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.pointer06a {-ms-transform:rotate(-60deg); -moz-transform:rotate(-60deg); -webkit-transform:rotate(-60deg); transform:rotate(-60deg);}
+.pointer06b {-ms-transform:rotate(20deg); -moz-transform:rotate(20deg); -webkit-transform:rotate(20deg); transform:rotate(20deg);}
+.pointer07a {-ms-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.pointer07b {-ms-transform:rotate(26deg); -moz-transform:rotate(26deg); -webkit-transform:rotate(26deg); transform:rotate(26deg);}
+.pointer08a {-ms-transform:rotate(15deg); -moz-transform:rotate(15deg); -webkit-transform:rotate(15deg); transform:rotate(15deg);}
+.pointer08b {-ms-transform:rotate(20deg); -moz-transform:rotate(20deg); -webkit-transform:rotate(20deg); transform:rotate(20deg);}
+div#modal_01 {top: 2690px !important; left:-60%; padding-top: 4%; padding-right: 4.5%;}   
+div#modal_02 {top: 2540px !important; left:-35%; padding-top: 4%; padding-right: 4.5%;}
+div#modal_03 {top: 2590px !important; right:-20%; padding-top: 4%; padding-right: 4.5%;}
+div#modal_04 {top: 2530px !important; right:-60%; padding-top: 4%; padding-right: 4.5%;}
+div#modal_05 {top: 2780px !important; right:-50%; padding-top: 4%; padding-right: 4.5%;}  
+div#modal_06 {top: 2680px !important; right:10%; padding-top: 4%; padding-right: 4.5%;} 
+div#modal_07 {top: 2950px !important; left:-30%; padding-top: 4%; padding-right: 4.5%;}   
+div#modal_08 {top: 3000px !important; right:-12%; padding-top: 4%; padding-right: 4.5%;}  
+
+
+
+
+
+    </style>
+    
+  </head>
+  
+  
+  <body>
+<div data-magellan-expedition="fixed" role="navigation">
+  <dl class="sub-nav">
+    <dd data-magellan-arrival="home"><a href="#home">HOME</a></dd>
+    <dd data-magellan-arrival="about"><a href="#about">ABOUT</a></dd>
+    <dd data-magellan-arrival="services"><a href="#services">SERVICES</a></dd>
+    <dd data-magellan-arrival="start"><a href="#start">GET STARTED</a></dd>
+    <dd data-magellan-arrival="portfolio"><a href="#portfolio">RECENT WORK</a></dd>
+    <dd data-magellan-arrival="cost"><a href="#cost">ESTIMATE COST</a></dd>
+    <dd data-magellan-arrival="contact"><a href="#contact">CONTACT</a></dd>
+  </dl>
+</div>
+  
+<!----------========\\\\\\\\  END TOP MENU   ////////========---------->
+
+<!----------========////////  START HERO UNIT   \\\\\\\\========---------->
+<section id="home" data-magellan-destination="home">
+<div class="hero-unit">
+  <div class="row">
+    <div class="large-4 medium-4 columns">&nbsp;</div>
+    <div class="large-4 medium-4 columns center">
+      <div class="codestar center active"></div>
+      <div class="mainlogo center active"></div>
+    </div><!-- ./ col -->
+    <div class="large-4 medium-4 columns">&nbsp;</div> 
+  </div><!-- ./ row --> 
+
+  <div class="row">
+    <div class="large-12 medium-12 columns">
+      <h3>CODESTAR DEV</h3>
+      <h1 id="hero-unit-title">Alliance For A Beautiful Web</h1>
+      <h2 class="text-center"><span class="get-it">Custom Websites For Extraordinary Clients</span></h2>
+    </div><!-- ./ col -->
+  </div><!-- ./ row -->  
+  
+  <div class="row">
+    <div class="large-5 medium-5 columns">&nbsp;</div>
+    <div class="large-2 medium-2 columns">
+      <div class="scrolldown animate bounce center" id="arrow"></div>
+    </div><!-- ./ col -->
+    <div class="large-5 medium-5 columns">&nbsp;</div>
+  </div><!-- ./ row -->   
+</div><!-- ./ hero-unit -->
+ </section>
+<!----------========\\\\\\\\   END HERO UNIT   ////////========---------->   
+
+<hr />
+   
+<!----------========\\\\\\\\   ABOUT US SECTION   ////////========---------->
+
+<section id="about" data-magellan-destination="about">
+    <div class="container">
+      <div class="row-fluid center padded" >
+        <!--<img class="parenth center" src="assets/img/parenthtop1.png" id="ptop" height="120px" width="825px" alt=""> -->
+        <h3>OUR CLIENTS </h3>
+        <h5 class="center">You are remarkable in your achievements, and you want the world to know.  <br />You are cutting edge; you want more from your website. <br />You own your identity, you know what it takes to grow in the world of doing business.  <br />You are ready to take the next step and rebuild your online presence. <br />Join us at Codestar Dev, The Alliance For a Beautiful Web.</h5>
+        <!--<img class="parenth center" src="assets/img/parenthbtm1.png" id="pbtm" height="120px" width="825px" alt="">-->
+      </div><!-- ./ row -->
+   </div><!-- ./ container -->
+</section><!-- ./section -->
+
+<!----------========\\\\\\\\  END ABOUT US SECTION   ////////========---------->   
+
+<hr /> 
+
+<!----------========////////  SERVICES SECTION   \\\\\\\\========---------->
+
+<section id="services" class="even" data-magellan-destination="services">
+
+ 
+  <div class="container" id="service">
+    <div class="row" id="show3">
+    <h3>We Can Help</h3>
+      <div class="large-3 medium-3 small-6 columns">
+        <div class="service-box animated rollIn" id="box1">
+          <h4 class="service-box-title">CREATIVE INSPIRATION</h4>
+          <p>Logo design, color selection, layout options, animations and much more</p>
+        </div><!-- ./ service box -->
+      </div><!-- ./ col -->
+      
+      <div class="large-3 medium-3 small-6 columns">
+        <div class="service-box animated rollIn delay3" id="box2">
+          <h4 class="service-box-title">SOLID CONSTRUCTION</h4>
+          <p>Using the latest HTML5 Frameworks, CSS3 and Javascripts</p>
+        </div><!-- ./ service box -->
+      </div><!-- ./ col -->
+      
+      <div class="large-3 medium-3 small-6 columns">
+        <div class="service-box animated rollIn delay2" id="box3">
+          <h4 class="service-box-title">RELIABLE MAINTENANCE</h4>
+          <p>We work while you sleep to avoid or fix potential interruptions.</p>
+        </div><!-- ./ service box -->
+      </div><!-- ./ col -->
+      
+      <div class="large-3 medium-3 small-6 columns">
+        <div class="service-box animated rollIn delay4" id="box4">
+          <h4 class="service-box-title">TOTAL EMPOWERMENT</h4>
+          <p>Your Website is your empowerment. We build it, you own it.</span></p>
+        </div><!-- ./ service box -->
+      </div><!-- ./ col -->
+    </div><!--./ row -->
+
+  </div><!--./ container --> 
+</section><!-- ./section -->
+
+<!----------========\\\\\\\\  END SERVICES SECTION   ////////========---------->
+
+<hr />
+
+<!----------========////////   JOYRIDE SECTION   \\\\\\\\========---------->
+
+<a name="arrival"><section id="start" data-magellan-destination="start" class="show-for-medium-up"></a>
+<h3 class="hidden">How We Work</h3>
+  <div class="row widerrow show-for-medium-up">
+    <div class="large-1 medium-1 columns">
+      &nbsp;
+    </div>
+    <div class="large-3 medium-3 columns">
+      &nbsp;
+    </div>
+    <div class="large-4 medium-4 columns">
+    </div>
+    <div class="large-4 medium-4 columns">
+      <div class="spacer numbers" id="n0"></div>
+      &nbsp;
+    </div>
+  </div><!-- ./ row -->
+  
+    
+ <div class="row widerrow show-for-medium-up">            <!-- ROW 1 -->
+    <div class="large-1 medium-1 columns">
+      <h1 class="sideup">START</h1>      
+     <div class="spacer numbers" id="n1"></div>
+       <a href="#" data-reveal-id="modal_01">
+         <div class="numbers" id="n01"></div>
+       </a>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="arrows" id="ar1"></div>
+    </div>
+    <div class="large-1 medium-1 columns nopad">
+      <a href="#" data-reveal-id="modal_02">
+        <div class="numbers" id="n02"></div>
+      </a> 
+      <div class="spacer numbers" id="n2"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="arrows" id="ar2"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <a href="#" data-reveal-id="modal_03"> 
+        <div class="numbers" id="n03"></div>
+      </a> 
+      <div class="spacer numbers" id="n3"></div>
+    </div>
+     <div class="large-2 medium-2 columns">
+     <div class="arrows" id="ar3"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="spacer numbers" id="n4"></div>
+        <a href="#" data-reveal-id="modal_04"> 
+          <div class="numbers" id="n04"></div>
+        </a>  
+    </div>
+  </div>                                      <!-- ./ ROW 1 -->
+ 
+
+  
+ <div class="row widerrow show-for-medium-up">            <!-- ROW 2 -->
+    <div class="large-2 medium-2 columns">
+      &nbsp;
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="arrows" id="ar4"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="spacer numbers" id="n6"></div>
+      <a href="#" data-reveal-id="modal_07">
+        <div class="numbers" id="n06"></div>
+      </a>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="arrows" id="ar5"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="spacer numbers" id="n5"></div>
+      <a href="#" data-reveal-id="modal_05">
+        <div class="numbers" id="n05"></div>
+      </a> 
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="arrows" id="ar6"></div>
+    </div>
+  </div>                                       <!-- ./ ROW 2 -->
+
+
+
+ <div class="widerrow show-for-medium-up">            <!-- ROW 3 -->
+    <div class="large-2 medium-2 columns">
+      <div class="spin" id="pinwheel"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="spacer numbers" id="n7"></div>
+      <a href="#" data-reveal-id="modal_07">
+        <div class="numbers" id="n07"></div>
+      </a>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="arrows" id="ar7"></div>
+    </div>
+    <div class="large-2 medium-2 columns">
+      <div class="spacer numbers" id="n8"></div>
+      <a href="#" data-reveal-id="modal_07">
+        <div class="numbers" id="n08"></div>
+      </a>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <h1 class="flat">FINISH</h1>
+    </div>
+  </div>                                       <!-- ./ ROW 3 -->
+
+<!-- Reveal -->
+
+<div id="modal_01" class="reveal-modal" data-reveal>
+  <h2>Let's Talk</h2>
+  <p class="head">Tell us your goals</p>
+  <p>Your target audience, feature requests, timeline and budget</p>
+  <table>
+    <tr>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_02"><img class="pointer pointer01b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div> 
+
+<div id="modal_02" class="reveal-modal" data-reveal>
+  <h2>Let's Design</h2>
+  <p class="head">Be Creative</p>
+  <p>Show us what you want. If you have a design, we can do it. <p>
+  <p>If you need a Design, we can do it. </p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_01"><img class="pointer pointer02a" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_03"><img class="pointer pointer02b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div> 
+
+<div id="modal_03" class="reveal-modal" data-reveal>
+  <h2>Let's Propose</h2>
+  <p class="head">Get it in writing</p>
+  <p>We charge a nominal fee for Research and Design phase. <p>
+  <p>We recommend getting several bids, including ours.</p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_02"><img class="pointer pointer03a" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_04"><img class="pointer pointer03b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="modal_04" class="reveal-modal" data-reveal>
+  <h2>Sign Up</h2>
+  <p class="head">We will draft a contract.</p>
+  <p>After all terms have been drafted, we will send your contract.<p>
+  <p>You sign and send us your deposit.</p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_03"><img class="pointer pointer04a" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_05"><img class="pointer pointer04b" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="modal_05" class="reveal-modal" data-reveal>
+  <h2>Be a Team</h2>
+  <p class="head">Your project is up on Teamwork.</p>
+  <p>You can view progress, ask questions, make notes.<p>
+  <p>You can even send us images and files. It's fun!</p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_06"><img class="pointer pointer5a" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_04"><img class="pointer pointer05b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="modal_06" class="reveal-modal" data-reveal>
+  <h2>Test</h2>
+  <p class="head">Yes, we test.</p>
+  <p>Before your project is published, we test completely.<p>
+  <p>You can can sneak a peek at the final stages before you approve our work.</p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_07"><img class="pointer pointer06a" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_05"><img class="pointer pointer06b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="modal_07" class="reveal-modal" data-reveal>
+  <h2>Final Release</h2>
+  <p class="head">We host your new website.</p>
+  <p>Or we will publish it to the host of your choice.<p>
+  <p>Web browsers will begin to find you, and so will your customers.</p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_06"><img class="pointer pointer07a" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id="modal_08"><img class="pointer pointer07b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="modal_08" class="reveal-modal" data-reveal>
+  <h2>Get Started!</h2>
+  <p class="head">Send us a message, or give us a call.</p>
+  <p>You can view progress, ask questions, make notes.<p>
+  <p>We are always happy to discuss your new website project.</p>
+  <table>
+    <tr>
+      <td>
+        <a href="#" data-reveal-id="modal_07"><img class="pointer pointer08a" src="http://codestardev.com/assets/css/img/btn_prev.png"></a>
+      </td>
+      <td>
+        <a href="#" data-reveal-id=""><img class="pointer pointer08b" src="http://codestardev.com/assets/css/img/btn_next.png"></a>
+      </td>
+    </tr>
+  </table>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- Reveal -->
+
+
+
+</section>
+
+
+
+
+<!----------========\\\\\\\\   END JOYRIDE SECTION   ////////========----------> 
+
+<hr class="show-for-medium-up" />
+    
+<!----------========////////  PORTFOLIO SECTION   \\\\\\\\========---------->
+
+<section id="portfolio" class="center odd show-for-medium-up" data-magellan-destination="portfolio">
+<h3 class="hidden" >RECENT PROJECTS</h3>
+  <div class="row widerow" id="port_inner_row">
+    <div class="large-4 medium-4 columns">
+      <div class="card animated bounceInDown" id="p4">
+        <div class="container">
+          <div class="front">
+	    <img class="circle" src="assets/img/vc_screen.jpg" height="375px" width="600px" alt=""/>
+          </div><!-- ./  front -->
+          <div class="back">
+            <img class="circle" src="assets/img/vc_logo.jpg" height="375px" width="600px" alt=""/>
+          </div><!-- ./  back -->
+        </div><!-- ./  container -->
+      </div><!-- ./  card -->  
+    </div><!-- ./  col --> 
+    
+    <div class="large-4 medium-4 columns">
+  <!--<div class="card animated fadeIn" id="p5">-->
+  <!--</div><!-- ./  card -->  
+    </div><!-- ./  col -->
+
+    <div class="large-4 medium-4 columns">
+      <div class="card animated bounceInDown" id="p6">
+        <div class="container">
+          <div class="front">
+	    <img class="circle" src="assets/img/port1.png" height="375px" width="600px" alt=""/>
+          </div><!-- ./  front -->
+          <div class="back">
+            <img class="circle" src="assets/img/jj_logo.jpg" height="375px" width="600px" alt=""/>
+          </div><!-- ./  back -->
+        </div><!-- ./  container -->
+      </div><!-- ./  card -->  
+    </div><!-- ./  col --> 
+    
+  </div><!-- ./ row -->
+  <div class="row widerow" id="port_bottom_row">
+    <div class="large-4 medium-4 columns ">
+      <div class="card animated bounceInDown" id="p7">
+        <div class="container">
+          <div class="front">
+	    <img class="circle" src="assets/img/port2.png" height="375px" width="600px" alt=""/>
+          </div><!-- ./  front -->
+          <div class="back">
+            <img class="circle" src="assets/img/hjc_logo.jpg" height="375px" width="600px" alt=""/>
+          </div><!-- ./  back -->
+        </div><!-- ./  container -->
+      </div><!-- ./  card -->  
+    </div><!-- ./  col --> 
+    <div class="large-4 medium-4 columns">
+      <div class="card animated bounceInDown" id="p8">
+        <div class="container">
+          <div class="front">
+	    <img class="circle" src="assets/img/csd_label.jpg" height="375px" width="600px" alt=""/>
+          </div><!-- ./  front -->
+          <div class="back">
+            <img class="circle" src="assets/img/csd_logo.jpg" height="375px" width="600px" alt=""/>
+          </div><!-- ./  back -->
+        </div><!-- ./  container -->
+      </div><!-- ./  card -->  
+    </div><!-- ./  col --> 
+      <div class="large-4 medium-4 columns">
+      <div class="card animated bounceInDown" id="p9">
+        <div class="container">
+          <div class="front">
+	    <img class="circle" src="assets/img/bai_logo.jpg" height="375px" width="600px" alt=""/ />
+          </div><!-- ./  front -->
+          <div class="back">
+            <img class="circle" src="assets/img/bai_badge.jpg" height="375px" width="600px" alt=""/ />
+          </div><!-- ./  back -->
+        </div><!-- ./  container -->
+      </div><!-- ./  card -->  
+    </div><!-- ./  col --> 
+  </div><!-- ./ row -->
+</section>
+       
+<!----------========\\\\\\\\   END PORTFOLIO   ////////========---------->          
+
+<hr />
+
+<!----------========////////   COST SECTION   \\\\\\\\========---------->
+
+<section id="cost-calc" data-magellan-destination="cost">
+<h3 class="hidden">Our Pricing </h3>
+   <div class="container">
+      <div class="row">
+         <div class="span12">
+       <div class="costitle" id="costitle"></div>
+       <img src="http://www.codestardev.com/assets/css/img/cost2.png" style="width:100%">
+       </div><!-- ./ span -->
+       </div><!-- ./ row -->
+  </div><!-- ./ CONTAINER-->
+  <div class="container center" id="cost">
+    <div class="row-fluid text-center">
+       <div class="span12">
+         <iframe src="http://www.codestardev.com/cost" width="100%" height="100%"></iframe>
+       </div><!-- /. span12 -->
+     </div><!-- /. row -->
+  </div><!-- ./ container -->
+
+</section>
+
+<!----------========\\\\\\\\   END cost SECTION   ////////========---------->    
+
+<hr />
+
+<!----------========////////   CONTACT SECTION   \\\\\\\\========---------->
+
+<section id="contact" data-magellan-destination="contact">
+   <div class="container">
+      <div class="widerrow">
+         <h2>Contact</h2>
+         <div class="large-6 medium-6 small-12 columns clear">
+           <div class="large-3 medium-3 small-12 columns inline">
+             <div class="finger2 show-for-medium-up"></div>
+           </div> 
+             <div class="dim">
+               <div class="container-soc">
+                 <div class="connect">
+                   <label for="open"><div class="button-soc fontawesome-eye-open"></div></label>
+                   <input id = 'open' type="checkbox">
+                     <div class="social social1 fontawesome-twitter" data-info = 'fontawesome-twitter' data-link = 'https://twitter.com/Unf17t3Rd'></div>
+                     <div class="social social2 fontawesome-facebook" data-info = 'fontawesome-facebook' data-link = 'www.facebook.com/wearecodestar'></div>
+                     <div class="social social3 fontawesome-github" data-info = 'fontawesome-github' data-link = 'https://github.com/CodestarDev'></div>
+                     <div class="social social4 fontawesome-linkedin" data-info = 'fontawesome-linkedin' data-link = 'http://www.linkedin.com/company/codestar-dev'></div>
+                 </div>   <!-- ./ connect -->
+                 <div class="backface ">
+                   <div class="close fontawesome-remove-sign"></div>
+                   <div class="logo"></div>
+                   <div class="contact"><a href="" class="link"></a></div>
+                 </div><!-- ./  backface -->
+               </div><!-- ./  container-soc -->
+            </div><!-- ./  dim -->
+            
+                     <hr class="horiz" /> 
+
+          <div id="contact_top">
+
+            <div class="contact-logo"></div>
+              <div class="co_name">
+                <h3> CODESTAR DEV</h3>
+                <h4>Seattle, WA  &nbsp; (425) 243-3688</h4>
+                <h4>websitetherapy@codestardev.com</h4>
+              </div><!-- ./ coname -->
+          </div><!-- /. contact-top -->
+        </div><!-- ./ col -->
+        
+        <div class="large-6 medium-6 small-12 columns">
+          <div class="vertical_line show-for-medium-up"></div>
+          <div id="contact_form" class="row">
+            <div class="col-12 col-sm-12 col-lg-12">
+              <h5>Request a Free Consultation</h5>
+              <p>Or just give us some friendly feedback</p>
+                <form action="sendmail.php" method="post" role="form" id="feedbackForm">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                    <span class="help-block" style="display: none;">Please enter your name.</span>
+                  </div><!-- ./  form group -->
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                    <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+                  </div><!-- ./  form group -->
+                  <div class="form-group">
+                    <textarea rows="6" cols="100" class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                    <span class="help-block" style="display: none;">Please enter a message.</span>
+                  </div>
+                  
+                  <div class="antispam">
+                  <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+                  </div>
+                  
+                    <!-- <img id="captcha" src="library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
+                    <a href="#" onclick="document.getElementById('captcha').src = 'library/vender/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-info btn-sm">
+                    Show a Different Image
+                    </a><br/>
+                  <div class="form-group" style="margin-top: 10px;">
+                    <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="For security, please enter the code displayed in the box." />
+                    <span class="help-block" style="display: none;"><p class="helpme">Please enter the code displayed within the image.</p></span>
+                  </div>
+                  
+                  <span class="help-block" style="display: none;">Please enter a the security code.</span> -->
+                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg modal" target="_blank" style="display:block; margin-top: 10px;">Send Feedback</button>
+                </form>
+              </div><!--/span-->
+            </div><!--/row-->
+          </div><!-- /. span12 -->
+       </div><!-- /. row -->
+   </div><!-- ./ container -->
+</section>
+
+<!----------========\\\\\\\\   END CONTACT SECTION   ////////========---------->    
+
+<hr />
+
+<!----------========\\\\\\\\   FOOTER   ////////========---------->  
+
+<footer>
+  <div class="row">
+    <div class="span12 center">
+
+
+&copy; Copyright 2014 Codestar Dev Seattle, WA. All Rights Reserved.
+
+       </div><!-- /. span12 -->
+     </div><!-- /. row -->
+</footer>
+<!----------========\\\\\\\\   END FOOTER   ////////========---------->  
+
+
+
+
+    
+    <script type="text/javascript" src="assets/js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/foundation.min.js"></script>
+    <script type="text/javascript" src="assets/js/foundation/foundation.magellan.js"></script>
+    <script type="text/javascript" src="assets/js/foundation/foundation.reveal.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/jquery.cookie.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/contact-form.js"></script>
+    <script type="text/javascript" src="assets/js/bind-polyfill.js"></script>
+    <script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+<!--<script type="text/javascript" src="assets/js/custom.js"></script>--> 
+
+    <script>
+      $(document).foundation();
+    </script>
+
+
+<script>
+$(function(){
+  var social='';
+  $('.social').click(function(){
+    
+    if(social)$('.logo').removeClass(social);
+    
+    social = $(this).data('info');
+    $('.logo').addClass($(this).data('info'));
+    $('.link').text($(this).data('link')).attr('href',$(this).data('link'));
+    $('.container-soc').css('transform','rotateY(-180deg)');
+    
+    
+  }); 
+  
+  $('.close').click(function(){
+    
+    $('.container-soc').css('transform','rotateY(-360deg)');
+    
+  }); 
+
+})
+</script>
+
+
+    
+  </body>
+</html>

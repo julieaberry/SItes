@@ -1,0 +1,252 @@
+.price-calculator-item-wrapper,
+.price-calculator-slider-wrapper {
+	margin-top:0;
+	border-radius:0px;
+	text-align:left;
+}
+
+.price-calculator-item-wrapper {font-size:0pt;}
+
+/* this is needed to make the sliders the same width as the buttons
+	because the buttons have four 1px left borders. */
+.price-calculator-slider-wrapper {padding-right:4px;}
+
+.price-calculator-desc {
+font-size: 14px;
+padding-bottom: 6px;
+letter-spacing: 1px;
+padding-top: 12px;
+letter-spacing: 1px;
+	/* overflow: hidden; needed to prevent this text from going on top of slider-output */
+}
+.price-calculator-desc > b {
+	font-size:16px;
+	font-weight:bold;
+	padding-right:4px;
+}
+
+
+.slider-output {
+	font-weight:bold;
+	float:right;
+	display:block;
+}
+
+.hidden-checkbox, .hidden-checkbox-recurring {
+	/* note, display:none; doesn't work in IE or Opera mobile.
+		so we just push it off the page and hide it.
+
+*/	
+	position:absolute;
+	left:-10000px;
+	visibility: hidden; }
+
+.price-calculator-item-wrapper,
+.price-calculator-slider-wrapper,
+.price-calculator-selected-features {
+	margin-left:5%;
+	margin-right:5%; }
+
+.shiny-label {
+padding: 3px;
+border: 2px solid #000000;
+border-width: 1px 1px 1px 0;
+border-radius: 0;
+font-size: 18px;
+font-weight: bold;
+color: #000000;
+cursor: pointer;
+display: inline-block;
+text-align: center;
+margin: 0 0 4px 0;
+width: 19%;
+height: 20px;
+background: rgba(0, 0, 0, 0.3) !important;}
+
+.shiny-label-ie8, .shiny-label-ie8-checked {
+	text-shadow: 0px 1px 0 #FFF; 
+	padding:5px 0;		
+	border:1px solid #CCC;
+	border-width:1px 1px 1px 0;
+	border-radius:0;
+	font-size:18px;
+	font-weight:bold;
+	color:#555;
+	cursor:pointer;
+	display:inline-block;
+	text-align:center;
+	margin:4px 0 4px 0;
+	width:20%; }
+
+.shiny-label-ie8-checked {
+	background: rgba(255, 255, 255, 0.40);
+	 }
+
+.shiny-label-ie8 {
+	background: #f6f8f9;
+	 }
+
+.shiny-label-ie8-checked:hover {
+	background: #9dd53a;
+	 }
+
+.shiny-label:hover, .shiny-label-ie8:hover{ 
+	background: rgba(255, 255, 255, 0.40) !important;
+	 }
+
+.shiny-label:active, .shiny-label-ie8:active{ 
+	background: rgba(255, 255, 255, 0.40) !important;
+	 }
+
+/* .hidden-checkbox:checked+label{
+	color:#333;
+	text-shadow: 1px 1px 0 #9dd53a; } */
+	 
+.shiny-label-left {
+	border-width:1px;
+	border-radius: 5px 0 0 5px ;
+	width:19%; }
+	
+.shiny-label-right {
+	border-width:1px 1px 1px 0;
+	border-radius: 0 5px 5px 0; }
+
+.hidden-checkbox-recurring:checked+label {
+	color:#000000;
+	0px 0px 0 rgba(109, 179, 242, 0); 
+ background-image: url("http://cost.codestardev.com/images/redstar20.png") !important;
+ -webkit-background-image: url("http://cost.codestardev.com/images/redstar20.png") !important;
+ -moz-background-image: url("http://cost.codestardev.com/images/redstar20.png") !important;
+ -ms-background-image: url("http://cost.codestardev.com/images/redstar20.png") !important;
+ -o-background-image: url("http://cost.codestardev.com/images/redstar20.png") !important;
+ background-repeat: no-repeat !important;;
+ padding: 1px;
+ background-color: transparent  !important;
+ border-radius: 0px;
+	 }
+
+.price-calculator-selected-features {
+	text-align:left;
+	padding:3%;
+	margin-bottom: 10px;
+	margin-top:80px;
+	margin-left: 0; 
+	width:100%; }
+
+.textcolor2 {
+	color:#222 !important; }
+
+.package-price-wrapper {
+	padding-top:40px !important; 
+	margin-bottom: 0; }
+
+.slider-range-output {
+	border:0;
+	color:#f6931f;
+	font-weight:bold;
+	width:30px;
+	display:inline; }
+
+.horizontal-list {
+	padding:0;
+	width:100%;
+	text-align:center; }
+	
+.horizontal-list > li{
+	width:28%;
+	display:inline-block;
+	text-align:left;
+}
+
+
+.price-calc-table th {
+	border:1px solid #2b5a91;
+	background-color:#2b5a91;
+	color:#EEE;
+	font-weight:normal;
+}
+
+.price-calc-table, .price-calc-table td {
+    border:1px solid #2b5a91;
+}
+
+.price-calc-table {
+    border-width: 0 0 1px 1px;
+    border-collapse: collapse;
+    width:90%;
+    margin:20px auto;
+}
+
+.price-calc-table td {
+	border-width: 1px 1px 0 0;
+	text-align:left;
+	font-size:12px;
+	padding:3px 10px;
+}
+
+.price-calc-table tr:nth-child(even) {
+	background-color: #eee;
+}
+
+.price-calc-td-name {
+	text-align:right !important;
+}
+
+
+
+
+
+@media all and (max-width: 760px) {
+	.price-calculator-slider-wrapper {padding-right:0;}
+	.horizontal-list li{
+		width:100%;
+	}
+	.shiny-label {
+		width:100%;
+		margin:0;
+		padding:20px 0 20px 0;
+		border-width:0 1px 1px 1px;
+		background:#eee;
+		box-shadow:inset 0 0 5px -2px #aaa;
+		font-size:16px;
+	}
+	input[type="radio"]:checked+label, input[type="checkbox"]:checked+label{ 
+		background:#9dd53a;
+	}
+	.shiny-label:active{ 
+		background: none;
+	}
+	.shiny-label-left {
+		border-width:1px;
+		border-radius:5px 5px 0 0;
+		width:100%;
+	}
+	.shiny-label-right {
+		border-width:0 1px 1px 1px;
+		
+		border-radius:  0 0 5px 5px ;
+	}
+	.price-calculator-desc {
+		font-size:14px;
+	}
+	.price-calculator-desc > b {
+		font-size:15px;
+	}
+
+
+}
+@media all and (max-width: 500px) {
+	.price-calc-table td, .price-calc-table th{
+		padding:2px 0px !important;
+		font-size:8px !important;
+	}
+	.price-calc-table {
+	    width:100%;
+	}
+}
+
+@media all and (max-width: 250px) {
+	.price-calc-table {
+		display:none;
+	}
+}
