@@ -132,85 +132,43 @@ a.nav {
    line-height: 100%;
    text-align: left }
    
-   
-/* SOLD TABLE STYLES */
+ /*  INFO REQUEST */
 
-td.sold-desc {
-  font-family: Arial;
-   padding-top:10%;
-   font-size:.8em !important; 
-   line-height:1;
-   text-rendering: optimizeLegibility;
-   padding-left:0 }
-   
-.sold-desc {
-  font-family: Arial;
-   padding-top:10px;
-   font-size:.8em !important; 
-   line-height:1;
-   text-rendering: optimizeLegibility; 
-   padding-left:0 }
+#contact-box {
+   padding: 20px; }
 
-.sold-title {
-  font-family: Arial;
-   font-size:1em;
-   font-weight:700;
-   line-height:1;
-   float:left; 
-   text-rendering: optimizeLegibility }
+.cta-contact {
+   margin:20px }
 
-.sold-price {
-  font-family: Arial;
-   font-size:1em;
-   font-weight:700;
-   line-height:1;
-   float:right;
-   text-rendering: optimizeLegibility }
-	
-.sold {
-   background-color:rgba(255,255,255,.4) }
-   
-.soldbuttons {
-   padding-top:1px;
-   padding-bottom:1px; }
-   
-.soldbutton {
-   margin-top: 0px;
-   margin-bottom: -40px;
-   margin-left: -120px }
-	
-#sold1 {
-  font-family: Arial;
-   font-size:1em;
-   margin:0;
-   border:0;
-   background-color:#d1bea2 !important }
+.contact-btn {
+   margin: 10% 0 0 0}
 
-#sold2 {
-  font-family: Arial;
-   font-size:1em;
-   margin:0; 
-   border:0px;
-   background-color:#e9e0cf }
-	
-#sold3 {
-  font-family: Arial;
-   font-size:1em;
-   margin:0;
-   border:0;
-   background-color:#d1bea2 !important }
-	
-.soldimg {
-   padding:0;
-   height: 66px }
+#req {
+   text-align:center;
+   margin-top: 15px }
    
-#soldsold {
-   padding-right:0 }
+#request p {
+    font-size: 1.4rem;
+    line-height: 2 }
+
+.photo-box {
+   padding:30px 30px 0px 0px }
    
 
-   
+/* CTA */
 
-
+#row4 {
+   width:120%;
+   margin-top:20px;
+   padding-top:5px;
+   padding-bottom:5px;
+   border-top:   10px solid rgba(189,156,107,.3)!important;
+   border-bottom:10px solid rgba(189,156,107,.3)!important;
+   -webkit-box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
+      -moz-box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
+           box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
+   z-index=100
+   vertical-align:middle }
 
 
 /* MOBILE STYLES */
@@ -396,18 +354,7 @@ html {
    margin-top:-10px; 
    margin-bottom:0px }
    
-#row4 {
-   width:120%
-   margin-top:0px;
-   padding-top:5px;
-   padding-bottom:5px;
-   border-top:   10px solid rgba(189,156,107,.3)!important;
-   border-bottom:10px solid rgba(189,156,107,.3)!important;
-   -webkit-box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
-      -moz-box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
-           box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
-   z-index=100
-   vertical-align:middle }
+
    
 #row5 {
    margin-top:-10px; 
@@ -594,16 +541,7 @@ html {
 .formbtn {
    font-family: Arial, sans-serif }
 	
-#req {
-   text-align:center;
-   margin-top:0 }
 
-.req {
-   text-align:center;
-   margin-top:0;
-   -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
-      -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25);
-           box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.25) }
         
 #download {
    margin-bottom:0 }
@@ -632,7 +570,6 @@ h7 {
    padding-top:0 }
 
 #request {
-   margin-top:-150px!important;
    z-index:999 }
 
 .effect7 {

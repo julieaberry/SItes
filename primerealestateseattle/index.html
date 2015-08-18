@@ -222,34 +222,66 @@
 
 
 
-<!--SOLD-->
+<!--Form Box-->
+
+
+
 
 <div class="row hide-for-small-only" id="row5"  data-equalizer><!--Column 1 of 2-->
-   <div class="small-6 hide-for-small-only columns panel" id="soldsold" data-equalizer-watch><!--Column 2 of 2-->
-     <!-- button -->
 
-   <div class="row hide-for-small-only" id="row3a">
-      <div class="large-12 columns req hide-for-small-only" id="req">
-         <div id="request">
-            <!-- <a href="#" data-reveal-id="myModal" data-reveal> -->
-            <a href="http://www.choicehomes4sale.com/" target="_blank">
-            <span class="button effect7">REQUEST AN APPOINTMENT</span>
-            </a>
-         </div> 
-      </div><!-- ./ req -->
-   </div><!-- ./ row3a -->
+   <div class="small-5 hide-for-small-only columns panel" class="contact-box" data-equalizer-watch><!--Column 2 of 2-->
+
+				<div id="contact_form" class="row">
+           			<div class="col-12 col-sm-12 col-lg-12">
+              			<h5>Request a Free Consultation</h5>
+              			<p>Or just give us some friendly feedback</p>
+               				<form action="sendmail.php" method="post" role="form" id="feedbackForm">
+                  				<div class="form-group">
+                    				<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                    				<span class="help-block" style="display: none;">Please enter your name.</span>
+                  				</div><!-- ./  form group -->
+                  				<div class="form-group">
+                   					<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                    				<span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+                  				</div><!-- ./  form group -->
+                  				<div class="form-group">
+                   					<textarea rows="6" cols="100" class="form-control" id="message" name="message" placeholder="Message">
+                   					</textarea>
+                    			<span class="help-block" style="display: none;">Please enter a message.</span>
+                  				</div><! -- ./ form-group -->
+                  
+                  				<div class="antispam">
+                  					<p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+                  				</div><!-- ./ anti-spam -->
+
+                  				<span class="help-block" style="display: none;">Please enter the security code.</span> 
+                  				<button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg modal" target="_blank" style="display:block; margin-top: 10px;">Send Feedback</button>
+                			</form>
+              		</div><!--/col-12-->
+            </div><!--/row-->
+
+	</div><!-- ./ small-6 contact-box -->
 
 
-<!--end button-->
-   </div><!-- ./ 6 col -->
 
-   <div class="small-6 hide-for-small-only columns panel" data-equalizer-watch><!--Column 2 of 2-->
-      <img src="img/happy.jpg" alt="" id="happy" >
-   </div><!-- ./ 6 col -->
+              <!-- button -->
+
+            <!--<div class="contact-btn"><a href="http://www.choicehomes4sale.com/" target="_blank"><span class="button effect7">CONTACT ME</span></a>
+            </div>-->
+
+
+	<div class="small-7 hide-for-small-only columns panel contact-box" data-equalizer-watch>
+		<img src="img/happy.jpg" alt="Happy couple with new home" id="happy" >
+	</div><!-- ./ 6 col -->
 </div><!-- ./ row -->
-</div>
+<!--</div>-->
 
-<!--END SOLD-->
+<!--END SForm Box-->
+
+
+
+
+
 
 
 <!--CTA-->
