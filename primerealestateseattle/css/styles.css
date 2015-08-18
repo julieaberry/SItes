@@ -4,6 +4,22 @@
 
 html {
    background-color:#272727 }
+
+h2 {
+    color: #bd9c6b;
+    margin-top: 1% }
+
+table tr th, table tr td {
+    padding: 0;
+    font-size: 1rem;
+    color: #222222 }
+
+table {
+    margin-bottom: 0;
+    border: 0 }
+
+.grey {
+   background-color:#333333}
     
 .line {
    width:50px }
@@ -32,7 +48,7 @@ html {
 #row3 {
    margin-top:-10px; 
    margin-bottom:0px }
-   
+  
 
    
 #row5 {
@@ -56,9 +72,7 @@ html {
    margin-top:-10px;
    margin-bottom:0 }
 
-h2 {
-    color: #bd9c6b;
-    margin-top: 1% }
+
 
 .linebr {
    height:1px;
@@ -171,11 +185,14 @@ a.nav {
 
 #info-square {
    border:1px solid #bd9c6b;
-   padding:30% 5%;
+   padding:30% 5% 20% 5%;
    margin-top:30px }
 
 .broker-logo {
    padding:5% 0 }
+
+.logo-bottom {
+   margin-top:30px }
 
 /* ORBIT */
 
@@ -226,7 +243,9 @@ a.nav {
    margin:20px }
 
 #contact-form {
-   margin-left: 20px }
+   margin-left: 20px;
+   padding-top: 20px;
+   min-height: 328px }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
     -webkit-appearance: none;
@@ -240,7 +259,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     font-size: 0.875rem;
     margin: 0;
     padding: 0.5rem;
-    height: 2.3125rem;
+    height: 2rem;
     width: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -249,8 +268,27 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
     transition: box-shadow 0.45s, border-color 0.45s ease-in-out }
 
+.input-right {
+   margin-left: 15% }
+
+input[type="tel"] {
+   margin-left: 15% }
+
+input[type="checkbox"], input[type="radio"], select {
+    margin: 0 0 1rem 1rem }
+
+button#feedbacksubmit {
+   width:100%;
+   padding: 8px 20px }
+
+.inline {
+   display: inline-block }
+
+.input-sm {
+   width:46% }
+
 .contact-btn {
-   margin: 10% 0 0 0}
+   margin: 10% 0 0 0 }
 
 #req {
    text-align:center;
@@ -260,14 +298,16 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
    font-size: 1.4rem;
    line-height: 2 }
 
+.form-group {
+   margin:10px 0 }
+
+.form-message {
+   padding-top: 10px }
+
 #happy {
    padding: 15px }
-   
-/* CONTACT FORM */
 
-.form-group {
-   margin:10px 0;
-}
+
 
 
 /* CTA */
