@@ -31,7 +31,7 @@ table {
    padding:0;
    margin:0 }
    
-#rowa {
+#header-row {
    margin-bottom:0;
    margin-top:0px; 
    padding-top:2rem;
@@ -97,18 +97,14 @@ h2.wel {
    padding:0;
    margin:10px 0 }
        
-.molinebr {
-   height:1px;
-   width:38% }
-.moinit {
-   width:15% }
+
 .sigsml {
    padding:10px 8px 7px 0px;
    width:40px }
 
 /* HEADER */   
   
-#header_row {
+#sub-header-row {
    margin-bottom:0px;
    padding-bottom-10px;
    border-bottom:5px solid rgba(189,156,107,1);
@@ -329,390 +325,115 @@ button#feedbacksubmit {
   margin-top:-10px;
   margin-right: 25px }
 
-/* MOBILE STYLES */
 
-.mob {
-   background: #444444;
-   font-family: Forum,cursive;;
-   color: #bd9c6b;
-   font-size: 20px;
-   border: solid #444444 1px;
-   text-decoration: none;
-   text-align:center }
-  
-.mobcontact {
-   margin-top:-10em;
-   padding:0 }
-   
-.moblogos {
-   margin-top:1em }
-   
-.mobh {
-   font-size:1.7em;
-   margin-top:0;
-   margin-bottom:1em }
-  
-#mobline {
-   padding-top:1em;
-   padding-bottom:1em }
-   
-.mob-linebr {
-   background-color:#bd9c6b;
-   height:1px;
-   vertical-align:middle;
-   margin-bottom:15px !important }
-   
-.mobtxt {
-   font-size:1em }
-   
-.mobul {
-   margin:0;
-   padding:0 }
-   
-.mopanel {
-   margin-top:0;
-   margin-bottom:0;
-   padding-top:0;
-   padding-bottom:0 }
 
-.mobile {
-   background: #333333;
-   -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-   border-radius: 0px;
-   font-family: Forum,cursive;
-   color: #bd9c6b;
-   font-size: 1em;
-   padding: 10px;
-   border:1px solid #222222;
-   text-decoration: none;
-   text-align:center; 
-   margin-top:10px;
-   margin-bottom:10px }
+
+/*  MOBILE ONLY NEW */
+
+.mobile-panel {
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:0;
+  padding-bottom:0; }
+
+#mobile-header-row {
+  margin-bottom:0;
+  margin-top:0px; 
+  padding-top:1rem;
+  padding-bottom:0 }
+
+#mobile-sub-header-row {
+  margin-bottom:0px;
+  border-bottom:5px solid rgba(189,156,107,1);
+  border-top:10px solid rgba(189,156,107,.3)!important;
+  border-bottom:10px solid rgba(189,156,107,.3)!important;
+  padding: 5% 1%;
+  z-index=100 }
+
+.mobile-linebr {
+  background-color:#bd9c6b;
+  height:1px;
+  vertical-align:middle !important;
+  width:38% }
+
+.mobile-linebr-l {
+  text-align:left }
+
+.mobile-linebr-r {
+  text-align:right }
+
+.mobile-init {
+  width:13%;
+  margin: 0 2% }
+
+h1.mobile-title{
+  font-family: "Pinyon Script", cursive;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #bd9c6b;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0 0 3% 0 }
+
+h2.mobile-sub-title {
+  font-family: Forum,cursive;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.3;
+  text-align: center }
+
+#mobile-main-content {
+  padding: 5% 1% 2% 1% }
+
+#mobile-menu {
+  margin:5% 0; }
+
+.mobile-menu-link {
+  background: #333333;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Forum,cursive;
+  color: #bd9c6b;
+  font-size: .8em;
+  padding: 10px;
+  border:1px solid #222222;
+  text-decoration: none;
+  text-align: center; 
+  margin-top: 10px;
+  margin-bottom: 10px }
    
 a.mobile.visited {
-   color: #bd9c6b }
-	
-.mobilesite {
-   background-color: #444444;
-  font-family: Forum,cursive;
-   text-decoration: none;
-   text-align:center }
+  color: #bd9c6b }
 
-.mobile:hover {
-   background: #444444;
-   text-decoration: none }
-   
-.mob-center {
-   text-align:center }
-  
-.mobctr {   
-   margin-top:10px;
-   margin-bottom:10px;
-   text-align:center } 
-   
-.title {
-   margin: 0px 5px 8px 5px;
-   padding: 0px;
-   font-size: 1.4em;
-   text-align: center }
+#mobile-pic {
+  text-align:center;
+  margin-bottom:0;
+  margin-top:0;
+  padding-top:10px;
+  padding-bottom:0;
+  width:90% }
 
-.phone-link {
-   text-align:right  }
+#mobile-logo-section {
+  padding: 1% 1% 5% 1%;
+  margin:0 auto;
+  float: none !important;
+  text-align: center!important }
 
-.email {
-   text-align:right;
-   padding-top:5px;
-   padding-bottom:0px }
-	
-.about {
-   margin-top:15px;
-   margin-bottom:25px }
+.mobile-logo {
+  margin: 0 5% }
 
-
-.table {
-   margin:0px;
-   padding:0px }
-
-#cap01 {
-   top:25px }
-
-#cap02 {
-   float:right }
-
-#cap03 {
-   top:60% }
-
-#cap04 {
-   padding-left:30px;
-   top:60% }
-
-#cap05 {
-   top:60% }
-
-#cap06 {
-   top:70% }
-
-#cap07 {
-   top:40% }
-	
-#home1 {
-   border-right:1px solid #bd9c6b }
-
-#home2 {
-   border-right:1px solid #bd9c6b;
-   border-left: 1px solid #bd9c6b }
-
-#home3 {
-   border-left:1px solid #bd9c6b }
-
-#call {
-   text-align:center }
-
-.copyl {
-   font-size:.9em;
-   margin-top:-15px;
-   margin-left:12px;
-   float:left }
-   
-.copyr {
-   font-size: .9em;
-   margin-top: -15px;
-   margin-right: 20px;
-   float: right }
+p.mobile-copy {
+  font-size: .6rem;
+  padding-top: 3.5% }
 
 
 
-   
-.getinfo {
-   background-color:#f9f9f9;
-   margin:0px;
-   padding:15px;
-   border:2px solid #bd9c6b; 
-   text-align:center }
-   
-#card1 {
-   background-color: #272727;
-   padding:15px;
-   margin:30px -10px -10px 0px; 
-   -webkit-box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
-   -moz-box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
-   box-shadow: 0px 2px 5px 7px rgba(0,0,0,0.51);
-   z-index=100 }
-   
-.subtext {
-   font-size:1.3em;
-   line-height:100%;
-   margin-bottom:15px }
 
-.download {
-   text-align:center;
-   margin-top:40px }
-
-#infr {
-   margin-right:0px;
-   padding-right:0px }
-
-.init {
-   text-align:center;
-   vertical-align:middle }
-   
-.center {
-	text-align:center }
-	
-.rotate {
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg) }
-	
-.front {
-   background-color: #f9f9f9; 
-   text-align: center;
-   color: #222222; 
-   text-rendering: optimizeLegibility }
-	
-.crdtitle {
-   font-size: 1.3em;
-   padding-top:5px;
-   text-rendering: optimizeLegibility }
-	
-.crdsubt {
-   font-size:.9em;
-   margin-top:5px;
-   text-rendering: optimizeLegibility }
-	
-.crdimg {
-   width: 100% }
-	
-.crdnme {
-   font-family: "Pinyon Script", cursive;
-   font-size: 1em;
-   padding-top: 15px;
-   margin-bottom:0px;
-   text-rendering: optimizeLegibility }
-   
-.crdsubnme {
-   font-size:.7em;
-   margin-top:5px;
-   text-rendering: optimizeLegibility }
-
-.crdctc {
-   font-size: .5em;
-   text-rendering: optimizeLegibility }
-
-
-/* Form.css */
-
-.tdstl1 {
-   text-align: left; 
-   font-size: 12px; 
-   padding: 2px 5px 2px 5px;
-   font-weight: normal;
-   background-color: #ffffff;
-   width: 15% }
-
-.tdstl2 {
-   font-size: 12px; 
-   font-weight: normal;
-   padding: 2px 5px 2px 5px;
-   background-color: #ffffff;
-   width:35% }
-	
-.formtbl {
-   font-family:Arial, sans-serif;
-   margin-top: 12px;
-   margin-bottom:0;
-   padding: 10px 6px 12px 10px; 
-   font-size: 12px; 
-   width: 100%; 
-   border:0;   
-   width: 100%; 
-   background-position: 100% 0%; 
-   background-repeat: repeat no-repeat }
-   
-.formtr {
-   font-family: Arial, sans-serif;
-   color: #0069e1; 
-   font-size: 18px; 
-   font-weight: normal; 
-   margin-bottom: 0px; 
-   margin-top: 0px;
-   text-align :center;
-   padding top: 3px;
-   padding-bottom: 3px }
-	
-.formtd {
-   padding:0;
-   margin:0; }
-	
-.formtda {
-   font-family: Arial, sans-serif; 
-   text-align: left; 
-   font-size: 1em; 
-   font-weight: normal; 
-   width:15%; 
-   padding-bottom:0; 
-   padding-top:0; 
-   background:none } 
-	
-.formdb {
-   font-family: Arial, sans-serif; 
-   font-size: 1em; 
-   font-weight: normal;
-   width: 35%; 
-   padding-bottom:0; 
-   padding-top:0;
-   background:none }
-
-.formtitle {
-   font-family: Arial, sans-serif; 
-   font-size:1.4em;
-   font-weight:700 }
-	
-#textarea {
-   min-height:20px }
-
-#myModal {
-   padding:0 }
-	
-.input {
-   padding-bottom:0;
-   margin-bottom:0; 
-   min-height:20px }
-	
-#WebToLeadForm {
-   border:8px solid #bd9c6b }
-	
-.formbtn {
-   font-family: Arial, sans-serif }
-	
-
-        
-#download {
-   margin-bottom:0 }
-      
-      
-   
-#mobpic{
-   text-align:center;
-   margin-bottom:0;
-   margin-top:0;
-   padding-top:10px;
-   padding-bottom:0;
-   width:90% }
- 
-@media only screen and (min-width: 40.063em)
-h3 {
-   font-size: .9rem;  }
-
-h7 {
-   font-family: Arial,Helvetica;
-   font-size: 1em;
-   font-weight: 400;
-   line-height: normal;
-   color: #222222;
-   margin-top:0;
-   padding-top:0 }
-
-#request {
-   z-index:999 }
-
-.effect7 {
-   position:relative;       
-   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-      -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-           box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-   background: #f3e2c7;
-   background: -moz-linear-gradient(left,  #f3e2c7 0%, #c19e67 38%, #b68d4c 58%, #e9d4b3 100%);
-   background: -webkit-linear-gradient(left,  #f3e2c7 0%,#c19e67 38%,#b68d4c 58%,#e9d4b3 100%);
-   background:     -ms-linear-gradient(left,  #f3e2c7 0%,#c19e67 38%,#b68d4c 58%,#e9d4b3 100%);
-   background:      -o-linear-gradient(left,  #f3e2c7 0%,#c19e67 38%,#b68d4c 58%,#e9d4b3 100%);
-   background:     linear-gradient(to right,  #f3e2c7 0%,#c19e67 38%,#b68d4c 58%,#e9d4b3 100%);
-   background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f3e2c7), color-stop(38%,#c19e67), color-        stop(58%,#b68d4c), color-stop(100%,#e9d4b3));
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ) }
-
-.effect7:before, .effect7:after {
-   content:"";
-   position:absolute; 
-   z-index:-1;
-   -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-   -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-   box-shadow:0 0 20px rgba(0,0,0,0.8);
-   top:0;
-   bottom:0;
-   left:10px;
-   right:10px;
-   -moz-border-radius:100px / 10px;
-   border-radius:100px / 10px } 
-
-.effect7:after {
-   right:10px; 
-   left:auto;
-   -webkit-transform:skew(8deg) rotate(3deg); 
-      -moz-transform:skew(8deg) rotate(3deg);     
-       -ms-transform:skew(8deg) rotate(3deg);     
-        -o-transform:skew(8deg) rotate(3deg); 
-           transform:skew(8deg) rotate(3deg);
-}
