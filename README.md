@@ -10,10 +10,17 @@ Rewrite contact form - make the response modal.
 rework main menu bar from static to active
 rewrite mobile version - some attributes not showing up anymore
 
+Status: Live and In-progress
+
+------------------------------------
+
+pennies2dollars.com
+
+This is a prototype. Client has been in limbo for several months and is now ready to add content to the site and go live. 
+
 Status: In-progress
 
-
-
+------------------------------------
 
 
 
