@@ -410,96 +410,6 @@ section#slider .more {
 .column-one-forth.last {
   margin:0 0 30px 0; }
   
-  /* FILTER 
-  
-#filter {
-	margin:20px 0;
-}
-#filter a {
-	font-size:11px;
-	text-transform:uppercase;
-	color:#323232;
-	padding:5px 20px 5px 5px;
-	margin:0 0 0 5px;
-	display:inline;
--webkit-transition-duration:.4s;
--moz-transition-duration:.4s;
--o-transition-duration:.4s;
--ms-transition-duration:.4s;
-transition-duration:.4s;
-}
-#filter a:hover {
-	color:#fff;
-	background-color:#363333;
-	box-shadow:-1px 1px #dddddc;
--webkit-transition-duration:.8s;
--moz-transition-duration:.8s;
--o-transition-duration:.8s;
--ms-transition-duration:.8s;
-transition-duration:.8s;
-}
-#filter a.filter-active {
-	background-color:#f67c05;
-	color:#fff; }
-	
-	--*/
-
-
-/* POST 
-
-.post {
-	width:510px;
-	float:left;
-	margin:0 0 30px 0;
-	padding:0;
-}
-.post figure {
-	width:250px;
-	margin:0;
-	padding:25px;
-	background-color:#fff;
-	box-shadow:0 1px #dddddc;
-	float:left;
-}
-.post figure img {
-	width:250px;
-}
-.post figure .video {
-	width:250px;
-	height:150px;
-}
-.post figcaption {
-	background-color:#1a1a1a;
-	border-top:1px solid #454545;
-	float:left;
-	width:150px;
-	color:#fff;
-	font-size:14px;
-	padding:20px 15px;
-	position:relative;
-	left:-15px;
-	top:5px;
-	margin:0;
-}
-.post figcaption:before {
-	content:' ';
-	background-image:url(../images/blog-arrow.png);
-	position:absolute;
-	top:-1px;
-	left:-23px;
-	width:23px;
-	height:19px;
-}
-.post figcaption span {
-	display:block;
-	color:#6b6b6b;
-	font-size:12px;
-	font-style:italic;
-	font-family:'Arial';
-	margin-top:10px;
-}
-
---- */
 
 /* FORM */
 
@@ -907,40 +817,7 @@ footer a.twitter .time {
 	font-size:10px;
 	text-align:center;
 }
-#switcher {
-	position:fixed;
-	left:0;
-	top:100px;
-	z-index:9999;
-	background:#fff;
-	border:1px solid #ddd;
-	padding:0 4px 0 12px;
-	width:160px;
-}
-#switcher ul {
-	padding:10px;
-	margin:20px 0;
-}
-#switcher span {
-	font-size:16px;
-	font-weight:bold;
-}
-#switcher ul li a {
-	text-transform:uppercase;
-	font-size:14px;
-	margin:5px;
-}
-.switch-button {
-	border:1px solid #ddd;
-	border-left:1px solid #fff;
-	display:block;
-	height:25px;
-	width:25px;
-	position:absolute;
-	margin-left:163px;
-	margin-top:22px;
-	cursor:pointer;
-}
+
 .open {
   background:#fff url(../images/icons/setting.png) no-repeat center center; }
   
