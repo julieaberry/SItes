@@ -28,13 +28,13 @@ Status: In-progress
 Status: Live and In-progress
 
 
-###Resume Page
+####Resume Page
 
 *This is the digital version of my resume.*
 
 To-do: 
 
-..* Needs print template and download
+   * Needs print template and download
 
 Status: Live and In-progress
 
