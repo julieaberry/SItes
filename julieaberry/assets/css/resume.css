@@ -1,153 +1,148 @@
-@font-face {
-	font-family:"Graphik-Light";
-	src: url("http://www.julieaberry.com/assets/font/graphiclight/Graphik-Light_gdi.eot");
-	src: url("http://www.julieaberry.com/assets/font/graphiclight/Graphik-Light_gdi.eot?#iefix") format("embedded-opentype"),
-		url("http://www.julieaberry.com/assets/font/graphiclight/Graphik-Light_gdi.woff") format("woff"),
-		url("http://www.julieaberry.com/assets/font/graphiclight/Graphik-Light_gdi.ttf") format("truetype"),
-		url("http://www.julieaberry.com/assets/font/graphiclight/Graphik-Light_gdi.otf") format("opentype"),
-		url("http://www.julieaberry.com/assets/font/graphiclight/Graphik-Light_gdi.svg#Graphik-Light") format("svg");
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-2265;
-}
 
 
 body {
- background: #ffffff;;
- background-image: #ffffff;;
- -webkit-background-image: #ffffff;;
- -moz-background-image: #ffffff;;
- -ms-background-image: #ffffff;;
- background-repeat: no-repeat; 
- background-size: cover; 
- position: relative; 
- color: #000000; 
- background-color: #ffffff; 
- font-size:24px; 
- padding:0;
- max-height: 0px;
- font-family: "Yanone Kaffeesatz", sans-serif; 
- font-size:16px; 
- font-weight:300;
- color:black; 
- letter-spacing:.3em }
+ 	background: #ffffff;;
+	background-image: #ffffff;;
+    -webkit-background-image: #ffffff;;
+	-moz-background-image: #ffffff;;
+	-ms-background-image: #ffffff;;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	position: relative; 
+	color: #000000; 
+	background-color: #ffffff; 
+	font-size:24px; 
+	padding:0;
+	max-height: 0px;
+	font-family: "Yanone Kaffeesatz", sans-serif; 
+	font-size:16px; 
+	font-weight:300;
+	color:black; 
+	letter-spacing:.3em }
  
 p {
- font-family: inherit;
- font-weight: normal;
- font-size: .9rem;
- line-height: 1;
- margin-bottom: .7rem;
- text-rendering: optimizeLegibility;
- letter-spacing: .25em; }
+	font-family: inherit;
+	font-weight: normal;
+	font-size: .9rem;
+	line-height: 1;
+	margin-bottom: .7rem;
+	text-rendering: optimizeLegibility;
+	letter-spacing: .25em }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: "Yanone Kaffeesatz", sans-serif; 
- font-weight: normal;
- font-style: normal;
- color: #222;
- text-rendering: optimizeLegibility;
- margin-top: 0.2rem;
- margin-bottom: 0.5rem;
- line-height: 1.4; }
+	font-family: "Yanone Kaffeesatz", sans-serif; 
+	font-weight: normal;
+	font-style: normal;
+	color: #222;
+	text-rendering: optimizeLegibility;
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.4 }
  
-h1 {font-family: "Yanone Kaffeesatz"; sans-serif;font-size: 36px;font-weight:300}
-h2 {font-family: "Yanone Kaffeesatz"; sans-serif;font-size: 14px;font-weight:300}
-h3 {font-family: "Yanone Kaffeesatz"; sans-serif; font-size: 12px;font-weight:300}
+h1 {
+	font-size: 36px;
+	font-weight:300 }
+
+h2 {
+	font-size: 14px;
+	font-weight:300 }
+
+h3 {
+	font-size: 12px;
+	font-weight:300 }
+
 h6 {
- margin-top: -4.2px;
- padding: 0;
- font-size: 16px; }
- 
-h7 {
- margin-top: 0;
- padding: 0;
- font-size: 18px;}
-  
+	margin-top: -4.2px;
+	padding: 0;
+	font-size: 16px }
+
+h2.recommendation {
+	margin-top: 0;
+	padding: 0;
+	font-size: 18px } 
 
 .panel {
- border-style: none;
- border-width: 0px;
- border-color: #ffffff;
- margin-bottom: 0;
- padding: 0;
- background: #ffffff;
- color: #333; 
- font-family: "Yanone Kaffeesatz", sans-serif; 
- font-size:16px; 
- font-weight:300;
- color:black; 
- letter-spacing:.3em }
+	border-style: none;
+	border-width: 0px;
+	border-color: #ffffff;
+	margin-bottom: 0;
+	padding: 0;
+	background: #ffffff;
+ 	color: #333; 
+	font-family: "Yanone Kaffeesatz", sans-serif; 
+ 	font-size:16px; 
+	font-weight:300;
+ 	color:black; 
+	letter-spacing:.3em }
 
-.panel p {
- color: #333;
- font-family: "Yanone Kaffeesatz", sans-serif;
- font-size: 16px;
- font-weight: 300;
- letter-spacing: .3em; }
+p .panel {
+	color: #333;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: .3em }
 
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
- line-height: inherit;
- margin-bottom: inherit; }
+	line-height: inherit;
+	margin-bottom: inherit }
  
-.panel h3 {
- margin-bottom:0; }
+h3 .panel {
+	margin-bottom:0 }
  
-.panel h4 {
- line-height: 1.8; }
+h4 .panel {
+	line-height: 1.8 }
 
-.panel h5 {
- line-height: 1.4; }
+h5 .panel {
+	line-height: 1.4 }
 
 .red {
- background-color: #ffffff;
- color: rgb(192, 18, 18)!important; }
+	background-color: #ffffff;
+	color: rgb(192, 18, 18)!important }
 
-.allcaps {text-transform: capitalize;}
+.allcaps {
+		text-transform: capitalize }
 
 .main-section {
- min-height:160px;
- padding-top: 70px;}
+	min-height:160px;
+	padding-top: 70px }
   
 .recommendation {
- margin: 30px auto; 
- border-left: 1px solid rgba(145, 5, 5, 0.17);
- border-right: 1px solid rgba(145, 5, 5, 0.17);
- padding-left: 40px;
- padding-right: 40px;}
+	margin: 30px auto; 
+	border-left: 1px solid rgba(145, 5, 5, 0.17);
+	border-right: 1px solid rgba(145, 5, 5, 0.17);
+	padding-left: 40px;
+	padding-right: 40px }
   
-.rec {}
-  
-.uppercase {text-transform: uppercase; }
+.uppercase {
+	text-transform: uppercase }
 
 .row {
- width: 100%;
- margin-left: auto;
- margin-right: auto;
- margin-top: 1%;
- margin-bottom: 1%;
- max-width: 85%; }
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	max-width: 85% }
 
 .company {
-  line-height:.9;}
+ 	line-height:.9;}
 
 .company p {
-  line-height:.9;
-  margin-bottom: .45em!important;
-  margin-left: 2%;}
+	line-height:.9;
+ 	margin-bottom: .45em !important;
+	margin-left: 2% }
   
 .duties {
- margin-left: 8%; }
+	margin-left: 8% }
   
 .center {
- margin:0 auto; 
- text-align:center;}
+	margin:0 auto; 
+	text-align:center}
  
 .job {
- margin-bottom: 3%; }
+	margin-bottom: 3% }
  
 .linked {
- max-width:10%;
- float: right; }
+	max-width:10% 
+	float: right }
   
