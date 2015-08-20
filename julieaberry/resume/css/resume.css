@@ -1,20 +1,4 @@
 
-/* latin */
-@font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Yanone Kaffeesatz ExtraLight'), local('YanoneKaffeesatz-ExtraLight'), url(http://fonts.gstatic.com/s/yanonekaffeesatz/v7/We_iSDqttE3etzfdfhuPRYuLSQHnHW2U4NkxJ--PfJX3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin */
-@font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(http://fonts.gstatic.com/s/yanonekaffeesatz/v7/YDAoLskQQ5MOAgvHUQCcLWjF_m7mVnhXExjNED3rUtY.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
 
 body {
  	background: #ffffff;;
@@ -64,7 +48,7 @@ h2 {
 	font-weight:300 }
 
 h3 {
-	font-size: 12px;
+	font-size: 1rem;
 	font-weight:300 }
 
 h6 {
@@ -76,6 +60,17 @@ h2.recommendation {
 	margin-top: 0;
 	padding: 0;
 	font-size: 18px } 
+
+ul {
+    margin-bottom: 0;
+    list-style-position: outside }
+
+li {
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+    list-style-position: outside;
+    font-family: inherit }
 
 .panel {
 	border-style: none;
@@ -91,25 +86,26 @@ h2.recommendation {
  	color:black; 
 	letter-spacing:.3em }
 
-p .panel {
+.panel p {
 	color: #333;
 	font-family: "Yanone Kaffeesatz", sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	letter-spacing: .3em }
-
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
-	line-height: inherit;
-	margin-bottom: inherit }
  
-h3 .panel {
+.panel h3 {
 	margin-bottom:0 }
  
-h4 .panel {
+.panel h4 {
 	line-height: 1.8 }
 
-h5 .panel {
-	line-height: 1.4 }
+.panel h5 {
+	line-height: 1.4;
+	margin-bottom: 0.5rem }
+
+h4.section-title {
+	margin-top: 5%!important;
+    margin-bottom: 2% }
 
 .red {
 	background-color: #ffffff;
@@ -147,19 +143,28 @@ h5 .panel {
 	line-height:.9;
  	margin-bottom: .45em !important;
 	margin-left: 2% }
-  
+ 
 .duties {
-	margin-left: 8% }
+	margin-left: 8%;
+	margin-top: 1%; 
+    margin-bottom: 5% }
   
 .center {
 	margin:0 auto; 
-	text-align:center}
+	text-align:center }
  
 .job {
 	margin-bottom: 0.5% }
+
+.date {
+	padding-left: 3% }
+
+.address {
+	padding-left: 4% }
  
-img .linked {
-	width:10%;
+img.linked {
 	max-width:10%; 
 	float: right }
-  
+
+.no-bottom-margin {
+	margin-bottom:0 }
