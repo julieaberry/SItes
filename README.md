@@ -21,5 +21,24 @@ Status: In-progress
 
 ------------------------------------
 
+julieaberry.com
+
+This is my personal website. It is getting a minor makeover with some media query updates
+
+Status: Live and In-progress
+
+
+Resume Page
+
+This is the digital version of my resume.
+
+To-do: 
+
+| Needs print template and download
+
+Status: Live and In-progress
+
+-----------------------------------
+
 
 
