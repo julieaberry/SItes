@@ -43,7 +43,7 @@ p {
  letter-spacing: .25em; }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: Graphik-Light;
+ font-family: "Yanone Kaffeesatz", sans-serif; 
  font-weight: normal;
  font-style: normal;
  color: #222;
@@ -52,9 +52,9 @@ h1, h2, h3, h4, h5, h6 {
  margin-bottom: 0.5rem;
  line-height: 1.4; }
  
-h1 {font-family: Graphik-Light; font-size: 36px;font-weight:300}
-h2 {font-family: Graphik-Light; font-size: 14px;font-weight:300}
-h3 {font-family: Graphik-Light; font-size: 12px;font-weight:300}
+h1 {font-family: "Yanone Kaffeesatz"; sans-serif;font-size: 36px;font-weight:300}
+h2 {font-family: "Yanone Kaffeesatz"; sans-serif;font-size: 14px;font-weight:300}
+h3 {font-family: "Yanone Kaffeesatz"; sans-serif; font-size: 12px;font-weight:300}
 h6 {
  margin-top: -4.2px;
  padding: 0;
