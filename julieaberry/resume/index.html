@@ -10,11 +10,6 @@
     <link rel="stylesheet" type='text/css' href="css/resume.css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    
-
-    <style>
-      .main-section {min-height:160px;}
-    </style>
 
   </head>
   <body>
@@ -46,6 +41,11 @@
  <!-- END NAVIGATION -->
 
   <!-- TOP SECTION -->
+    <div class="large-12 columns print-only hide-for-small-up text-right" id="print-contact-information">
+      <p><b>LinkedIn:</b>&nbsp https://www.linkedin.com/in/julieberry</p>
+      <p><b>Behance:</b>&nbsp http://www.codestardev.com</p>
+      <p><b>GitHub:</b>&nbsp http://www.codestardev.com</p>
+    </div>
 
     <section class="main-section">
       <div class="row">
@@ -56,7 +56,7 @@
         </div>  <!-- ./ col-->
 
         <div class="large-12 columns">
-          <div class="text-right">
+          <div class="text-right social-links">
             <a href="https://www.linkedin.com/in/julieberry" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
             <a href="https://www.linkedin.com/in/julieberry" target="_blank"><i class="fa fa-behance-square fa-3x"></i></a>
             <a href="https://www.linkedin.com/in/julieberry" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
@@ -75,23 +75,41 @@
     
 <!-- CORE COMPETENCIES -->  
     
-<div class="row">
+<div class="row" id="core-competencies">
   <div class="large-12 columns">
     <div class="panel">
       <h4 class="section-title red">CORE COMPETENCIES</h4>
-        <div class="large-4 columns"><p class="right"><b>Languages</b></P></div>
-        <div class="large-8 columns"><p><span style='margin-left:.5in'> HTML5 | CSS3 | JavaScript | Node.js</span></P></div>
-        <div class="large-4 columns"><p class="right"><b>Design Skills</b></P></div>
-        <div class="large-8 columns"><p><span style='margin-left:.5in'> Photoshop CS6 | Wireframing | PSD Prototyping | PSD to Web</span></P></div>
-        <div class="large-4 columns"><p class="right"><b>Developer Tools</b></P></div>
-        <div class="large-8 columns"><p><span style='margin-left:.5in'> Git | Terminal | Text Editor | Chrome Dev Tools</span></P></div>
-        <div class="large-4 columns"><p class="right"><b>Frameworks</b></P></div>
-        <div class="large-8 columns"><p><span style='margin-left:.5in'> Bootstrap | Foundation | Wordpress | Joomla</span></P></div>
+        <div class="large-4 columns inline"><p class="skill-type">Languages</P></div>
+        <div class="large-8 columns inline"><p class="skill">HTML5 | CSS3 | JavaScript | Node.js</P></div>
+        <div class="large-4 columns"><p class="skill-type"><b>Design Skills</b></P></div>
+        <div class="large-8 columns"><p class="skill">Photoshop CS6 | Wireframing | PSD Prototyping | PSD to Web</P></div>
+        <div class="large-4 columns"><p class="skill-type"><b>Developer Tools</b></P></div>
+        <div class="large-8 columns"><p class="skill"> Git | Terminal | Chrome Dev Tools</P></div>
+        <div class="large-4 columns"><p class="skill-type"><b>Frameworks</b></P></div>
+        <div class="large-8 columns"><p class="skill">Bootstrap | Foundation | Wordpress | Joomla</P></div>
     </div>  <!-- ./ panel -->      
   </div> <!-- ./ col --> 
 </div> <!-- ./ row -->        
     
 <!-- END CORE COMPETENCIES -->  
+
+<!-- EDUCATION -->  
+  
+<div class="row">
+  <div class="large-12 columns">
+    <div class="panel">
+      <h4 class="section-title red">EDUCATION</h4>
+        <div class="center">
+          <p>FULL SAIL UNIVERSITY - Student in Mobile Development B.S. Program</p>
+          <p>LONG BEACH CITY COLLEGE - Certificate in Human Services</p>
+          <p>SEATTLE CENTRAL COMMUNITY COLLEGE - Certificate in Business Management</p>
+        </div> <!-- ./ center-->
+
+    </div>  <!-- ./ panel -->        
+  </div>  <!-- ./ col -->
+</div>  <!-- ./ row -->
+
+<!-- END EDUCATION -->
 
 <!-- TECHNICAL EXPERIENCE -->  
     
@@ -99,7 +117,7 @@
   <div class="large-12 columns">
     <div class="panel">
       <h4 class="section-title red">TECHNICAL EXPERIENCE</h4>
-        <div class="job">
+        <div class="job" id="job-1">
           <h3>FRONT END DEVELOPER</h3>
             <div class="company">
               <h5>CODESTAR DEV</h5>
@@ -109,19 +127,19 @@
             </div>  <!-- ./ company -->  
             <div class="duties">
               <ul>
-                <li>One Page Website Design and Development (Pennies to Dollars)</li>
-                <li>Drupal Custom Theming (for Vaper Cube Inc.)</li>
-                <li>E-Commerce Implementation (for Vaper Cube Inc.)</li>
-                <li>Bootstrap / Foundation Portfolio Website (Heath J.E. Cunningham)</li>
-                <li>Custom MLS Landing Pages (Heath J.E. Cunningham)</li>
-                <li>Logo and Graphic Design (Business Alliance, Inc.)</li>
-                <li>Custom MLS Landing Pages (Heath J.E. Cunningham)</li>
-                <li>Design and Develop Custom Portfolio Website (Heath J.E. Cunningham)</li>
-                <li>Image Creation and Manipulation (Great Work Strategic Communications)</li>
+                <li>One Page Website Design and Development</li>
+                <li>Drupal Custom Theming </li>
+                <li>E-Commerce Implementation </li>
+                <li>Design and Develop Bootstrap / Foundation Portfolio Website </li>
+                <li>Custom MLS Landing Pages </li>
+                <li>Logo and Graphic Design </li>
+                <li>Image Creation and Manipulation </li>
+                <p class="client-list"><b>Clients Include:</b></p>
+                <p>Pennies to Dollars | Vaper Cuber, Inc. | Heath Cunningham | Business Alliance, Inc. | Great Work Stratecic Communications</p>
             </div>  <!-- ./ duties-->  
         </div>  <!-- ./ job-->  
 
-      	<div class="job">
+      	<div class="job" id="job-2">
           <h3>AFFILIATE SERVICES MANAGER</h3>
             <div class="company">
               <h5>BUSINESS ALLIANCE, INC.</h5>
@@ -146,7 +164,7 @@
             </div>  <!-- ./ duties -->
         </div>  <!-- ./ job -->
         
-      	<div class="job">
+      	<div class="job" id="job-3">
           <h3>ADMINISTRATIVE ASSISTANT 5 | OFFICE MANAGER</h3>
             <div class="company">
               <h5>SOUND MENTAL HEALTH</h5>
@@ -154,14 +172,33 @@
               <span class="address inline text-right">www.smh.org</span>
               <span class="date inline text-right">02/2008 - 09/2010</span>
             </div>  <!-- ./ company -->
-            <div class="duties no-bottom-margin">
+            <div class="duties">
               <ul>
                 <li>Provided support for over 30 staff, direct support for eight physicians, primary contact for a large and diverse client base. Heavy scheduling, multi-line phones, heavy walk-in traffic, prepared presentations, documents and reports to staff and community leaders, direct support to mental health programs such as Older Adults, Families With Children, Special Needs Children and Domestic Violence, managed office supplies, mail room, coordinated with facilities management, implemented new programs to improve client experience and increase client loyalty. </li>
                 <li>Improved client relations through better Customer Service</li>
                 <li>Implemented Client Book Exchange program</li>
                 <li>Developed learning tools and resources</li>
                 <li>Designed Service Animal Program</li>
-                <li>Increased Offender Attendance</li> 
+                <li>Improved Offender Attendance</li> 
+            </div>  <!-- ./ duties -->
+        </div>  <!-- ./ job -->
+
+        <div class="job" id="job-4">
+          <h3>OWNER | CREATOR</h3>
+            <div class="company">
+              <h5>BELISAMA DESIGN STUDIO</h5>
+              <span class="industry inline text-left">Wholesale Products for the Home</span>
+              <span class="address inline text-right">Business is closed</span>
+              <span class="date inline text-right">02/1996 - 09/2007</span>
+            </div>  <!-- ./ company -->
+            <div class="duties no-bottom-margin">
+              <ul>
+                <li>Designed and developed product lines for household decor items</li>
+                <li>Convention booth design and management</li>
+                <li>Managed product manufacture</li>
+                <li>Designed advertisement print collateral</li>
+                <li>Managed 11 outside sales representatives</li>
+                <li>Grew business from hobby to over $100,000 annually</li>
             </div>  <!-- ./ duties -->
         </div>  <!-- ./ job -->
 
@@ -171,27 +208,10 @@
 
 <!-- END TECHNICAL EXPERIENCE -->  
 
-<!-- EDUCATION -->  
-  
-<div class="row">
-  <div class="large-12 columns">
-    <div class="panel">
-      <h4 class="section-title red">EDUCATION</h4>
-        <div class="center">
-          <p>FULL SAIL UNIVERSITY - Student of Mobile Development</p>
-          <p>LONG BEACH CITY COLLEGE - Certificate in Human Services</p>
-          <p>SEATTLE CENTRAL COMMUNITY COLLEGE - Certificate in Business Management</p>
-        </div> <!-- ./ center-->
-
-    </div>  <!-- ./ panel -->        
-  </div>  <!-- ./ col -->
-</div>  <!-- ./ row -->
-
-<!-- END EDUCATION -->
 
 <!-- RECOMMENDATIONS -->
   
-<div class="row">
+<div class="row" id="all-recommendations">
   <div class="large-12 columns">
     <div class="panel">
       <h4 class="section-title red">RECOMMENDATIONS</h4>

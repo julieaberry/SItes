@@ -79,15 +79,15 @@ li {
 	margin-bottom: 0;
 	padding: 0;
 	background: #ffffff;
- 	color: #333; 
+ 	color: #000; 
 	font-family: "Yanone Kaffeesatz", sans-serif; 
  	font-size:16px; 
 	font-weight:300;
  	color:black; 
 	letter-spacing:.3em }
 
-.panel p {
-	color: #333;
+p.panel {
+	color: #000;
 	font-family: "Yanone Kaffeesatz", sans-serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -136,6 +136,14 @@ h4.section-title {
 	margin-bottom: 1%;
 	max-width: 85% }
 
+.client-list {
+	font-weight: 600;
+	padding-top: 1% }
+
+p.skill-type {
+	float:right!important;
+	font-weight: 600 }
+
 .company {
  	line-height:.9;}
 
@@ -167,4 +175,71 @@ img.linked {
 	float: right }
 
 .no-bottom-margin {
-	margin-bottom:0 }
+	margin-bottom: 0% }
+
+/*  PRINT STYLES */
+
+@media print {
+     
+    .tab-bar .menu-icon {
+    	display: none }
+
+    .fa {
+    	display:none }
+
+    .social-links {
+    	display:none }
+
+    #main-section {
+    	min-height: 1px;
+    	max-height: 5px;
+    	margin-top: -100px;
+    	padding-top:0 !important }
+
+    #core-competencies {
+    	margin-top: 0;
+    }
+
+    p.panel {
+	    font-size: 11px;
+	    font-weight: 300;
+	    letter-spacing: .03em }
+
+	p.skill-type {
+		float:left !important;
+		line-height: 1;
+		margin-bottom: 0;
+		font-weight: 600 }
+
+	.skill-type {
+		float:left !important }
+
+	.tab-bar-section {
+		display: none }
+
+	li {
+	    font-size: 11px;
+	    line-height: 1.4;
+	    letter-spacing: .03em; 
+	    margin-bottom: 0 }
+
+	#job-2 {
+		padding-top: 150px}
+
+	#all-recommendations {
+		display: none }
+
+	section.main-section {
+		padding-top: 0 !important; }
+
+	p.print-only {
+		font-size: 12px;
+	    font-weight: 300;
+	    letter-spacing: .03em;
+	    line-height:1!important;
+	    padding:0;
+	    margin:0 }
+
+	#print-contact-information {
+		padding-right:10% }
+}
