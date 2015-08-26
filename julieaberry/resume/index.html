@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julie A. Berry | Resume</title>
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200' >
     <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type='text/css' href="css/resume.css" />
@@ -41,10 +40,12 @@
  <!-- END NAVIGATION -->
 
   <!-- TOP SECTION -->
-    <div class="large-12 columns print-only hide-for-small-up text-right" id="print-contact-information">
+    <div class="large-12 columns print-only hide-for-small-up text-right" id="print-contact-links">
       <p><b>LinkedIn:</b>&nbsp https://www.linkedin.com/in/julieberry</p>
-      <p><b>Behance:</b>&nbsp http://www.codestardev.com</p>
-      <p><b>GitHub:</b>&nbsp http://www.codestardev.com</p>
+      <p><b>Behance:</b>&nbsp https://www.behance.net/Julie-Berry</p>
+      <p><b>GitHub:</b>&nbsp https://github.com/julieaberry</p>
+      <p><b>Portfolio:</b>&nbsp http://www.julieaberry.com/portfolio/</p>
+      <p><b>Email:</b>&nbsp julie@julieaberry.com/</p>
     </div>
 
     <section class="main-section">
@@ -52,14 +53,16 @@
 
         <div class="large-10 columns">
           <h1>JULIE A. BERRY</h1>
-          <h2><span style='margin-left:1.0in'>Creative Junior Website Developer</span></h2>
+          <h2 claSS="sub-heading">Creative Junior Website Developer</h2>
         </div>  <!-- ./ col-->
 
         <div class="large-12 columns">
           <div class="text-right social-links">
+          	<a href="javascript:window.print()" target="_blank" alt="print this page"><i class="fa fa-print fa-3x"></i></a>
             <a href="https://www.linkedin.com/in/julieberry" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
             <a href="https://www.linkedin.com/in/julieberry" target="_blank"><i class="fa fa-behance-square fa-3x"></i></a>
             <a href="https://www.linkedin.com/in/julieberry" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+            <a href="mailto:julie@julieaberry.com?Subject=A%20Message%20Regarding%20Your%20Resume" target="_top"><i class="fa fa-envelope fa-3x"></i></a>
           </div>   <!-- ./ linked -->
         </div>   <!-- ./ col -->
       
@@ -79,14 +82,32 @@
   <div class="large-12 columns">
     <div class="panel">
       <h4 class="section-title red">CORE COMPETENCIES</h4>
-        <div class="large-4 columns inline"><p class="skill-type">Languages</P></div>
-        <div class="large-8 columns inline"><p class="skill">HTML5 | CSS3 | JavaScript | Node.js</P></div>
-        <div class="large-4 columns"><p class="skill-type"><b>Design Skills</b></P></div>
-        <div class="large-8 columns"><p class="skill">Photoshop CS6 | Wireframing | PSD Prototyping | PSD to Web</P></div>
-        <div class="large-4 columns"><p class="skill-type"><b>Developer Tools</b></P></div>
-        <div class="large-8 columns"><p class="skill"> Git | Terminal | Chrome Dev Tools</P></div>
-        <div class="large-4 columns"><p class="skill-type"><b>Frameworks</b></P></div>
-        <div class="large-8 columns"><p class="skill">Bootstrap | Foundation | Wordpress | Joomla</P></div>
+
+          <div class="large-4 small-4 columns inline">
+            <p class="skill-type"><b>Languages</b></P>
+          </div>
+          <div class="large-8 small-8 columns inline">
+            <p class="skill">HTML5 | CSS3 | JavaScript</P>
+          </div>
+          <div class="large-4 small-4 columns inline">
+            <p class="skill-type"><b>Design Skills</b></P>
+          </div>
+          <div class="large-8 small-8 columns inline">
+            <p class="skill">Wireframing | PSD Prototyping | PSD to Web | Mobile & Responsive Design </P>
+          </div>
+          <div class="large-4 small-4 columns inline">
+            <p class="skill-type"><b>Technology</b></P>
+          </div>
+          <div class="large-8 small-8 columns inline">
+            <p class="skill"> Photoshop CS6 | Git | Terminal | Chrome Dev Tools</P>
+          </div>
+          <div class="large-4 small-4 columns inline">
+            <p class="skill-type"><b>Frameworks</b></P>
+          </div>
+          <div class="large-8 small-8 columns inline">
+            <p class="skill">Bootstrap | Foundation | Node.js | Wordpress</P>
+          </div>
+
     </div>  <!-- ./ panel -->      
   </div> <!-- ./ col --> 
 </div> <!-- ./ row -->        
@@ -99,7 +120,7 @@
   <div class="large-12 columns">
     <div class="panel">
       <h4 class="section-title red">EDUCATION</h4>
-        <div class="center">
+        <div class="center education-section">
           <p>FULL SAIL UNIVERSITY - Student in Mobile Development B.S. Program</p>
           <p>LONG BEACH CITY COLLEGE - Certificate in Human Services</p>
           <p>SEATTLE CENTRAL COMMUNITY COLLEGE - Certificate in Business Management</p>
@@ -121,9 +142,11 @@
           <h3>FRONT END DEVELOPER</h3>
             <div class="company">
               <h5>CODESTAR DEV</h5>
-              <span class="industry inline text-left">Independent Web Design and Development</span>
-              <span class="address inline text-right">www.codestardev.com</span>
-              <span class="date inline text-right">12/2012 - present</span>
+              <div class="business-info">
+                <span class="industry inline text-left">Independent Web Design and Development</span>
+                <span class="address inline text-right">www.codestardev.com</span>
+                <span class="date inline text-right">12/2012 - present</span>
+              </div>  <!-- ./ business-info -->   
             </div>  <!-- ./ company -->  
             <div class="duties">
               <ul>
@@ -143,9 +166,11 @@
           <h3>AFFILIATE SERVICES MANAGER</h3>
             <div class="company">
               <h5>BUSINESS ALLIANCE, INC.</h5>
-              <span class="industry inline text-left">Dominant US Franchise Brokerage Firm</span>
-              <span class="address inline text-right">www.baiaffiliate.com</span>
-              <span class="date inline text-right">05/2012 - 11/2013</span>
+              <div class="business-info">
+                <span class="industry inline text-left">Dominant US Franchise Brokerage Firm</span>
+                <span class="address inline text-right">www.baiaffiliate.com</span>
+                <span class="date inline text-right">05/2012 - 11/2013</span>
+              </div>  <!-- ./ business-info -->
             </div>  <!-- ./ company -->
             <div class="duties">
               <ul>
@@ -168,9 +193,11 @@
           <h3>ADMINISTRATIVE ASSISTANT 5 | OFFICE MANAGER</h3>
             <div class="company">
               <h5>SOUND MENTAL HEALTH</h5>
-              <span class="industry inline text-left">Community Mental Health Clinic</span>
-              <span class="address inline text-right">www.smh.org</span>
-              <span class="date inline text-right">02/2008 - 09/2010</span>
+              <div class="business-info">
+                <span class="industry inline text-left">Community Mental Health Clinic</span>
+                <span class="address inline text-right">www.smh.org</span>
+                <span class="date inline text-right">02/2008 - 09/2010</span>
+              </div>  <!-- ./ business-info -->
             </div>  <!-- ./ company -->
             <div class="duties">
               <ul>
@@ -187,9 +214,11 @@
           <h3>OWNER | CREATOR</h3>
             <div class="company">
               <h5>BELISAMA DESIGN STUDIO</h5>
-              <span class="industry inline text-left">Wholesale Products for the Home</span>
-              <span class="address inline text-right">Business is closed</span>
-              <span class="date inline text-right">02/1996 - 09/2007</span>
+              <div class="business-info">
+                <span class="industry inline text-left">Wholesale Products for the Home</span>
+                <span class="address inline text-right">Business is closed</span>
+                <span class="date inline text-right">02/1996 - 09/2007</span>
+              </div>  <!-- ./ business-info -->
             </div>  <!-- ./ company -->
             <div class="duties no-bottom-margin">
               <ul>
