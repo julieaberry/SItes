@@ -194,39 +194,39 @@ a:hover {
     margin-bottom: -10px }
 
 
-.resume {
+.resume-tablet {
     font-family:"Cardo", Arial, sans-serif; 
     font-size: 2.3em;
     line-height: 1;
-    padding-left: 5rem; }
+    padding-left: 7rem; }
 
-.resume p {
+.resume-tablet p {
     font-size: .36em;
     line-height: 1;
     padding-left: 3.6rem; 
     margin-bottom: -14px }
 
-.portfolio {
+.portfolio-tablet {
    font-family: "Cabin Sketch";
    font-size: 2.3em;
    letter-spacing: .5px; 
    padding-left: 4.1rem;
    margin-top: 4%; }
 
-.portfolio p {
+.portfolio-tablet p {
     font-size: .36em;
     letter-spacing: .5px;
     padding-left: 1.1rem;
     padding-bottom: 0;
     margin-bottom: -30px; }
 
-.codestar {
+.codestar-tablet {
     font-family:"EA Font v1.5 by Ghettoshark"; 
     font-size: 1em; 
     letter-spacing: 0.05em; 
     margin-top: 4% }
 
-.codestar p {
+.codestar-tablet p {
     font-family:"EA Font v1.5 by Ghettoshark"; 
     font-size: .6em; 
     letter-spacing: 0.05em; 
