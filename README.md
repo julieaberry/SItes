@@ -24,6 +24,7 @@ Status: In-progress
 ##julieaberry.com
 
 *This is my personal website. It is getting a minor makeover with some media query updates*
+*I just put a new UI on it. The old one got lots of comps but this one is fun too.*
 
 Status: Live and In-progress
 
@@ -32,11 +33,7 @@ Status: Live and In-progress
 
 *This is the digital version of my resume.*
 
-To-do: 
-
-   * Needs print template and download
-
-Status: Live and In-progress
+Status: Live
 
 -----------------------------------
 
