@@ -26,6 +26,8 @@ Status: In-progress
 *This is my personal website. It is getting a minor makeover with some media query updates*
 *I just put a new UI on it. The old one got lots of comps but this one is fun too.*
 
+TODO: mobile versions need update
+
 Status: Live and In-progress
 
 
