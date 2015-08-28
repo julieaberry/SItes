@@ -45,8 +45,6 @@ h1 {
    text-align: left; 
    margin: 0 auto;
    padding: 5%;}
-
-
  
 ul, li {
  list-style: none; 
@@ -167,129 +165,74 @@ a:hover {
 
  /* end main section */
    
+
+
+
+
+
 /***** Medium Screens ******/
 
-#tablet {
- text-align: center;
- margin: 24% 0;
- padding: 0; }
+#main-tablet {
+    margin: 10% 36% 10% 40%;
+    margin-top: -33%;}
 
-  .name1 {
-   font-family:"Crimson Text"; 
-   color: #096; 
-   font-size: 1.2em; 
-   position: relative; 
-   text-align: center; 
-   margin: 0 auto;
-   padding: 5%; }
 
-  .about1 {
-   font-family:"Permanent Marker", cursive; 
-   /*-webkit-transform: rotate(90deg); 
-   -webkit-transform-origin: 70% 0; 
-   -moz-transform: rotate(90deg); 
-   -moz-transform-origin: 70% 0; 
-   -o-transform: rotate(90deg); 
-   -o-transform-origin: 70% 0; 
-   -khtml-transform: rotate(90deg); 
-   -khtml-transform-origin: 70% 0; 
-   -ms-transform: rotate(90deg); 
-   -ms-transform-origin: 70% 0; 
-   transform: rotate(90deg);
-   transform-origin: 70% 0;*/
-   position: relative;
-   float: right;
-   font-size: 1.2em;
-   line-height:1;
-   margin-right: 0; }
+.about-tablet {
+    font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+    letter-spacing: -0.035em;
+    font-size: 2.5em;
+    line-height: 1;
+    margin-top: 10px;
+    left: 27% }
 
-  .contact1 {
-   font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif; 
-   position: relative; 
-   letter-spacing: -0.035em; 
-   font-size: 1.4em;
-   line-height: 1;
-   left: -25%;
-   float: left; }
+.about-tablet p {
+    font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+    letter-spacing: -0.035em;
+    font-size: .4em;
+    line-height: 1;
+    padding-bottom: 0;
+    margin-bottom: -10px }
 
-  .codestar1 {
-   font-family:"EA Font v1.5 by Ghettoshark"; 
-   position: relative; 
-   font-size: 0.8em; 
-   letter-spacing: 0.05em;
-   /*-webkit-transform: rotate(-90deg); 
-   -webkit-transform-origin:79% -10%;
-   -moz-transform: rotate(-90deg); 
-   -moz-transform-origin:79% -10%;
-   -o-transform: rotate(-90deg); 
-   -o-transform-origin:79% -10%; 
-   -khtml-transform: rotate(-90deg); 
-   -khtml-transform-origin:79% -10%; 
-   -ms-transform: rotate(-90deg);  
-   -ms-transform-origin:79% -10%;
-   transform: rotate(-90deg);
-   transform-origin:79% -10%;*/
-   float:right; 
-   margin-right:0; }
 
-  .portfolio1 {
+.resume {
+    font-family:"Cardo", Arial, sans-serif; 
+    font-size: 2.3em;
+    line-height: 1;
+    padding-left: 5rem; }
+
+.resume p {
+    font-size: .36em;
+    line-height: 1;
+    padding-left: 3.6rem; 
+    margin-bottom: -14px }
+
+.portfolio {
    font-family: "Cabin Sketch";
-   position: relative;
-   font-size: 1.3em;
+   font-size: 2.3em;
    letter-spacing: .5px; 
-   position: relative;
-   /*-webkit-transform: rotate(90deg); 
-   -webkit-transform-origin:25% 0;
-   -moz-transform: rotate(90deg); 
-   -moz-transform-origin:25% 0;
-   -o-transform: rotate(90deg); 
-   -o-transform-origin:25% 0;
-   -khtml-transform: rotate(90deg); 
-   -khtml- transform-origin:25% 0;
-   -ms-transform: rotate(90deg);
-   -ms-transform-origin:25% 0;
-   transform: rotate(90deg);
-   transform-origin:20% 10%;*/
-   float:left;
-   margin-left:3%; }
+   padding-left: 4.1rem;
+   margin-top: 4%; }
 
-  .resume1 {
-   font-family:"Cardo", Arial, sans-serif; 
-   position: relative; 
-   float: right;
-   font-size: 1.2em;
-   line-height: 1;
-   right: -15%; }
+.portfolio p {
+    font-size: .36em;
+    letter-spacing: .5px;
+    padding-left: 1.1rem;
+    padding-bottom: 0;
+    margin-bottom: -30px; }
 
-  .linkedin1 {
-   position: relative; 
-   /*-webkit-transform: rotate(-90deg); 
-   -webkit-transform-origin:55% 150%;
-   -moz-transform: rotate(-90deg); 
-   -moz-transform-origin:55% 150%;
-   -o-transform: rotate(-90deg); 
-   -o-transform-origin:55% 150%;
-   -khtml-transform: rotate(-90deg);
-   -khtml-transform-origin:55% 150%;
-   -ms-transform: rotate(-90deg); 
-   -ms-transform-origin:55% 150%;
-   transform: rotate(-90deg)
-   transform-origin:55% 150%;*/
-   text-align:center; 
-   width: 120px;
-   margin-left: 15%; 
-   margin-top: 15%;}
-  
-  .twitter1 {
-   font-family: Bentham;
-   float: right;
-   position: relative;
-   font-size:1.3em;
-   right: -22%;
-   letter-spacing: 0.02em;
-   line-height: 1; }
+.codestar {
+    font-family:"EA Font v1.5 by Ghettoshark"; 
+    font-size: 1em; 
+    letter-spacing: 0.05em; 
+    margin-top: 4% }
+
+.codestar p {
+    font-family:"EA Font v1.5 by Ghettoshark"; 
+    font-size: .6em; 
+    letter-spacing: 0.05em; 
+    padding-bottom: 0;
+    margin-bottom: -10px }
  
-
  
 /***** Small Screens ******/
 
@@ -302,14 +245,12 @@ a:hover {
    font-family:"Crimson Text"; 
    color: #096; 
    font-size: 36px; 
-   position: relative; 
    text-align: center; 
    margin: 0 auto;
    padding: 5%; }
 
   .about0 {
    font-family:"Permanent Marker", cursive; 
-   position: relative;
    font-size: 1.5em;
    line-height:1; }
 
@@ -394,4 +335,6 @@ a:hover {
    margin: 4% 0;
   text-decoration: none;
 }
+
+
  
