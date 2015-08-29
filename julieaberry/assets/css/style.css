@@ -25,49 +25,24 @@ Comments: This CSS was inspired by http://www.wordle.net and owes a debt to http
 
 body { 
     color: #000000; 
-    background-color: #B9181D;; 
+    background-color: #B9181D; 
     font-size:24px; 
     padding:0;
     max-height: 0px; }
 
- h1 {
-    font-family: Enriqueta; 
-    color: #000; 
-    font-size: 36px; 
-    text-align: left; 
+ h1 {    
+    font-family: Enriqueta;
+    color: #000;
+    font-size: 36px;
+    text-align: left;
     margin: 0 auto;
     padding: 5% }
- 
-ul, li {
-    list-style: none; 
-    text-decoration: none!important; 
-    padding: 0; 
-    margin: 0 }
- 
-ul {
-    list-style: none; 
-    text-decoration: none!important; 
-    padding: 0; 
-    margin: 0 }
- 
-li {
-    list-style: none; 
-    text-decoration: none!important; 
-    padding: 5% !important; 
-    margin: 0 }
- 
-li:hover {
-    font-size: 105% }
  
 a:hover, a:visited, a:link, a:active {
     text-decoration: none !important }
  
 
 .red {background-color: rgba(216, 0, 0, 0.62); }
-.blue {background-color: rgba(0, 23, 79, 0.65); }
-.green {background-color: rgba(51, 158, 5, 0.41);}
-.yellow {background-color: rgba(255, 221, 0, 0.57); }
-.orange {background-color: rgba(200, 108, 21, 0.91); }
 .border {border:1px solid black;}
 
 [class*="column"] + [class*="column"]:last-child {
@@ -91,6 +66,288 @@ footer {
 
 
 .about {
+    font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+    letter-spacing: -0.035em;
+    font-size: 2.5em;
+    line-height: 1;
+    margin-top: 12%;
+    left: -21%; }
+
+.about p {
+    font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+    letter-spacing: -0.035em;
+    font-size: .45em;
+    line-height: 1;
+    padding-bottom: 0;
+    margin-bottom: -10px }
+
+.resume {
+    font-family:"Cardo", Arial, sans-serif; 
+    font-size: 2.3em;
+    line-height: 1;
+    left: -10%; }
+
+.resume p {
+    font-size: .36em;
+    line-height: 1;
+    padding-right: 1.9rem; 
+    margin-bottom: -14px }
+
+.portfolio {
+    font-family: "Cabin Sketch";
+    font-size: 2.3em;
+    letter-spacing: .5px; 
+    margin-top: 1%;
+    margin-left: -10% }
+
+.portfolio p {
+    font-size: .36em;
+    letter-spacing: .5px;
+    padding-left: 1.1rem;
+    padding-bottom: 0;
+    margin-bottom: -30px;
+    margin-right: 33% }
+
+.codestar {
+    font-family:"EA Font v1.5 by Ghettoshark"; 
+    font-size: 1.2em; 
+    letter-spacing: 0.05em; 
+    margin-top: 0;
+    margin-left: -24% }
+
+.codestar p {
+    font-family: "Enriqueta"; 
+    font-size: .6em; 
+    letter-spacing: 0.05em; 
+    padding-bottom: 0;
+    margin-bottom: -7px;
+    margin-right: -3% }
+
+* ----------- LG Optimus L70 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 384px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 1.2) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+  }
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    h1 {
+        font-family: Enriqueta; 
+        color: #000; 
+        font-size: 36px; 
+        text-align: left; 
+        margin: 0 auto;
+        padding: 5% }
+
+    h1 small {
+        color: black }
+
+    h1.myName {
+        padding-top: 0;
+        margin-top: -7%; }
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        position: relative;
+        left: -150%;
+        top: 10%; 
+        display:block;
+        z-index: 80 }
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
         font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
         letter-spacing: -0.035em;
         font-size: 2.5em;
@@ -148,74 +405,131 @@ footer {
         margin-bottom: -7px;
         margin-right: -3% }
 
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #main {
-        margin: 0;
-        display:block;
-        padding-left:30%;
-        z-index: 100 }
-
-    #warped {
-        position: relative; 
-        display: block; 
-        width:505px; height:124px;
-        left: 23%;
-        top: -10% }
-
-    #nav-row {
-        padding-top: 11% }
-
-    #cup {
-        background: url("http://julieaberry.com/assets/img/coffeecup.png");
-        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        background-repeat: no-repeat; 
-        background-size: 100%; 
-        width: 615px;
-        height:443px;
-        position: relative;
-        left: 0;
-        top: 10%; 
-        display:block;
-        z-index: 80}
-
-  }
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
-
-/* Portrait and Landscape */
+/* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    h1 {
+        font-family: Enriqueta; 
+        color: #000; 
+        font-size: 36px; 
+        text-align: left; 
+        margin: 0 auto;
+        padding: 5% }
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 5% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        position: relative;
+        left: -150%;
+        top: 10%; 
+        display:block;
+        z-index: 80 }
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2.5em;
+        line-height: 1;
+        margin-top: 10%;
+        left: 0 }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2.3em;
+        line-height: 1;
+        left: 0 }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2.3em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        margin-left: 0 }
+
+    .portfolio p {
+        font-size: .36em;
+        letter-spacing: .5px;
+        padding-left: 1.1rem;
+        padding-bottom: 0;
+        margin-bottom: -30px;
+        margin-right: 33% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        margin-left: -6% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .6em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: -1% }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+/* Landscape */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+     h1 {
+        font-family: Enriqueta; 
+        color: #000; 
+        font-size: 36px; 
+        text-align: left; 
+        margin: 0 auto;
+        padding: 5% }
+
     #main {
         margin: 0;
         display:block;
@@ -233,39 +547,77 @@ footer {
         padding-top: 11% }
 
     #cup {
-        background: url("http://julieaberry.com/assets/img/coffeecup.png");
-        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        background-repeat: no-repeat; 
-        background-size: 100%; 
-        width: 615px;
-        height:443px;
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
         position: relative;
-        left: 0;
+        left: -150%;
         top: 10%; 
         display:block;
-        z-index: 80}
+        z-index: 80 }
 
-  }
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
 
-}
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2.5em;
+        line-height: 1;
+        margin-top: 12%;
+        left: -21%; }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2.3em;
+        line-height: 1;
+        left: -10%; }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2.3em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        margin-left: -10% }
+
+    .portfolio p {
+        font-size: .36em;
+        letter-spacing: .5px;
+        padding-left: 1.1rem;
+        padding-bottom: 0;
+        margin-bottom: -30px;
+        margin-right: 33% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        margin-left: -24% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .6em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: -3% }
 
 }
 
@@ -276,10 +628,11 @@ footer {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+
     #main {
         margin: 0;
         display:block;
-        padding-left:30%;
+        padding-left: 0;
         z-index: 100 }
 
     #warped {
@@ -293,40 +646,287 @@ footer {
         padding-top: 11% }
 
     #cup {
-        background: url("http://julieaberry.com/assets/img/coffeecup.png");
-        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
-        background-repeat: no-repeat; 
-        background-size: 100%; 
-        width: 615px;
-        height:443px;
-        position: relative;
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        /*position: relative;*/
         left: 0;
         top: 10%; 
         display:block;
         z-index: 80}
 
-  }
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
 
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 12%;
+        left: 0;
+        padding-right: 50%; }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2em;
+        line-height: 1;
+        left: 0;
+        padding-right: 50% }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        left: 0;
+        padding-right: 50% }
+
+    .portfolio p {
+        font-size: .4em;
+        letter-spacing: .5px;
+        padding-left: 0;
+        padding-bottom: 3%;
+        margin-bottom: -30px;
+        margin-right: 33%;
+        padding-right:15% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        left: 0;
+        padding-right:50% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .5em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: 1% }
 }
 
-/* Portrait */
+/* iPhone 6 Portrait */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 
+   #main {
+        margin: 0;
+        display:block;
+        padding-left: 0;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        /*position: relative;*/
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 12%;
+        left: 0;
+        padding-right: 50%; }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2em;
+        line-height: 1;
+        left: 0;
+        padding-right: 50% }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        left: 0;
+        padding-right: 50% }
+
+    .portfolio p {
+        font-size: .4em;
+        letter-spacing: .5px;
+        padding-left: 0;
+        padding-bottom: 3%;
+        margin-bottom: -30px;
+        margin-right: 33%;
+        padding-right:15% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        left: 0;
+        padding-right:50% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .5em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: 1% }
+
 }
 
-/* Landscape */
+/* iPhone 6 Landscape */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left: 0;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        /*position: relative;*/
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 12%;
+        left: 0;
+        padding-right: 50%; }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2em;
+        line-height: 1;
+        left: 0;
+        padding-right: 50% }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        left: 0;
+        padding-right: 50% }
+
+    .portfolio p {
+        font-size: .4em;
+        letter-spacing: .5px;
+        padding-left: 0;
+        padding-bottom: 3%;
+        margin-bottom: -30px;
+        margin-right: 33%;
+        padding-right:15% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        left: 0;
+        padding-right:50% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .5em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: 1% }
 
 }
 
@@ -337,10 +937,324 @@ footer {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+
+
     #main {
         margin: 0;
         display:block;
-        padding-left:30%;
+        padding-left: 0;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        /*position: relative;*/
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 12%;
+        left: 0;
+        padding-right: 50%; }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2em;
+        line-height: 1;
+        left: 0;
+        padding-right: 50% }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        left: 0;
+        padding-right: 50% }
+
+    .portfolio p {
+        font-size: .4em;
+        letter-spacing: .5px;
+        padding-left: 0;
+        padding-bottom: 3%;
+        margin-bottom: -30px;
+        margin-right: 33%;
+        padding-right:15% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        left: 0;
+        padding-right:50% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .5em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: 1% }
+
+}
+
+/* iPhone 6+ Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left: 0;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        /*position: relative;*/
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 12%;
+        left: 0;
+        padding-right: 50%; }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2em;
+        line-height: 1;
+        left: 0;
+        padding-right: 50% }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        left: 0;
+        padding-right: 50% }
+
+    .portfolio p {
+        font-size: .4em;
+        letter-spacing: .5px;
+        padding-left: 0;
+        padding-bottom: 3%;
+        margin-bottom: -30px;
+        margin-right: 33%;
+        padding-right:15% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        left: 0;
+        padding-right:50% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .5em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: 1% }
+
+}
+
+/* iPhone 6+ Landscape */
+
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left: 0;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: #B9181D;
+        background-image: #B9181D;
+        -webkit-background-image: #B9181D;
+        -moz-background-image: #B9181D;
+        width: 320px;
+        /*height:443px;*/
+        /*position: relative;*/
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+    #warped>span[class^=w]:nth-of-type(n+0){display:none;}
+
+    .about {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 12%;
+        left: 0;
+        padding-right: 50%; }
+
+    .about p {
+        font-family: "Josefin Slab", Arial, "Helvetica Neue", sans-serif;
+        letter-spacing: -0.035em;
+        font-size: .45em;
+        line-height: 1;
+        padding-bottom: 0;
+        margin-bottom: -10px }
+
+    .resume {
+        font-family:"Cardo", Arial, sans-serif; 
+        font-size: 2em;
+        line-height: 1;
+        left: 0;
+        padding-right: 50% }
+
+    .resume p {
+        font-size: .36em;
+        line-height: 1;
+        padding-right: 1.9rem; 
+        margin-bottom: -14px }
+
+    .portfolio {
+        font-family: "Cabin Sketch";
+        font-size: 2em;
+        letter-spacing: .5px; 
+        margin-top: 1%;
+        left: 0;
+        padding-right: 50% }
+
+    .portfolio p {
+        font-size: .4em;
+        letter-spacing: .5px;
+        padding-left: 0;
+        padding-bottom: 3%;
+        margin-bottom: -30px;
+        margin-right: 33%;
+        padding-right:15% }
+
+    .codestar {
+        font-family:"EA Font v1.5 by Ghettoshark"; 
+        font-size: 1.2em; 
+        letter-spacing: 0.05em; 
+        margin-top: 0;
+        left: 0;
+        padding-right:50% }
+
+    .codestar p {
+        font-family: "Enriqueta"; 
+        font-size: .5em; 
+        letter-spacing: 0.05em; 
+        padding-bottom: 0;
+        margin-bottom: -7px;
+        margin-right: 1% }
+}
+
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
         z-index: 100 }
 
     #warped {
@@ -369,40 +1283,10 @@ footer {
         display:block;
         z-index: 80}
 
-  }
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
 }
 
 
-/* ----------- iPad 3 and 4 ----------- */
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-
-* ----------- Galaxy Tab 10.1 ----------- */
+/* ----------- Galaxy Tab 10.1 ----------- */
 
 /* Portrait and Landscape */
 @media 
@@ -449,12 +1333,78 @@ footer {
   (max-device-width: 800px) 
   and (orientation: portrait) { 
 
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
 }
 
 /* Landscape */
 @media 
   (max-device-width: 1280px) 
   and (orientation: landscape) { 
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
 
 }
 
@@ -510,6 +1460,39 @@ footer {
   and (-webkit-max-device-pixel-ratio: 1.332) 
   and (orientation: portrait) {
 
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
 }
 
 /* Landscape */
@@ -519,6 +1502,39 @@ footer {
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) 
   and (orientation: landscape) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
 
 }
 
@@ -572,6 +1588,39 @@ footer {
   and (max-device-width: 1280px) 
   and (-webkit-min-device-pixel-ratio: 1.5) 
   and (orientation: portrait) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
 }
 
 /* Landscape */
@@ -581,13 +1630,45 @@ footer {
   and (-webkit-min-device-pixel-ratio: 1.5) 
   and (orientation: landscape) {
 
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
 }
 
 
 
 /* ----------- iPad mini ----------- */
 
-/* Landscape */
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -598,7 +1679,7 @@ footer {
         margin: 0;
         display:block;
         padding-left:10%;
-        padding-top: 25%;
+        padding-top: 15%;
         z-index: 100 }
 
     #warped {
@@ -637,18 +1718,55 @@ footer {
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (max-device-width: 968px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: portrait) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:10%;
+        padding-top: 25%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+  }
   
     
 }
 
-/* iPad Mini Portrait */
+/* iPad Mini Landscape */
 
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
 
     #main {
         margin: 0;
@@ -746,6 +1864,131 @@ footer {
 
 }
 
+/* ----------- Kindle Fire HDX ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 2560px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 2560px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 2560px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+    #main {
+        margin: 0;
+        display:block;
+        padding-left:30%;
+        z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+}
+
 /* ----------- LAPTOP WITHOUT RETINA ----------- */
 @media screen 
   and (min-device-width: 800px) 
@@ -755,9 +1998,61 @@ footer {
     #main {
         margin: 0;
         display:block;
-        padding-left:25%;
-        padding-top: 10%;
+        padding-left:30%;
         z-index: 100 }
+
+    #warped {
+        position: relative; 
+        display: block; 
+        width:505px; height:124px;
+        left: 23%;
+        top: -10% }
+
+    #nav-row {
+        padding-top: 11% }
+
+    #cup {
+        background: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -webkit-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -moz-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        -ms-background-image: url("http://julieaberry.com/assets/img/coffeecup.png");
+        background-repeat: no-repeat; 
+        background-size: 100%; 
+        width: 615px;
+        height:443px;
+        position: relative;
+        left: 0;
+        top: 10%; 
+        display:block;
+        z-index: 80}
+
+  }
+
+  /* ----------- LAPTOP WITHOUT RETINA HI RES GOOGLE NEXUS 10----------- */
+@media screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    h1 {    
+        font-family: Enriqueta;
+        color: #000;
+        font-size: 36px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0 }
+
+    h1 small {
+        color: #000 }
+
+    #main {
+        margin: 0;
+        display: block;
+        padding-left: 30%;
+        margin-top: 0;
+        padding-top: 9%;
+        z-index: 100;}
 
     #warped {
         position: relative; 
