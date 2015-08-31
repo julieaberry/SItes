@@ -50,22 +50,30 @@ have moved on too See you all on the next page of the Internet - Julie Berry Unf
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 @font-face {font-family:"EA Font v1.5 by Ghettoshark";
-       src:url("http://codestardev.com/font/EASPORTS15.eot?") format("eot"),
-           url("http://codestardev.com/font/EASPORTS15.woff") format("woff"),
-           url("http://codestardev.com/font/EASPORTS15.ttf") format("truetype"),
-           url("http://codestardev.com/font/EASPORTS15.svg#EASPORTS") format("svg");
+       src:url("http://codestardev.com/assets/font/EASPORTS15.eot?") format("eot"),
+           url("http://codestardev.com/assets/font/EASPORTS15.woff") format("woff"),
+           url("http://codestardev.com/assets/font/EASPORTS15.ttf") format("truetype"),
+           url("http://codestardev.com/assets/font/EASPORTS15.svg#EASPORTS") format("svg");
            font-weight:normal;font-style:normal;}
            
 @font-face {font-family:"jfringmasterregular";
-       src:url("http://codestardev.com/font/jfringmasterregular.eot?") format("eot"),
-           url("http://codestardev.com/font/jfringmasterregular.woff") format("woff"),
-           url("http://codestardev.com/font/jfringmasterregular.ttf") format("truetype"),
-           url("http://codestardev.com/font/jfringmaster-webfont.svg#jfringmasterregular") format("svg");
+       src:url("http://codestardev.com/assets/font/jfringmasterregular.eot?") format("eot"),
+           url("http://codestardev.com/assets/font/jfringmasterregular.woff") format("woff"),
+           url("http://codestardev.com/assets/font/jfringmasterregular.ttf") format("truetype"),
+           url("http://codestardev.com/assets/font/jfringmaster-webfont.svg#jfringmasterregular") format("svg");
            font-weight:normal;font-style:normal;}
+
+@font-face {font-family: "clear_sansregular";
+    src: url("http://codestardev.com/assets/font/ClearSans-Regular-webfont.eot");
+    src: url("http://codestardev.com/assets/font/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("http://codestardev.com/assets/font/ClearSans-Regular-webfont.woff") format("woff"),
+         url("http://codestardev.com/assets/font/ClearSans-Regular-webfont.ttf") format("truetype"),
+         url("http://codestardev.com/assets/font/ClearSans-Regular-webfont.svg#clear_sansregular") format("svg");
+         font-weight: normal;font-style: normal;}
   
 body{
   background: #F3C77B;
-  font-family: "Open Sans Condensed", sans-serif; 
+  font-family: "source-sans-pro", sans-serif;
   font-size: 14px; 
   color: #000000 } 
 
@@ -145,7 +153,7 @@ button, .button {
     border-style: solid;
     border-width: 0px; 
     cursor: pointer; 
-    font-family: "Open Sans Condensed"; 
+    font-family: "source-sans-pro", sans-serif; 
     font-weight: normal; 
     line-height: normal; 
     margin: 0 0 1.25rem; 
@@ -187,7 +195,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 /* =============  TYPOGRAPHY  ================= */
 
 h5 {
-    font-family: "Open Sans Condensed", sans-serif; 
+    font-family: "source-sans-pro", sans-serif; 
     font-size: 2.5em; 
     font-weight: 400; 
     line-height: 1.2; 
@@ -195,7 +203,7 @@ h5 {
     margin-bottom:1em; 
     text-rendering:optimizeLegibility }
 
-h5 small {
+small {
     font-size: 60%; 
     color:#000000; 
     line-height: 0 }
@@ -456,8 +464,19 @@ img #hero-unit-logo {
     background-color: transparent, #f3c77b; 
     min-height:900px }
 
-#about h3 {font-family:"jfringmasterregular", 'Ewert'; font-size:4em; margin-bottom:0;}
-.padded {padding-top:250px;}
+#about h3 {
+    font-family:"jfringmasterregular", 'Ewert'; 
+    font-size:4em; 
+    margin-bottom:0 }
+
+#about p {
+    font-family: "source-sans-pro", sans-serif; 
+    font-size: 1.6em;
+    line-height: 1.9;
+    padding-top: 12% }
+
+/*.padded {
+    padding-top:250px }*/
 
 /* =============  SERVICES SECTION  ================= */
 
@@ -554,7 +573,7 @@ img #hero-unit-logo {
     line-height: 1 }
 
 .service-box-title {
-    font-family: "Open Sans Condensed", sans-serif; 
+    font-family: "clear_sansregular", sans-serif; 
     font-size: 2.1em; 
     line-height: 1; 
     font-weight: 700; 
@@ -704,7 +723,7 @@ iframe {height:1050px;!important; max-height:1050px;!important; frameborder:0; s
     margin-bottom: -9% }
 
 #contact h5 {
-    font-family: "Open Sans Condensed"; 
+    font-family: "clear_sansregular"; 
     font-weight: 600; 
     font-size: 2.5em; 
     color: #000; 
@@ -775,7 +794,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     -o-border-radius: 8px }
 
 .btn .btn-info .btn-sm {
-    font-family: "Open Sans Condensed"; 
+    font-family: "clear_sansregular"; 
     font-weight: 300; 
     font-size: 3em; 
     color: #ffffff }
@@ -796,7 +815,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     padding: 0 }
 
 h4 {
-    font-family: "Open Sans Condensed"; 
+    font-family: "clear_sansregular"; 
     font-weight: 300; 
     font-size: 1em; 
     color: #000; 
@@ -1025,16 +1044,19 @@ h5 {font-size: 2em;font-weight: 400;}
 
 /* --------NAVIGATION ----------- */
 .sub-nav dt a, .sub-nav dd a, .sub-nav li a {
-letter-spacing: 2px;
-font-size: 2rem;
-line-height: 1.5;
-}
+    letter-spacing: 2px;
+    font-size: 2rem;
+    line-height: 1.5 }
 
 /* -------- ABOUT----------- */
-#about {min-height: 650px; max-height: 800px; padding: 50px;}
+#about {
+    min-height: 700px; 
+    max-height: 800px }
 
 /* -------- SERVICES----------- */
-#services {padding-top: 100px;min-height: 550px;}
+#services {
+    padding-top: 100px; 
+    min-height: 550px }
 
 /* -------------START ----------*/
 #start {padding-top:150px; padding-bottom:200px; padding-left:50px; min-height:1050px; max-height: 1100px;}
@@ -1580,8 +1602,7 @@ h3 {
     font-size: 1em; 
     margin-bottom: 40px }
 
-.service-box-title {
-    font-size: .9em }
+.service-box-title { }
 
 .service-box p {
     display: none }
