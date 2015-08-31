@@ -311,6 +311,9 @@ img #hero-unit-logo {
     margin: 0; 
     margin-top: -160% }
 
+.hero-unit-heading {
+    padding:5% }
+
 .hero-unit h2 {
     font-family:'Syncopate', sans-serif; 
     text-rendering:optimizeLegibility; 
@@ -1344,20 +1347,54 @@ h1.sideup, h1.flat {font-size: 4em;line-height: 1.3;}
 
 
 /* -------- PORTFOLIO----------- */
-#portfolio {min-height: 480px;max-height:480px;padding: 80px 20px 0 20px;}
-#p8 {margin-top: -100px}
+#portfolio {
+    min-height: 480px;
+    max-height:480px;
+    padding: 80px 20px 0 20px }
+
+#p8 {
+    margin-top: -100px } 
 
 /* -------- COST----------- */
-#cost-calc {padding:50px}
+#cost-calc {
+    padding: 50px} 
 
 /* -------- CONTACT----------- */
-#contact {min-height: 830px;max-height: 830px;padding: 50px}
-#contact h5 {font-size: 1.2em}
-#contact h2 {font-size: 3em;}
-.finger2 {margin-top: 80px; left: -150%; width:130px;height:30px; -ms-transform: rotate(30deg); -moz-transform: rotate(30deg); -webkit-transform: rotate(30deg); transform: rotate(30deg);}
-.dim{left: 5%}
-.co_name {margin-top: 0;}
-.contact-logo {float: none; margin: 0; margin-left: auto; margin-right: auto; text-align: center; padding: 0;}
+#contact {
+    min-height: 830px;
+    max-height: 830px;
+    padding: 50px }
+
+#contact h5 {
+    font-size: 1.2em }
+
+#contact h2 {
+    font-size: 3em }
+
+.finger2 {
+    margin-top: 80px; 
+    left: -150%; 
+    width:130px;
+    height:30px; 
+    -o-transform: rotate(30deg); 
+    -ms-transform: rotate(30deg); 
+    -moz-transform: rotate(30deg); 
+    -webkit-transform: rotate(30deg); 
+    transform: rotate(30deg) }
+
+.dim{
+    left: 5% }
+
+.co_name {
+    margin-top: 0 }
+
+.contact-logo {
+    float: none; 
+    margin: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    padding: 0 }
 }
 
 
@@ -1366,7 +1403,6 @@ h1.sideup, h1.flat {font-size: 4em;line-height: 1.3;}
 @media only screen 
 and (max-width : 320px) {
 
-/* Styles */
 /* Styles */
 .widerow {width: 85%;}
 
@@ -1462,7 +1498,8 @@ h1.sideup, h1.flat {display:none}
 }
 
 
-/* iPhone 4 ----------- */
+/* iPhone 4 and up */
+
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
@@ -1471,6 +1508,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .widerow {width: 85%;}
 
 /* --------TYPOGRAPHY ----------- */
+
 h5 {
     font-size: 2.5em; 
     line-height: 1 }
@@ -1483,16 +1521,42 @@ h3 {
     text-align: center }
 
 /* --------NAVIGATION ----------- */
-#nav1 {display:none}
-.sub-nav {display:none}
+
+#nav1 {display: none}
+.sub-nav {display: none}
 
 /* --------HERO UNIT ----------- */
-.mainlogo {width:90px; height:120px; margin-top:-55%;}
-.codestar {left:0%; width:200px; height:200px; margin-top:10%;}
-.hero-unit h1 {font-size: .55em; letter-spacing: 1px;}
-.hero-unit h2 {font-size: .9em; letter-spacing: 1px; line-height: 1;}
-.hero-unit h3 {font-size: 2em; margin-top: 50px;}
-#arrow {width:90px; height:90px; margin-bottom: 30px; margin-top: 10px; left: 0; float: none;}
+
+.mainlogo {
+    max-width: 90px; 
+    max-height: 120px; 
+    margin-top: -55% }
+
+.codestar {
+    left:0%; 
+    max-width:200px; 
+    max-height:200px; 
+    margin-top:10% }
+
+.hero-unit h1 {
+    font-size: 1.5em; 
+    letter-spacing: 1px }
+
+.hero-unit h2 {
+    font-size: 1em; 
+    letter-spacing: 1px; 
+    line-height: 1 }
+
+.hero-unit h3 {
+    font-size: 2.5em }
+
+#arrow {
+    max-width:90px; 
+    max-height:90px; 
+    margin-bottom: 30px; 
+    margin-top: 10px; 
+    left: 0; 
+    float: none }
 
 /* -------- ABOUT----------- */
 
@@ -1596,11 +1660,4 @@ h1.sideup, h1.flat {display:none}
     padding-left: 5%; 
     padding-right:0 }
 
-}
-
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
 }
