@@ -1,1 +1,3 @@
 codestardev.com
+
+!!! <sections> tags are not being fully supported by retina screens. Fixing now 08.31.15
