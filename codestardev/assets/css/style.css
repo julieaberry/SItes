@@ -435,24 +435,129 @@ img #hero-unit-logo {
 
 /* =============  CLIENTS SECTION  ================= */
 
-#about {background: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); -webkit-background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); -moz-background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); -ms-background-image:url("img/bg_harle3.png") center top, url("img/bg_harle2.png");
-  -0-background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); background-repeat: no-repeat; background-size: 100%; cover; position: relative; color: #000000; background-color:transparent, #f3c77b; min-height:900px;}
+#about {
+    background: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); 
+    background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); 
+    -webkit-background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); 
+    -moz-background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); 
+    -ms-background-image:url("img/bg_harle3.png") center top, url("img/bg_harle2.png");
+    -0-background-image: url("img/bg_harle3.png") center top, url("img/bg_harle2.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%; cover; 
+    position: relative; 
+    color: #000000; 
+    background-color: transparent, #f3c77b; 
+    min-height:900px }
+
 #about h3 {font-family:"jfringmasterregular", 'Ewert'; font-size:4em; margin-bottom:0;}
 .padded {padding-top:250px;}
 
 /* =============  SERVICES SECTION  ================= */
 
-#services {background: url("img/bg_vint_up.png"); background-image: url("img/bg_vint_up.png"); -webkit-background-image: url("img/bg_vint_up.png"); -moz-background-image: url("img/bg_vint_up.png"); -ms-background-image:url("img/bg_vint_up.png"); -0-background-image: url("img/bg_vint_up.png"); background-repeat: no-repeat; background-size: cover;
-  position: relative; color: #000000; background-color:transparent, #f3c77b; padding-top: 150px; min-height:700px;}
-#services h3 {font-family: "jfringmasterregular", 'Ewert'; font-size: 4em; margin-left: 0; margin-bottom: 80px; text-align: center;}
-.service-box {background-image: url("img/redstar270f.png"); -webkit-background-image: url("img/redstar270f.png"); -moz-background-image: url("img/redstar270f.png"); -ms-background-image: url("img/redstar270f.png"); -o-background-image: url("img/redstar270f.png"); background-repeat: no-repeat; background-size: 100%; padding: 14px; position: relative; text-align: center; height: 220px;}
-#box1 {-webkit-animation: rollIn 2s 1; -moz-animation: rollIn 2s 1; -ms-animation: rollIn 2s 1; -o-animation: rollIn 2s 1; animation: rollIn 2s 1; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
-#box2 {-webkit-animation: rollIn 1s 1; -moz-animation: rollIn 1s 1; -ms-animation: rollIn 1s 1; -o-animation: rollIn 1s 1; animation: rollIn 1s 1; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
-#box3 {-webkit-animation: rollIn 3s 1; -moz-animation: rollIn 3s 1; -ms-animation: rollIn 3s 1; -o-animation: rollIn 3s 1; animation: rollIn 3s 1; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
-#box4 {-webkit-animation: rollIn 2s 1; -moz-animation: rollIn 2s 1; -ms-animation: rollIn 2s 1; -o-animation: rollIn 2s 1; animation: rollIn 2s 1; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
-.service-box p {font-size: 1.3em; margin-bottom: 20px; color: #000000; font-weight: 600; margin-bottom: 42px; text-align:center; ine-height: 1;}
-.service-box-title {font-family: "Open Sans Condensed", sans-serif; font-size: 2.1em; line-height: 1; font-weight: 700; color: #ffffff; margin: 0; margin-top: 18%;}  
-#show3 {margin-bottom:50px; margin-top: 0;} 
+#services {
+    background: url("img/bg_vint_up.png"); 
+    background-image: url("img/bg_vint_up.png"); 
+    -webkit-background-image: url("img/bg_vint_up.png"); 
+    -moz-background-image: url("img/bg_vint_up.png"); 
+    -ms-background-image:url("img/bg_vint_up.png"); 
+    -0-background-image: url("img/bg_vint_up.png"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative; 
+    color: #000000; 
+    background-color: transparent, #f3c77b; 
+    padding-top: 150px; 
+    min-height: 700px }
+
+#services h3 {
+    font-family: "jfringmasterregular", 'Ewert'; 
+    font-size: 4em; 
+    margin-left: 0; 
+    margin-bottom: 80px; 
+    text-align: center }
+
+.service-box {
+    background-image: url("img/redstar270f.png"); 
+    -webkit-background-image: url("img/redstar270f.png"); 
+    -moz-background-image: url("img/redstar270f.png"); 
+    -ms-background-image: url("img/redstar270f.png"); 
+    -o-background-image: url("img/redstar270f.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    padding: 14px; 
+    position: relative; 
+    text-align: center; 
+    min-height: 220px }
+
+#box1 {
+    -webkit-animation: rollIn 2s 1; 
+    -moz-animation: rollIn 2s 1; 
+    -ms-animation: rollIn 2s 1; 
+    -o-animation: rollIn 2s 1; 
+    animation: rollIn 2s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both; 
+    animation-fill-mode: both }
+
+#box2 {
+    -webkit-animation: rollIn 1s 1; 
+    -moz-animation: rollIn 1s 1; 
+    -ms-animation: rollIn 1s 1; 
+    -o-animation: rollIn 1s 1; 
+    animation: rollIn 1s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both }
+
+#box3 {
+    -webkit-animation: rollIn 3s 1; 
+    -moz-animation: rollIn 3s 1; 
+    -ms-animation: rollIn 3s 1; 
+    -o-animation: rollIn 3s 1; 
+    animation: rollIn 3s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both; 
+    animation-fill-mode: both }
+
+#box4 {
+    -webkit-animation: rollIn 2s 1; 
+    -moz-animation: rollIn 2s 1; 
+    -ms-animation: rollIn 2s 1; 
+    -o-animation: rollIn 2s 1; 
+    animation: rollIn 2s 1; 
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both;  
+    animation-fill-mode: both }
+
+.service-box p {
+    font-size: 1.3em;
+    margin-bottom: 20px; 
+    color: #000000; 
+    font-weight: 600; 
+    margin-bottom: 42px; 
+    text-align:center; 
+    line-height: 1 }
+
+.service-box-title {
+    font-family: "Open Sans Condensed", sans-serif; 
+    font-size: 2.1em; 
+    line-height: 1; 
+    font-weight: 700; 
+    color: #ffffff; 
+    margin: 0; 
+    margin-top: 18% }  
+
+#show3 {
+    margin-bottom: 50px; 
+    margin-top: 0 } 
   
 /* ----- CONSULT SECTION ------*/
 
