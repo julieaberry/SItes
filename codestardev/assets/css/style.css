@@ -284,7 +284,9 @@ label {
     -moz-border-radius: 0px; 
     -ms-border-radius: 0px; 
     -o-border-radius: 0px; 
-    border-radius: 0px } 
+    border-radius: 0px;
+    min-height: 650px; 
+    max-height: 800px;  } 
 
 img #hero-unit-logo {
     box-sizing: content-box; 
@@ -293,8 +295,6 @@ img #hero-unit-logo {
     -ms-box-sizing: content-box;
     -o-box-sizing: content-box;
     width: 260px; 
-    min-height: 650px; 
-    max-height: 800px; 
     float: none; 
     display: block; 
     -webkit-display: block; 
@@ -1112,16 +1112,35 @@ h3 {font-size:2.3em; text-align: center;}
 #arrow {width:90px; height:90px; margin-bottom: 30px; margin-top: 10px; left: 0; float: none;}
 
 /* -------- ABOUT----------- */
-#about {padding:50px!important;}
-#about h3 {font-size: 3.5em}
-.padded {padding-top:5px; padding-left:0; padding-right:0}
+
+#about {
+    padding: 50px!important;}
+#about h3 {
+    font-size: 3.5em}
+.padded {
+    padding-top: 5px; 
+    padding-left: 0; 
+    padding-right: 0 }
 
 /* -------- SERVICES----------- */
-#services {padding:50px; padding-top:50px; min-height: 350px; max-height: 350px;}
-#services h3 {font-size: 1em; margin-bottom: 40px;}
-.service-box-title {font-size: .9em}
-.service-box p {display:none}
-.service-box {max-height:100px;}
+
+#services {
+    padding: 5%;    
+    min-height: 450px;
+    max-height: 550px }
+
+#services h3 {
+    font-size: 1em; 
+    margin-bottom: 40px }
+
+.service-box-title {
+    font-size: .9em }
+
+.service-box p {
+    display: none }
+
+.service-box {
+    max-height: 100px }
 
 /* -------------START ----------*/
 #start {display:none}
