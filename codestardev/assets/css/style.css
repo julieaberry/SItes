@@ -63,59 +63,374 @@ have moved on too See you all on the next page of the Internet - Julie Berry Unf
            url("http://codestardev.com/font/jfringmaster-webfont.svg#jfringmasterregular") format("svg");
            font-weight:normal;font-style:normal;}
   
-body{background: #F3C77B;font-family: "Open Sans Condensed", sans-serif; font-size:14px; color:#000000;}  
-a{color:rgba(255, 255, 255, 0.68);text-decoration: none;}
-table {background: rgba(255, 255, 255, 0);
+body{
+  background: #F3C77B;
+  font-family: "Open Sans Condensed", sans-serif; 
+  font-size: 14px; 
+  color: #000000 } 
+
+a{
+  color: rgba(255, 255, 255, 0.68);
+  text-decoration: none }
+
+table {
+  background: rgba(255, 255, 255, 0);
   margin-bottom: 1.25rem;
   border: solid 0px rgba(221, 221, 221, 0);
   table-layout: fixed;
-  width: 100%; text-align:center;}
-tr {border:0px solid #666666;}
-td{border:0px solid #666666;padding:5px; background:rgba(255, 255, 255, 0); text-align:center;}
-section{padding-top:100px;padding-bottom:100px;border-bottom:0px solid #dedede;background:url("http://codestardev.com/img/back2img1.png");background-size:cover; -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75);-moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75);box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75); }
-.main-wrapper {height: 100%;margin-left: auto;margin-right: auto;max-width: 1360px;min-height: 100%;min-width: 100%;position:relative;width: 100%;}
-.relative{position:relative;display:inline-block;min-height:230px;}	
-.o-hidden{overflow:hidden;}
-.hidden{display:none;}
-.center{text-align:center !important;margin-left:auto;margin-right:auto;float:none;}
-hr {border: 0px solid rgba(221, 221, 221, 0); background-color: #333333; clear: both; margin: 0; height: 50px;}
-.nopad {padding: 0;}
-button, .button {border-style: solid; border-width: 0px; cursor: pointer; font-family: "Open Sans Condensed"; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 12px; display: inline-block; padding-top: .7rem; padding-right: 2rem; padding-bottom: .7rem; padding-left: 2rem; font-size: 1.5rem; background-color: #008cba; border-color: transparent; color: white; transition: background-color 300ms ease-out; } 
-button:hover, button:focus, .button:hover, .button:focus {background-color: #007095;}
-.widerow {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 80.5rem;}
-.widerrow {width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 90.5rem;}
+  width: 100%; 
+  text-align: center }
+
+tr {
+  border: 0px solid #666666 }
+
+td{
+  border: 0px solid #666666;
+  padding: 5px; 
+  background: rgba(255, 255, 255, 0); 
+  text-align: center }
+
+section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 0px solid #dedede;
+  background: url("http://codestardev.com/img/back2img1.png");
+  background-size: cover; 
+  -webkit-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 132px -5px rgba(0,0,0,0.75) }
+
+.main-wrapper {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1360px;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    width: 100% }
+
+.relative{
+    position:relative;
+    display:inline-block;
+    min-height:230px }	
+
+.o-hidden{
+    overflow: hidden }
+
+.hidden{
+    display: none }
+
+.center{
+    text-align: center!important;
+    margin-left: auto;
+    margin-right: auto;
+    float:none }
+
+hr {
+    border: 0px solid rgba(221, 221, 221, 0); 
+    background-color: #333333; 
+    clear: both; 
+    margin: 0; 
+    height: 50px }
+
+.nopad {
+    padding: 0 }
+
+button, .button {
+    border-style: solid;
+    border-width: 0px; 
+    cursor: pointer; 
+    font-family: "Open Sans Condensed"; 
+    font-weight: normal; 
+    line-height: normal; 
+    margin: 0 0 1.25rem; 
+    position: relative; 
+    text-decoration: none; 
+    text-align: center; 
+    -webkit-appearance: none; 
+    -webkit-border-radius: 12px; 
+    display: inline-block; 
+    padding-top: .7rem; 
+    padding-right: 2rem; 
+    padding-bottom: .7rem; 
+    padding-left: 2rem; 
+    font-size: 1.5rem; 
+    background-color: #008cba; 
+    border-color: transparent; 
+    color: white; 
+    transition: background-color 300ms ease-out } 
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #007095 }
+
+.widerow {
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    max-width: 80.5rem }
+
+.widerrow {
+    width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    max-width: 90.5rem }
 
 /* =============  TYPOGRAPHY  ================= */
 
-h5 {font-family: "Open Sans Condensed", sans-serif; font-size:2.5em; font-weight:400; line-height:1.2; color:#000000; margin-bottom:1em; text-rendering:optimizeLegibility;}
-h5 small {font-size: 60%; color:#000000; line-height: 0;}
+h5 {
+    font-family: "Open Sans Condensed", sans-serif; 
+    font-size: 2.5em; 
+    font-weight: 400; 
+    line-height: 1.2; 
+    color:#000000; 
+    margin-bottom:1em; 
+    text-rendering:optimizeLegibility }
+
+h5 small {
+    font-size: 60%; 
+    color:#000000; 
+    line-height: 0 }
 
 /* =============  ANIMATION  ================= */
 
-.animated{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both}
+.animated {
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    -o-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both }
 
 /* =============  NAVIGATION  ================= */
 
-[data-magellan-expedition], [data-magellan-expedition-clone] {background: #333333; z-index:550; min-width:100%; padding: 0 10px;}
-.sub-nav dt a, .sub-nav dd a, .sub-nav li a {text-decoration: none; padding: 0.1875rem 1rem; font-family:'EA Font v1.5 by Ghettoshark','Squada One',sans-serif; text-rendering: optimizeLegibility; letter-spacing:3px; font-size:2rem; cursor:pointer; display:block; font-weight:normal; line-height:1.5; margin-bottom:0;}
-label {font-family: 'EA Font v1.5 by Ghettoshark','Squada One',sans-serif; text-rendering: optimizeLegibility; letter-spacing: 6px; color: #737373; cursor: pointer; display: block; font-weight: normal; line-height: 1.5; margin-bottom: 0;}
-.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {color: #f0f0f0;}
-.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {border-radius: 3px; font-weight: normal; background: rgba(165, 165, 165, 0.79); padding: 0.1875rem 1rem; cursor: default; color: white;}
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+    background: #333333; 
+    z-index:550; 
+    min-width:100%; 
+    padding: 0 10px }
+
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+    text-decoration: none; 
+    padding: 0.1875rem 1rem; 
+    font-family:'EA Font v1.5 by Ghettoshark','Squada One',sans-serif; 
+    text-rendering: optimizeLegibility; 
+    letter-spacing: 3px; 
+    font-size: 2rem; 
+    cursor: pointer; 
+    display: block; 
+    font-weight: normal; 
+    line-height:1.5; 
+    margin-bottom:0 }
+
+label {
+    font-family: 'EA Font v1.5 by Ghettoshark','Squada One',sans-serif; 
+    text-rendering: optimizeLegibility; 
+    letter-spacing: 6px; 
+    color: #737373; 
+    cursor: pointer; 
+    display: block; 
+    font-weight: normal; 
+    line-height: 1.5; 
+    margin-bottom: 0 }
+
+.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
+    color: #f0f0f0 }
+
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+    border-radius: 3px; 
+    font-weight: normal; 
+    background: rgba(165, 165, 165, 0.79); 
+    padding: 0.1875rem 1rem; 
+    cursor: default; 
+    color: white }
 
 /* =============  HERO UNIT  ================= */
 
-#home {background: url("img/bg003.png"); background-image: url("img/bg003.png"); -webkit-background-image: url("img/bg003.png"); -moz-background-image: url("img/bg003.png"); -ms-background-image: url("img/bg003.png"); -o-background-image: url("img/bg003.png"); background-size: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -ms-background-size: 100%; -o-background-size: 100%; padding-top: 0; padding-bottom: 0; border-bottom: 0px solid #dedede; }
-.hero-unit {-webkit-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; -moz-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; -ms-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; -o-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; margin-top:0px; margin-bottom:0px; z-index:0; background: transparent; padding-top: 20px; z-index: 2; position: relative; background-size: cover; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;} 
-img #hero-unit-logo {box-sizing: content-box; -moz-box-sizing: content-box; width: 260px; min-height: 650px; max-height: 800px;float: none; display: block; -moz-display:block; margin: auto; z-index: 9999; position: relative; margin: 0; margin-top: -160%;}
-.hero-unit h2 {font-family:'Syncopate', sans-serif; text-rendering:optimizeLegibility; margin-bottom:10px; font-size:1.4em; letter-spacing:2px; color:rgba(0, 0, 0, 0.81); text-shadow:rgba(0, 0, 0, 0.81) 0 0 0.5px;} 
-.hero-unit h2:hover {text-decoration:none;}
-.hero-unit h1, .hero-unit h2 {font-weight:700;} 			
-.hero-unit h1 {font-family: 'Syncopate',sans-serif; text-rendering: optimizeLegibility; font-size: 2.8em; letter-spacing: 1.1px; color: rgba(0,0,0,0.8); text-align:center; margin-top:0; line-height:1; margin-bottom:0; -webkit-text-stroke:rgba(0,0,0,0.8) .5px;} 
-.hero-unit h3 {font-family:'EA Font v1.5 by Ghettoshark','Squada One',sans-serif; text-rendering:optimizeLegibility; font-size:5.5em; letter-spacing:6px; color: rgba(0,0,0,0.8); text-align: center; margin-top:30px; line-height:1; margin-bottom:0; -webkit-text-stroke:rgba(0,0,0,0.8) .5px;}  
-.codestar {display: block; position:relative; width:300px; height:300px; overflow:hidden; margin:0; margin-top:10%; margin-left:auto; margin-right:auto; background:url(img/redstar.png); background-image: url("img/redstar.png"); -webkit-background-image: url("img/redstar.png"); -moz-background-image: url("img/redstar.png"); -ms-background-image: url("img/redstar.png"); -o-background-image: url("img/redstar.png"); background-size:100%; background-repeat: no-repeat; transition:transform 1s ease-in-out; -webkit-transition:-webkit-transform 1s ease-in-out; -moz-transition:-webkit-transform 1s ease-in-out; -webkit-transition: transform 1s ease-in-out; -moz-transition: transform 1s ease-in-out;}
-.mainlogo {display:block; position:relative; max-width:50%; height:260px; overflow:hidden; margin:0; margin-top:-80%; margin-left:auto; margin-right:auto; background:url(img/logo-main.png); background-image: url("img/logo-main.png"); -webkit-background-image: url("img/logo-main.png"); -moz-background-image: url("img/logo-main.png"); -ms-background-image: url("img/logo-main.png"); -o-background-image: url("img/logo-main.png"); background-size: 100%; background-repeat: no-repeat;}
-.scrolldown {animation: bounce; -webkit-animation: bounce; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation: bounce 2s infinite; animation: bounce 2s infinite;}
-#arrow {background: url("img/arrow1.png"); background-image: url("img/arrow1.png"); -webkit-background-image: url("img/arrow1.png"); -moz-background-image: url("img/arrow1.png"); -ms-background-image: url("img/arrow1.png"); -0-background-image: url("img/arrow1.png"); background-repeat: no-repeat; background-size: 100%; display:block; position: relative; max-width:140px; height:140px; z-index:60; margin-left:auto; margin-right:auto; margin-bottom: 30px; margin-top: 32px; left: -10%; padding: 0;}
+#home {
+    background: url("img/bg003.png"); 
+    background-image: url("img/bg003.png"); 
+    -webkit-background-image: url("img/bg003.png"); 
+    -moz-background-image: url("img/bg003.png"); 
+    -ms-background-image: url("img/bg003.png"); 
+    -o-background-image: url("img/bg003.png"); 
+    background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -ms-background-size: 100%; 
+    -o-background-size: 100%; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    border-bottom: 0px solid #dedede }
+
+.hero-unit {
+    -webkit-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; 
+    -moz-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; 
+    -ms-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; 
+    -o-box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; 
+    box-shadow: 30px 0px 30px rgba(50,50,50,0.52) inset; 
+    margin-top:0px; margin-bottom:0px; 
+    z-index:0; background: transparent; 
+    padding-top: 20px; z-index: 2; 
+    position: relative; 
+    background-size: cover; 
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -ms-border-radius: 0px; 
+    -o-border-radius: 0px; 
+    border-radius: 0px } 
+
+img #hero-unit-logo {
+    box-sizing: content-box; 
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    width: 260px; 
+    min-height: 650px; 
+    max-height: 800px; 
+    float: none; 
+    display: block; 
+    -webkit-display: block; 
+    -moz-display: block;
+    -ms-display: block;
+    -o-display: block;
+    margin: auto; 
+    z-index: 9999; 
+    position: relative; 
+    margin: 0; 
+    margin-top: -160% }
+
+.hero-unit h2 {
+    font-family:'Syncopate', sans-serif; 
+    text-rendering:optimizeLegibility; 
+    margin-bottom:10px; 
+    font-size:1.4em; 
+    letter-spacing:2px; 
+    color:rgba(0, 0, 0, 0.81); 
+    text-shadow:rgba(0, 0, 0, 0.81) 0 0 0.5px } 
+
+.hero-unit h2:hover {
+    text-decoration:none }
+
+.hero-unit h1, .hero-unit h2 {
+    font-weight:700 } 
+
+.hero-unit h1 {
+    font-family: 'Syncopate',sans-serif; 
+    text-rendering: optimizeLegibility; 
+    font-size: 2.8em; 
+    letter-spacing: 1.1px; 
+    color: rgba(0,0,0,0.8); 
+    text-align: center; 
+    margin-top: 0; 
+    line-height: 1; 
+    margin-bottom: 0; 
+    -webkit-text-stroke:rgba(0,0,0,0.8) .5px;
+    -moz-text-stroke:rgba(0,0,0,0.8) .5px;
+    -ms-text-stroke:rgba(0,0,0,0.8) .5px;
+    -o-text-stroke:rgba(0,0,0,0.8) .5px; }
+
+.hero-unit h3 {
+    font-family:'EA Font v1.5 by Ghettoshark','Squada One',sans-serif; 
+    text-rendering: optimizeLegibility; 
+    font-size:5.5em; 
+    letter-spacing:6px; 
+    color: rgba(0,0,0,0.8); 
+    text-align: center; 
+    margin-top:30px; 
+    line-height:1; 
+    margin-bottom:0; 
+    -webkit-text-stroke:rgba(0,0,0,0.8) .5px;
+    -moz-text-stroke:rgba(0,0,0,0.8) .5px;
+    -ms-text-stroke:rgba(0,0,0,0.8) .5px;
+    -o-text-stroke:rgba(0,0,0,0.8) .5px;} 
+
+.codestar {
+    display: block; 
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    margin: 0; 
+    margin-top: 10%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background: url(img/redstar.png); 
+    background-image: url("img/redstar.png"); 
+    -webkit-background-image: url("img/redstar.png"); 
+    -moz-background-image: url("img/redstar.png"); 
+    -ms-background-image: url("img/redstar.png"); 
+    -o-background-image: url("img/redstar.png"); 
+    background-size:100%; 
+    background-repeat: no-repeat; 
+    -webkit-transition: transform 1s ease-in-out; 
+    -moz-transition: transform 1s ease-in-out; 
+    -ms-transition: transform 1s ease-in-out; 
+    -o-transition: transform 1s ease-in-out; 
+    transition: transform 1s ease-in-out; }
+
+.mainlogo {
+    display:block; 
+    position:relative; 
+    max-width:50%; 
+    height:260px; 
+    overflow:hidden; 
+    margin:0; 
+    margin-top:-80%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    background:url(img/logo-main.png); 
+    background-image: url("img/logo-main.png"); 
+    -webkit-background-image: url("img/logo-main.png"); 
+    -moz-background-image: url("img/logo-main.png"); 
+    -ms-background-image: url("img/logo-main.png"); 
+    -o-background-image: url("img/logo-main.png"); 
+    background-size: 100%; 
+    background-repeat: no-repeat }
+
+.scrolldown {
+    animation: bounce; 
+    -webkit-animation: bounce; 
+    -moz-animation: bounce; 
+    -ms-animation: bounce; 
+    -o-animation: bounce; 
+    -webkit-animation-iteration-count: infinite; 
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+    -webkit-animation: bounce 2s infinite; 
+    -moz-animation: bounce 2s infinite; 
+    -ms-animation: bounce 2s infinite; 
+    -o-animation: bounce 2s infinite; 
+    animation: bounce 2s infinite }
+
+#arrow {
+    background: url("img/arrow1.png"); 
+    background-image: url("img/arrow1.png"); 
+    -webkit-background-image: url("img/arrow1.png"); 
+    -moz-background-image: url("img/arrow1.png"); 
+    -ms-background-image: url("img/arrow1.png"); 
+    -0-background-image: url("img/arrow1.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    display:block; position: 
+    relative; max-width:140px; 
+    height:140px; 
+    z-index:60; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-bottom: 30px; 
+    margin-top: 32px; 
+    left: -10%; 
+    padding: 0 }
 
 
 /* =============  CLIENTS SECTION  ================= */
@@ -362,7 +677,7 @@ line-height: 1.5;
 }
 
 /* -------- ABOUT----------- */
-#about {min-height: 800px;max-height: 800px;padding: 50px;}
+#about {min-height: 650px; max-height: 800px; padding: 50px;}
 
 /* -------- SERVICES----------- */
 #services {padding-top: 100px;min-height: 550px;}
