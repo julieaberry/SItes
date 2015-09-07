@@ -1,0 +1,798 @@
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)  { 
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+.slider-output {
+    display: none}
+
+ }
+
+
+
+
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)  { 
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+  
+}
+
+
+
+
+
+
+
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3) { 
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+
+
+
+}
+
+
+
+
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3)  { 
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+
+    
+}
+
+
+
+
+
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)  { 
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+    
+
+}
+
+
+
+
+/* Apple Watch */
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm)  {
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+
+    
+}
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+   
+
+}
+
+
+
+
+
+
+/* Smartphones (landscape) ----iphone 5------- */
+@media only screen 
+and (min-width : 321px) 
+and (max-device-width : 568px){
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* iPhone 4 and up */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 30px;
+  height: 30px;
+  padding: 0!important }
+    
+#slider-complexity-output {
+    display:none }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+
+}
+
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+    background-size: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+   
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+/* Global Styles */
+.price-calculator-desc {
+    font-size: .8em }
+
+.ui-slider-horizontal {
+    height: 15px }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+  padding: 0!important }
+
+.shiny-label-left {
+    border-width: 1px;
+    border-radius: 5px 5px 0 0;
+    width: 100% }
+
+.shiny-label {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-width: 0 1px 1px 1px;
+    background: #eee;
+    box-shadow: inset 0 0 5px -2px #aaa;
+    font-size: 16px }
+
+.ui-widget-content {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.1) }
+
+.package-dollar-sign {
+    font-size: 40px }
+
+.package-price {
+    font-size: 3em;
+    line-height: 1 }
+
+.package-price-wrapper {
+    padding-top: 1% }
+
+.costplus {
+    margin-bottom: 20px;
+    font-size: 1.2em }
+
+.pricing-text {
+    margin-top: -3% }
+
+.price-calculator-desc > b {
+    font-size: 1.3em;
+    margin-left: 7% }
+
+   
+
+}
+

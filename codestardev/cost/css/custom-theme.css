@@ -98,20 +98,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', end
  -ms-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
  -o-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
  background-repeat: no-repeat;
- padding: 60px;
  background-color: transparent;
  border-radius: 6px;
 border:0;
- background: transparent;
- background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
- -webkit-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
- -moz-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
- -ms-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
- -o-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
- background-repeat: no-repeat;
- padding: 60px;
- background-color: transparent;
  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  padding: 0!important;
 }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555; text-decoration: none; }
 
@@ -127,10 +120,11 @@ border:0;
  -ms-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
  -o-background-image: url("http://www.codestardev.com/assets/img/redstar40.png");
  background-repeat: no-repeat;
- padding: 60px;
+ padding: 0;
  background-color: transparent;
  border-radius: 6px;
-	}
+ height:60px;
+ width:60px }
 	
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #ffffff; text-decoration: none; }
 

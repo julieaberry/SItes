@@ -35,10 +35,35 @@ a {
  border: 0;
  outline: 0;
  text-decoration: none;
- color: #000; }
+ color: #BB2626;
+ text-align: center;
+ margin: 0 auto;
+ padding-left: 35%; }
+
+a {
+ border: 0;
+ outline: 0;
+ text-decoration: none;
+ color: #f0f0f0;
+ text-align: center;
+ margin: 0 auto;
+ padding-left: 35%; }
+
+ a {
+ border: 0;
+ outline: 0;
+ text-decoration: none;
+ color: #red;
+ text-align: center;
+ margin: 0 auto;
+ padding-left: 35%; }
+
  
 a:hover {
- color: #096; }
+ color: #096;
+ text-align: center;
+ margin: 0 auto;
+ padding-left: 35%; }
  
 ul, li {
  list-style: none;
@@ -123,6 +148,12 @@ ul, li {
   padding:0;
   line-height:1.1;
   letter-spacing: .12em; }
+
+#site-link4 {
+  text-align:center;
+  color: #f0f0f0;
+
+}
   
 /***** CODE CARDS *****/
 
