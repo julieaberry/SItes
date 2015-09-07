@@ -1,0 +1,108 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(https://fonts.googleapis.com/css?family=Michroma|Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+
+@font-face {font-family:"EA Font v1.5 by Ghettoshark";
+       src:url("assets/fonts/EASPORTS15.eot?") format("eot"),
+           url("assets/fonts/EASPORTS15.woff") format("woff"),
+           url("assets/fonts/EASPORTS15.ttf") format("truetype"),
+           url("assets/fonts/EASPORTS15.svg#EASPORTS") format("svg");
+           font-weight:normal;font-style:normal;}
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+/*  GLOBAL  */
+
+	body {
+		background: #c89655 }
+
+	section {
+	}
+
+	p, h1, h2, h3, h4, h5 {
+		text-rendering: optimizeLegibility }
+
+	p {
+		font-family: Michroma, sans-serif;
+		font-size: 30px;
+		font-weight: normal;
+		line-height 1;
+		color: #000 }
+
+	h1 {
+		font-family: "EA Font v1.5 by Ghettoshark"; 
+		font-family: "Passion One", cursive;
+	    font-size: 5em; 
+	    font-weight: 400; 
+	    line-height: 1.2; 
+	    color:#000000; 
+	    padding: 4% }
+
+	h2 {
+		font-family: Michroma, sans-serif;
+		font-size: 3em;
+		font-weight: normal;
+		line-height 1;
+		color: #000 }
+
+	h3 { }
+
+	h4 { }
+
+	/* HERO UNIT */
+
+	section#hero-unit {
+	    -webkit-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
+	    -moz-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
+	    -ms-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
+	    -o-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
+	    box-shadow: 5px 30px 35px rgba(50,50,50,0.52) inset; 
+	    margin-top:0px; margin-bottom:0px; 
+	    z-index:0; background: transparent; 
+	    padding-top: 20px; z-index: 2; 
+	    position: relative; 
+	    background-size: cover; 
+	    -webkit-border-radius: 0px; 
+	    -moz-border-radius: 0px; 
+	    -ms-border-radius: 0px; 
+	    -o-border-radius: 0px; 
+	    border-radius: 0px;
+	    min-height: 450px; 
+	    max-height: 480px;
+	    padding: 5%; }
+
+	.logo {
+		box-sizing: content-box; 
+	    -webkit-box-sizing: content-box; 
+	    -moz-box-sizing: content-box;
+	    -ms-box-sizing: content-box;
+	    -o-box-sizing: content-box;
+	    background-color: transparent; 
+	    background: url("assets/img/logo.png"); 
+	    background-image: url("assets/img/logo.png"); 
+	    -webkit-background-image: url("assets/img/logo.png"); 
+	    -moz-background-image: url("assets/img/logo.png"); 
+	    -ms-background-image: url("assets/img/logo.png"); 
+	    -0-background-image: url("assets/img/logo.png"); 
+
+	     background: url("/assets/img/logo.png"); 
+	    background-image: url("/assets/img/logo.png"); 
+	    -webkit-background-image: url("/assets/img/logo.png"); 
+	    -moz-background-image: url("/assets/img/logo.png"); 
+	    -ms-background-image: url("/assets/img/logo.png"); 
+	    -0-background-image: url("/assets/img/logo.png"); 
+
+	    background-repeat: no-repeat; 
+	    background-size: 100%; 
+	    min-height:200px;
+	    max-height:200px;
+	    min-width:200px;
+	    height: 200px }
+
+}
