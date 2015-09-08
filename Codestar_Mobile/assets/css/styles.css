@@ -166,7 +166,113 @@ and (max-device-width : 480px) {
 	    z-index: 60 }
 
 /* WELCOME */
+	section#welcome, {
+	    background: #c89655 url("assets/img/harlequin_bg.png");
+	    background-image: url("assets/img/harlequin_bg.png");
+	    -webkit-background-image: url("assets/img/harlequin_bg.png");
+	    -moz-background-image: url("assets/img/harlequin_bg.png");
+	    -ms-background-image: url("assets/img/harlequin_bg.png");
+	    -o-background-image: url("assets/img/harlequin_bg.png");
+	    background-size: 100%;
+	    -webkit-background-size: 100%;
+	    -moz-background-size: 100%;
+	    -ms-background-size: 100%;
+	    -o-background-size: 100% }
+
+	#welcome h3 {
+		display: none }
+
+	#welcome h4 {
+		font-size: 1.4em }
 
 /* SERVICES */
+section#services, {
+	    background: #c89655 url("assets/img/harlequin_bg.png");
+	    background-image: url("assets/img/harlequin_bg.png");
+	    -webkit-background-image: url("assets/img/harlequin_bg.png");
+	    -moz-background-image: url("assets/img/harlequin_bg.png");
+	    -ms-background-image: url("assets/img/harlequin_bg.png");
+	    -o-background-image: url("assets/img/harlequin_bg.png");
+	    background-size: 100%;
+	    -webkit-background-size: 100%;
+	    -moz-background-size: 100%;
+	    -ms-background-size: 100%;
+	    -o-background-size: 100% }
+
+
+.service-box {
+    background-image: url("assets/img/redstar270f.png"); 
+    -webkit-background-image: url("assets/img/redstar270f.png"); 
+    -moz-background-image: url("assets/img/redstar270f.png"); 
+    -ms-background-image: url("assets/img/redstar270f.png"); 
+    -o-background-image: url("assets/img/redstar270f.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    padding: 5%; 
+    position: relative; 
+    text-align: center }
+
+#box1 {
+    -webkit-animation: rollIn 2s 1; 
+    -moz-animation: rollIn 2s 1; 
+    -ms-animation: rollIn 2s 1; 
+    -o-animation: rollIn 2s 1; 
+    animation: rollIn 2s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both; 
+    animation-fill-mode: both }
+
+#box2 {
+    -webkit-animation: rollIn 1s 1; 
+    -moz-animation: rollIn 1s 1; 
+    -ms-animation: rollIn 1s 1; 
+    -o-animation: rollIn 1s 1; 
+    animation: rollIn 1s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both }
+
+#box3 {
+    -webkit-animation: rollIn 3s 1; 
+    -moz-animation: rollIn 3s 1; 
+    -ms-animation: rollIn 3s 1; 
+    -o-animation: rollIn 3s 1; 
+    animation: rollIn 3s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both; 
+    animation-fill-mode: both }
+
+#box4 {
+    -webkit-animation: rollIn 2s 1; 
+    -moz-animation: rollIn 2s 1; 
+    -ms-animation: rollIn 2s 1; 
+    -o-animation: rollIn 2s 1; 
+    animation: rollIn 2s 1; 
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both;  
+    animation-fill-mode: both }
+
+.service-box p {
+    font-size: 1em;
+    color: #000000; 
+    line-height: 1;
+    padding: 0;
+    margin:0 }
+
+.service-box-title {
+    font-size: 1.1em; 
+    line-height: 1; 
+    font-weight: 700; 
+    color: #EFE0CE; 
+    margin: 0; 
+    padding-top: 5% } 
 
 }
