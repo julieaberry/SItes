@@ -3,184 +3,333 @@
 @import url(https://fonts.googleapis.com/css?family=Michroma|Passion+One);
 @import url(https://fonts.googleapis.com/css?family=Michroma);
 
-.center {
-  margin: 0 auto;
-  text-align: center;
-  float: none;}
 
-/* Smartphones (portrait and landscape) */
+/*  GLOBAL  */
+
+body {
+	background: #c89655; }
+
+p, h1, h2, h3, h4, h5 {
+	text-rendering: optimizeLegibility }
+
+p {
+	font-family: Michroma, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height 1;
+	color: #000 }
+
+h1 {
+	font-family: "Passion One", cursive;
+    font-size: 2em; 
+    font-weight: 400; 
+    line-height: 1.2; 
+    color:#000000; 
+    padding: 4% 0 0 0 }
+
+h2 {
+	font-family: Michroma, sans-serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000 }
+
+h3 {
+	font-family: Michroma, sans-serif;
+	font-size: 1.4em;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000 }
+
+h4 {
+	font-family: Michroma, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000;
+	padding: 5%; }
+
+.center {
+margin: 0 auto;
+text-align: center;
+float: none;}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table; }
+
+.clearfix:after {
+  	clear: both; }
+
+.left {
+  	float: left !important; }
+
+.right {
+  	float: right !important; }
+
+.circle {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background-color: #be2d1c;
+	border:4px solid #222222;
+	-webkit-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
+	-moz-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
+	-ms-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
+	-0-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
+	box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73); }
+
+
+/* SECTIONS */
+section#home, section#welcome, section#services, section#contact {
+	-o-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
+    -ms-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
+    -moz-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
+    -webkit-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
+    box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
+    z-index: 0;
+    background: transparent;
+    padding: 5%;
+    border-bottom: 10px solid #222222;
+	border-top: 10px solid #222222;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px }
+
+section#home {
+    background: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    -o-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+
+div#hero-unit {
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -ms-border-radius: 0px; 
+    -o-border-radius: 0px; 
+    border-radius: 0px;
+    padding: 25% 0 0 0; }
+
+section#welcome {
+    background: #c89655 url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
+    -o-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
+    background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
+    -o-background-size: 100%;
+    -ms-background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+	background-size: 100% }
+
+section#services {
+    background: #c89655 url("http://mobile.codestardev.com/assets/img/stripes.png");
+    -o-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
+    background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
+    -o-background-size: 100%;
+    -ms-background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+	background-size: 100% }
+
+section#contact {
+    background: #c89655 url("http://mobile.codestardev.com/assets/img/burst.png");
+    -o-background-image: url("http://mobile.codestardev.com/assets/img/burst.png");
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/burst.png");
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/burst.png");
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/burst.png");
+    background-image: url("http://mobile.codestardev.com/assets/img/burst.png");
+    -o-background-size: 100%;
+    -ms-background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+	background-size: 100%;
+	padding: 15%; }
+
+/* HERO UNIT */
+
+.logo {
+	box-sizing: content-box; 
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    background-color: transparent; 
+    background: url("http://mobile.codestardev.com/assets/img/logo.png");
+    background: url("http://mobile.codestardev.com/assets/img/logo.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/logo.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/logo.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/logo.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/logo.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/logo.png"); 
+    background-repeat: no-repeat; 
+    background-size: 30%;
+	min-height: 95px;
+	background-position: top; }
+
+.scrolldown {
+    animation: bounce; 
+    -webkit-animation: bounce; 
+    -moz-animation: bounce; 
+    -ms-animation: bounce; 
+    -o-animation: bounce; 
+    -webkit-animation-iteration-count: infinite; 
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+    -webkit-animation: bounce 2s infinite; 
+    -moz-animation: bounce 2s infinite; 
+    -ms-animation: bounce 2s infinite; 
+    -o-animation: bounce 2s infinite; 
+    animation: bounce 2s infinite }
+
+#arrow {
+    background: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    display:block;  
+    z-index: 60;
+    max-height:80px; }
+
+
+/* WELCOME */
+/* SERVICES */
+.service-box {
+    background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
+    -o-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
+    background-repeat: no-repeat; 
+    background-size: 50%; 
+    padding: 6%; 
+    background-position: top center; 
+    text-align: center }
+
+#box1 {
+    -webkit-animation: rollIn 2s 1; 
+    -moz-animation: rollIn 2s 1; 
+    -ms-animation: rollIn 2s 1; 
+    -o-animation: rollIn 2s 1; 
+    animation: rollIn 2s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both; 
+    animation-fill-mode: both }
+
+#box2 {
+    -webkit-animation: rollIn 1s 1; 
+    -moz-animation: rollIn 1s 1; 
+    -ms-animation: rollIn 1s 1; 
+    -o-animation: rollIn 1s 1; 
+    animation: rollIn 1s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+	    animation-fill-mode: both }
+
+#box3 {
+    -webkit-animation: rollIn 3s 1; 
+    -moz-animation: rollIn 3s 1; 
+    -ms-animation: rollIn 3s 1; 
+    -o-animation: rollIn 3s 1; 
+    animation: rollIn 3s 1; 
+    -webkit-animation-fill-mode: both; 
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both; 
+    animation-fill-mode: both }
+
+#box4 {
+    -webkit-animation: rollIn 2s 1; 
+    -moz-animation: rollIn 2s 1; 
+    -ms-animation: rollIn 2s 1; 
+    -o-animation: rollIn 2s 1; 
+    animation: rollIn 2s 1; 
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both; 
+    -ms-animation-fill-mode: both; 
+    -o-animation-fill-mode: both;  
+    animation-fill-mode: both }
+
+/* CONTACT */
+
+.fa {
+	display: block;
+	vertical-align: middle }
+
+.fa-eye {
+    padding-top:10% }
+
+.fa-envelope, .fa-github-alt, .fa-phone, .fa-behance {
+    padding-top: 20% }
+
+/* FOOTER */
+
+footer.footer {
+	background-color: #222222;}
+
+footer p {
+	font-family: Michroma, sans-serif;
+	font-size: .7em;
+	font-weight: normal;
+	line-height 1;
+	color: #EFE0CE;
+	padding: 0;
+	margin: 0; }
+
+
+
+
+/* MEDIA QUERIES*/
+
+
+/* Smartphones (portrait) */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 
-/*  GLOBAL  */
-
-	body {
-		background: #c89655 }
-
-	section {
-   }
-
-	p, h1, h2, h3, h4, h5 {
-		text-rendering: optimizeLegibility }
-
-	p {
-		font-family: Michroma, sans-serif;
-		font-size: 30px;
-		font-weight: normal;
-		line-height 1;
-		color: #000 }
-
-	h1 {
-		font-family: "Passion One", cursive;
-	    font-size: 2em; 
-	    font-weight: 400; 
-	    line-height: 1.2; 
-	    color:#000000; 
-	    padding: 4% 0 0 0 }
-
-	h2 {
-		font-family: Michroma, sans-serif;
-		font-size: 1.2em;
-		font-weight: normal;
-		line-height: 1.2;
-		color: #000 }
-
-	h3 {
-		font-family: Michroma, sans-serif;
-		font-size: 1.4em;
-		font-weight: normal;
-		line-height: 1.2;
-		color: #000 }
-
-	h4 {
-		font-family: Michroma, sans-serif;
-		font-size: 1.1em;
-		font-weight: normal;
-		line-height: 1.2;
-		color: #000;
-		padding: 5%; }
-
-	section#home, section#welcome, section#services {
-		-o-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
-	    -ms-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
-	    -moz-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
-	    -webkit-box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
-	    box-shadow: 5px 0px 30px 20px rgba(50,50,50,.42) inset;
-	    z-index: 0;
-	    background: transparent;
-	    padding: 5%;
-	    border-bottom: 10px solid #222222;
-    	border-top: 10px solid #222222;
-	    -webkit-border-radius: 0px;
-	    -moz-border-radius: 0px;
-	    -ms-border-radius: 0px;
-	    -o-border-radius: 0px;
-	    border-radius: 0px }
-
-	/* HERO UNIT */
-
-	section#home {
-	    background: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    -o-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    -ms-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    -moz-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    background-image: url("http://mobile.codestardev.com/assets/img/bg_stars.png");
-	    -o-background-size: cover;
-	    -ms-background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-size: cover; }
-
-	div#hero-unit {
-	    /*-webkit-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
-	    -moz-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
-	    -ms-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
-	    -o-box-shadow: 5px 30px 5px rgba(50,50,50,0.52) inset; 
-	    box-shadow: 5px 30px 35px rgba(50,50,50,0.52) inset; 
-	    margin-top:0px; margin-bottom:0px; 
-	    z-index:0; background: transparent; 
-	    padding-top: 20px; z-index: 2; 
-	    position: relative; 
-	    background-size: cover; */
-	    -webkit-border-radius: 0px; 
-	    -moz-border-radius: 0px; 
-	    -ms-border-radius: 0px; 
-	    -o-border-radius: 0px; 
-	    border-radius: 0px;
-	    padding: 25% 0 0 0; }
+/* HERO UNIT */
 
 	.logo {
-		box-sizing: content-box; 
-	    -webkit-box-sizing: content-box; 
-	    -moz-box-sizing: content-box;
-	    -ms-box-sizing: content-box;
-	    -o-box-sizing: content-box;
-	    background-color: transparent; 
-	    background: url("/assets/img/logo.png"); 
-	    background-image: url("/assets/img/logo.png"); 
-	    -webkit-background-image: url("/assets/img/logo.png"); 
-	    -moz-background-image: url("/assets/img/logo.png"); 
-	    -ms-background-image: url("/assets/img/logo.png"); 
-	    -0-background-image: url("/assets/img/logo.png"); 
-	    background-repeat: no-repeat; 
-	    background-size: 100%; 
-	    min-height: 100px;
-   		max-height: 120px }
+	     padding: 3%;}
 
    	.hero-unit-heading {
    		padding: 10% 0; }
 
    	.scrolldown {
-	    animation: bounce; 
-	    -webkit-animation: bounce; 
-	    -moz-animation: bounce; 
-	    -ms-animation: bounce; 
-	    -o-animation: bounce; 
-	    -webkit-animation-iteration-count: infinite; 
-	    -moz-animation-iteration-count: infinite;
-	    -ms-animation-iteration-count: infinite;
-	    -o-animation-iteration-count: infinite;
-	    animation-iteration-count: infinite; 
-	    -webkit-animation: bounce 2s infinite; 
-	    -moz-animation: bounce 2s infinite; 
-	    -ms-animation: bounce 2s infinite; 
-	    -o-animation: bounce 2s infinite; 
-	    animation: bounce 2s infinite;
 	    width: 58px;
-		max-width: 58px;}
+		max-width: 58px }
 
 	#arrow {
-	    background: url("assets/img/arrow.png"); 
-	    background-image: url("assets/img/arrow.png"); 
-	    -webkit-background-image: url("assets/img/arrow.png"); 
-	    -moz-background-image: url("assets/img/arrow.png"); 
-	    -ms-background-image: url("assets/img/arrow.png"); 
-	    -0-background-image: url("assets/img/arrow.png"); 
-	    background-repeat: no-repeat; 
-	    background-size: 100%; 
-	    display:block; 
-	    max-width:160px;
-	    height: 128px;
-	    padding-top:10%; 
-	    z-index: 60 }
+	    max-width: 60px;
+	    height: 60px;
+	    padding-top: 10% }
 
 /* WELCOME */
-	section#welcome {
-	    background: #c89655 url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
-	    background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
-	    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
-	    -moz-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
-	    -ms-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
-	    -o-background-image: url("http://mobile.codestardev.com/assets/img/harlequin_bg.png");
-	    background-size: 100%;
-	    -webkit-background-size: 100%;
-	    -moz-background-size: 100%;
-	    -ms-background-size: 100%;
-	    -o-background-size: 100% }
-
+	
 	#welcome h3 {
 		display: none }
 
@@ -188,18 +337,7 @@ and (max-device-width : 480px) {
 		font-size: 1.4em }
 
 /* SERVICES */
-	section#services {
-	    background: #c89655 url("http://mobile.codestardev.com/assets/img/stripes.png");
-	    -o-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
-	    -ms-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
-	    -moz-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
-	    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
-	    background-image: url("http://mobile.codestardev.com/assets/img/stripes.png");
-	    -o-background-size: 100%;
-	    -ms-background-size: 100%;
-	    -moz-background-size: 100%;
-	    -webkit-background-size: 100%;
-		background-size: 100% }
+	
 
 	#services h3 {
 		display: none }
@@ -207,65 +345,8 @@ and (max-device-width : 480px) {
 	.service-stars {
 		padding:10% 0 }
 
-	.service-box {
-	    background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
-	    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
-	    -moz-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
-	    -ms-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
-	    -o-background-image: url("http://mobile.codestardev.com/assets/img/service-star.png"); 
-	    background-repeat: no-repeat; 
-	    background-size: 50%; 
-	    padding: 6%; 
-	    background-position: top center; 
-	    text-align: center }
-
-	#box1 {
-	    -webkit-animation: rollIn 2s 1; 
-	    -moz-animation: rollIn 2s 1; 
-	    -ms-animation: rollIn 2s 1; 
-	    -o-animation: rollIn 2s 1; 
-	    animation: rollIn 2s 1; 
-	    -webkit-animation-fill-mode: both; 
-	    -moz-animation-fill-mode: both; 
-	    -ms-animation-fill-mode: both; 
-	    -o-animation-fill-mode: both; 
-	    animation-fill-mode: both }
-
-	#box2 {
-	    -webkit-animation: rollIn 1s 1; 
-	    -moz-animation: rollIn 1s 1; 
-	    -ms-animation: rollIn 1s 1; 
-	    -o-animation: rollIn 1s 1; 
-	    animation: rollIn 1s 1; 
-	    -webkit-animation-fill-mode: both; 
-	    -moz-animation-fill-mode: both;
-	    -ms-animation-fill-mode: both;
-	    -o-animation-fill-mode: both;
-	    animation-fill-mode: both }
-
-	#box3 {
-	    -webkit-animation: rollIn 3s 1; 
-	    -moz-animation: rollIn 3s 1; 
-	    -ms-animation: rollIn 3s 1; 
-	    -o-animation: rollIn 3s 1; 
-	    animation: rollIn 3s 1; 
-	    -webkit-animation-fill-mode: both; 
-	    -moz-animation-fill-mode: both; 
-	    -ms-animation-fill-mode: both; 
-	    -o-animation-fill-mode: both; 
-	    animation-fill-mode: both }
-
-	#box4 {
-	    -webkit-animation: rollIn 2s 1; 
-	    -moz-animation: rollIn 2s 1; 
-	    -ms-animation: rollIn 2s 1; 
-	    -o-animation: rollIn 2s 1; 
-	    animation: rollIn 2s 1; 
-	    -webkit-animation-fill-mode: both;
-	    -moz-animation-fill-mode: both; 
-	    -ms-animation-fill-mode: both; 
-	    -o-animation-fill-mode: both;  
-	    animation-fill-mode: both }
+	.service-box { 
+	    padding: 6% }
 
 	.service-box p {
 	    font-size: 1em;
@@ -281,5 +362,44 @@ and (max-device-width : 480px) {
 	    color: #EFE0CE; 
 	    margin: 0; 
 	    padding-top: 1% } 
+
+/* CONTACT */
+
+
+
+}
+
+
+/* Smartphones (landscape) */
+@media only screen 
+and (min-device-width : 380px) 
+and (max-device-width : 640px) {
+
+/* HERO UNIT */
+	div#hero-unit {
+	    padding: 5% 0 0 0;}
+
+	.logo {
+	    padding: 4%;
+    	background-size: 23%;
+    	min-height: 70px }
+
+	.hero-unit-heading {
+    	padding: 1% 0 }
+
+	#arrow {
+	    max-width: 60px;
+	    height: 30px;
+	    padding-top:8%;
+	    margin-top:6%; }
+
+/* WELCOME */	    
+/* SERVICES */
+	.service-box {
+	    background-size: 30%;}
+
+/* CONTACT */
+	#circle01 {
+		margin-top: 20% }
 
 }
