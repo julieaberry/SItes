@@ -50,9 +50,9 @@ h4 {
 	padding: 5%; }
 
 .center {
-margin: 0 auto;
-text-align: center;
-float: none;}
+	margin: 0 auto;
+	text-align: center;
+	float: none;}
 
 .clearfix:before, .clearfix:after {
 	content: " ";
@@ -67,17 +67,17 @@ float: none;}
 .right {
   	float: right !important; }
 
-.circle {
+/*.circle {
 	border-radius: 50%;
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	background-color: #be2d1c;
 	border:4px solid #222222;
 	-webkit-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
 	-moz-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
 	-ms-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
 	-0-box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73);
-	box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73); }
+	box-shadow: 0px 0px 29px -2px rgba(34,34,34,0.73); }*/
 
 
 /* SECTIONS */
@@ -199,17 +199,19 @@ section#contact {
     animation: bounce 2s infinite }
 
 #arrow {
-    background: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
-    background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
-    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
-    -moz-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
-    -ms-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
-    -0-background-image: url("http://mobile.codestardev.com/assets/img/arrow.png"); 
+    background: url("http://mobile.codestardev.com/assets/img/arrow1.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/arrow1.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/arrow1.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/arrow1.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/arrow1.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/arrow1.png"); 
     background-repeat: no-repeat; 
     background-size: 100%; 
+    background-position: top;
     display:block;  
     z-index: 60;
-    max-height:80px; }
+    min-height: 80px;
+    max-height: 80px; }
 
 
 /* WELCOME */
@@ -276,15 +278,94 @@ section#contact {
 
 /* CONTACT */
 
-.fa {
+/*.fa {
 	display: block;
 	vertical-align: middle }
 
 .fa-eye {
-    padding-top:10% }
+    font-size: 4.8em }
+
+.circle#circle01 {
+	width: 75px;
+	height:75px; }
 
 .fa-envelope, .fa-github-alt, .fa-phone, .fa-behance {
-    padding-top: 20% }
+    padding-top: 20% }*/
+
+.contact-button {
+	display: block;
+	z-index: 60;
+	min-height: 75px;
+    min-width: 75px;
+    padding: 5% }
+
+#contact-button-phone {
+	background: url("http://mobile.codestardev.com/assets/img/c-phone.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/c-phone.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/c-phone.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/c-phone.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/c-phone.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/c-phone.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position: top }
+
+#contact-button-email {
+	background: url("http://mobile.codestardev.com/assets/img/c-email.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/c-email.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/c-email.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/c-email.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/c-email.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/c-email.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position: top }
+
+#contact-button-git {
+	background: url("http://mobile.codestardev.com/assets/img/c-git-alt.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/c-git-alt.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/c-git-alt.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/c-git-alt.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/c-git-alt.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/c-git-alt.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position: top }
+
+#contact-button-behance {
+	background: url("http://mobile.codestardev.com/assets/img/c-ehance.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/c-ehance.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/c-ehance.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/c-ehance.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/c-ehance.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/c-ehance.png"); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position: top }
+
+#contact-button-eye {
+	background: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+    background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+    -moz-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+    -ms-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+    -0-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+    background-repeat: no-repeat; 
+    background-size: 50%;
+    background-position: top;
+	min-height: 80px;
+    min-width: 80px;
+    padding: 5% }
+
+
+.row.middle-row {
+ 	margin-top:-15% }
+
+.row.bottom-row {
+ 	margin-top:-15% }
+
+
+
 
 /* FOOTER */
 
@@ -372,8 +453,11 @@ and (max-device-width : 480px) {
 
 /* Smartphones (landscape) */
 @media only screen 
-and (min-device-width : 380px) 
+and (min-device-width : 480px) 
 and (max-device-width : 640px) {
+
+	h1 {
+    padding: 0 }
 
 /* HERO UNIT */
 	div#hero-unit {
@@ -382,7 +466,7 @@ and (max-device-width : 640px) {
 	.logo {
 	    padding: 4%;
     	background-size: 23%;
-    	min-height: 70px }
+    	min-height: 90px }
 
 	.hero-unit-heading {
     	padding: 1% 0 }
@@ -394,12 +478,101 @@ and (max-device-width : 640px) {
 	    margin-top:6%; }
 
 /* WELCOME */	    
+    #welcome h3 {
+        display: none }
+
+    #welcome h4 {
+        font-size: 1.8em }
+
 /* SERVICES */
+
+    #services h3 {
+        display: none }
+
 	.service-box {
 	    background-size: 30%;}
 
 /* CONTACT */
-	#circle01 {
-		margin-top: 20% }
+    section#contact {
+        padding: 20% 20% }
+
+	 #contact-button-eye {
+		background: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+	    background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+	    -webkit-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+	    -moz-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+	    -ms-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+	    -0-background-image: url("http://mobile.codestardev.com/assets/img/c-eye.png"); 
+	    background-repeat: no-repeat; 
+	    background-size: 40%;
+	    background-position: top;
+		min-height: 80px;
+	    min-width: 80px;
+	    padding: 5% }
+
+	.row.middle-row {
+	    margin-top: -10% }
+
+	.row.bottom-row {
+	    margin-top: -10% }
+
+}
+
+/* Smartphones (landscape) */
+@media only screen 
+and (min-device-width : 640px) 
+and (max-device-width : 740px) {
+
+
+
+/* HERO UNIT */
+	div#hero-unit {
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    -ms-border-radius: 0px;
+	    -o-border-radius: 0px;
+	    border-radius: 0px;
+	    padding: 5% 0 5% 0 }
+
+	.logo {
+	    background-size: 20%;
+	    min-height: 125px;
+		min-width: 125px;}
+
+	.hero-unit-heading {
+		margin-bottom:5%; }
+
+	#arrow {
+	    background-size: 15%;
+	    display: block;
+	    z-index: 60;
+	    min-height: 100px;
+	    min-width: 100px; }
+
+/* CONTACT */
+
+	section#contact {
+	    padding: 18% 15% }
+
+	.contact-button {
+		display: block;
+		z-index: 60;
+		min-height: 90px;
+	    min-width: 90px;
+	    padding: 5% }
+
+	#contact-button-eye {
+		background-size: 30%;
+	    min-height: 100px;
+	    min-width: 100px;
+	    padding: 5%;}
+
+	.row.middle-row {
+	    margin-top: -1% }
+
+	.row.bottom-row {
+	    margin-top: -1% }
+
+
 
 }
