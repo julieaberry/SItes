@@ -1,0 +1,230 @@
+/**
+ * Project: Pennies2dollars.com
+ * Version: 1.0
+ * Last change: 08/31/15 [fixed Float bug, vf]
+ * Assigned to: Julie Berry
+ * Primary use: Online business card
+ * Notes: consider Wordpress for style completion. Client needs guidance regarding funciton
+ */
+
+/******************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300);
+
+
+body {
+   width:100%;
+   height:100%;
+   margin:0;
+   padding:0;
+   background-color: #f0f0f0;
+   font-family:'Source Sans Pro', sans-serif }
+  
+section {
+   margin: 5% }
+  
+.center {
+   text-align:center;
+   margin: 0, auto }
+  
+.right {
+   float: right }
+
+h1, h2 {
+   margin-top: 0;
+   margin-bottom: 0 }
+  
+p {
+   font-size:18px;
+   line-height:1;
+   font-weight: 300; }
+  
+a {
+   outline:0;
+   text-decoration:none;
+   color:#f67c05 }
+  
+a:hover {
+   outline:0;
+   text-decoration:none;
+   color:#f67c05 }
+  
+a img {
+   border:none;
+   color:rgba(0, 0, 0, 0) }
+  
+ul, li {
+   list-style:none;
+   padding:0;
+   margin:0
+   font-size: 1.8rem }
+  
+img {
+   z-index:99; }
+
+.center {
+   margin: 0 auto;
+   text-align: center }
+
+.sides {
+   padding:0 5% }
+
+ /* COLORS */
+
+.ltblue {
+   background-color: #004565; }
+
+.dkblue {
+   background-color: #002434; }
+
+.ltgray {
+   background-color: #f0f0f0; }
+
+.gray {
+   background-color: #d7d7d7; }
+ 
+ 
+/* TOP */
+
+.top {
+   height:10% }
+
+.top h1 {
+   font-size: 2em;
+   margin-top: 2%;
+   color: #f0f0f0;
+   line-height: 1.25 }
+
+.top h2 {
+   font-size: 1.2em;
+   margin-top: 1%;
+   color: #f0f0f0;
+   line-height: 1.1;
+   padding-bottom: 1% }
+
+
+ /* MAIN SECTION */
+
+ .main {
+ 	/*  height: 400px;  */
+   padding: 5% 15% }
+ 	
+ .main h1{
+   background-color: #ccc;
+   padding: 10%
+   font-size: 2em;
+   margin-top: 2%;
+   color: #f0f0f0;
+   line-height: 1.25 }	
+
+
+ .box {
+   height: 300px;
+   background-color: #aebe97;
+   -webkit-background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   -moz-background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   -ms-background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   -0-background-image:"url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   background: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   background-size: 100% 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-radius: 0px; }
+
+.shadow2 {
+   position: relative }
+
+.shadow2:before, .shadow2:after {
+   z-index: -1;
+   position: absolute;
+   content: "";
+   bottom: 15px;
+   left: 10px;
+   width: 50%;
+   top: 80%;
+   max-width:300px;
+   background: #777;
+   -webkit-box-shadow: 0 15px 10px #777;
+   -moz-box-shadow: 0 15px 10px #777;
+   box-shadow: 0 15px 10px #777;
+   -webkit-transform: rotate(-3deg);
+   -moz-transform: rotate(-3deg);
+   -o-transform: rotate(-3deg);
+   -ms-transform: rotate(-3deg);
+   transform: rotate(-3deg) }
+
+.shadow2:after {
+   -webkit-transform: rotate(3deg);
+   -moz-transform: rotate(3deg);
+   -o-transform: rotate(3deg);
+   -ms-transform: rotate(3deg);
+   transform: rotate(3deg);
+   right: 10px;
+   left: auto }
+  
+.message {
+   float: right;
+   text-align: right;
+   background-color: #333333;
+   height: 50%;
+   width: 25% }
+ 
+
+/* INFO SECTION */
+
+.info {
+ 	padding: 5% 10% }
+
+.placeholderImage {
+  /* height: 200px; */
+  background-color: white;
+  -webkit-background-image: url("http://test.codestardev.com/assets/images/penelope01.jpg") left top no-repeat;
+  -moz-background-image: url("http://test.codestardev.com/assets/images/penelope01.jpg") left top no-repeat;
+  background-image: url("http://test.codestardev.com/assets/images/penelope01.jpg") left top no-repeat }
+
+.about p {
+   font-size: 1.6em;
+   color: #f0f0f0;
+   float: right;
+   text-align: justify;
+   margin-left: 5%;
+   padding-top: 2%;
+   line-height: 1.15 }
+
+ /*  CERT SECTION  */
+
+.cert {
+   padding: 2% 30% }
+
+.cert img {
+   height: 100px }
+
+.cert h2 {
+   float:right;
+   padding-top: 5% }
+
+  /* DOWNLOADS SECTION */
+
+ .downloads {
+   height: 270px;
+   padding: 3% 15% }
+
+ .download-bg {
+   width: 90%;
+   padding-top: 1%;
+   border-bottom: 8px solid #004565 }
+
+ .download-bg h2 {
+   color: #f0f0f0;
+   text-align: center;
+   padding:2% 1% 1% 1% }
+
+.vertical {
+   border-left: 1px solid #000 }
+
+/*  FOOTER  */
+
+.footer p {
+   color: #f0f0f0 }
+ 
