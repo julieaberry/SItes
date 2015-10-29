@@ -4,7 +4,7 @@
  * Last change: 08/31/15 [fixed Float bug, vf]
  * Assigned to: Julie Berry
  * Primary use: Online business card
- * Notes: consider Wordpress for style completion. Client needs guidance regarding funciton
+ * Notes: consider Wordpress for style completion. Client needs guidance regarding function
  */
 
 /******************************************************************************/
@@ -17,27 +17,35 @@ body {
    height:100%;
    margin:0;
    padding:0;
-   background-color: #f0f0f0;
-   font-family:'Source Sans Pro', sans-serif }
+   background-color:#f0f0f0;
+   font-family:'Source Sans Pro', sans-serif;
+   font-size: 18px}
   
-section {
-   margin: 5% }
+section { }
+
+.row { }
   
 .center {
-   text-align:center;
-   margin: 0, auto }
+    text-align:center;
+    margin:0, auto }
+
+.row-centered {
+    text-align:center }
+.col-centered {
+    display:inline-block;
+    float:none }
   
 .right {
-   float: right }
+    float:right }
 
 h1, h2 {
-   margin-top: 0;
-   margin-bottom: 0 }
+    margin-top:0;
+    margin-bottom:0 }
   
 p {
-   font-size:18px;
+   font-size:1.6rem;
    line-height:1;
-   font-weight: 300; }
+   font-weight:300; }
   
 a {
    outline:0;
@@ -55,16 +63,16 @@ a img {
   
 ul, li {
    list-style:none;
-   padding:0;
-   margin:0
-   font-size: 1.8rem }
+   margin:0;
+   font-size:1.8rem }
+ul {
+    float:left }
+
+li {
+    width:100% }
   
 img {
    z-index:99; }
-
-.center {
-   margin: 0 auto;
-   text-align: center }
 
 .sides {
    padding:0 5% }
@@ -90,14 +98,14 @@ img {
    height:10% }
 
 .top h1 {
-   font-size: 2em;
+   font-size: 3rem;
    margin-top: 2%;
    color: #f0f0f0;
    line-height: 1.25 }
 
 .top h2 {
-   font-size: 1.2em;
-   margin-top: 1%;
+   font-size: 1.8rem;
+   margin-top: 0;
    color: #f0f0f0;
    line-height: 1.1;
    padding-bottom: 1% }
@@ -106,63 +114,32 @@ img {
  /* MAIN SECTION */
 
  .main {
- 	/*  height: 400px;  */
    padding: 5% 15% }
  	
- .main h1{
-   background-color: #ccc;
-   padding: 10%
-   font-size: 2em;
-   margin-top: 2%;
-   color: #f0f0f0;
-   line-height: 1.25 }	
+ .main h1 {
+   background-color: rgba(34, 34, 34, 0.32);
+   padding: 5%;
+   font-size: 3.8rem;
+   margin-right: 7%;
+   color: #222;
+   line-height: 1.25;
+   float: right;
+   text-align: center  }
 
 
  .box {
-   height: 300px;
-   background-color: #aebe97;
-   -webkit-background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
-   -moz-background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
-   -ms-background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
-   -0-background-image:"url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
-   background-image: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
-   background: url("http://test.codestardev.com/assets/images/dollars.jpg") left top no-repeat;
+   background: #aebe97 url(http://test.codestardev.com/assets/images/dollars.jpg) left top no-repeat;
    background-size: 100% 100%;
-   padding-top: 30px;
-   padding-bottom: 30px;
-   border-radius: 0px; }
+   padding-top: 7%;
+   padding-bottom: 12% }
 
-.shadow2 {
-   position: relative }
+ .shadow {
+   -webkit-box-shadow: 3px 3px 5px 6px rgba(35, 35, 35, 0.58);;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+   -moz-box-shadow:    3px 3px 5px 6px rgba(35, 35, 35, 0.58);;  /* Firefox 3.5 - 3.6 */
+   box-shadow:         3px 3px 5px 6px rgba(35, 35, 35, 0.58);;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+ }
 
-.shadow2:before, .shadow2:after {
-   z-index: -1;
-   position: absolute;
-   content: "";
-   bottom: 15px;
-   left: 10px;
-   width: 50%;
-   top: 80%;
-   max-width:300px;
-   background: #777;
-   -webkit-box-shadow: 0 15px 10px #777;
-   -moz-box-shadow: 0 15px 10px #777;
-   box-shadow: 0 15px 10px #777;
-   -webkit-transform: rotate(-3deg);
-   -moz-transform: rotate(-3deg);
-   -o-transform: rotate(-3deg);
-   -ms-transform: rotate(-3deg);
-   transform: rotate(-3deg) }
 
-.shadow2:after {
-   -webkit-transform: rotate(3deg);
-   -moz-transform: rotate(3deg);
-   -o-transform: rotate(3deg);
-   -ms-transform: rotate(3deg);
-   transform: rotate(3deg);
-   right: 10px;
-   left: auto }
-  
 .message {
    float: right;
    text-align: right;
@@ -177,37 +154,43 @@ img {
  	padding: 5% 10% }
 
 .placeholderImage {
-  /* height: 200px; */
-  background-color: white;
-  -webkit-background-image: url("http://test.codestardev.com/assets/images/penelope01.jpg") left top no-repeat;
-  -moz-background-image: url("http://test.codestardev.com/assets/images/penelope01.jpg") left top no-repeat;
-  background-image: url("http://test.codestardev.com/assets/images/penelope01.jpg") left top no-repeat }
+   background: #ffffff url(http://test.codestardev.com/assets/images/penelope01.jpg) left top no-repeat;
+   background-size: 100% 100%;
+   height: 250px;
+   width: 200px }
 
 .about p {
-   font-size: 1.6em;
+   font-size: 2rem;
    color: #f0f0f0;
    float: right;
-   text-align: justify;
+   text-align: left;
    margin-left: 5%;
-   padding-top: 2%;
+   padding-bottom: 2%;
    line-height: 1.15 }
+
+p.myQuote {
+   font-size: 1.8rem;
+   font-style: italic;
+   float: left;
+   color: #999 }
+
 
  /*  CERT SECTION  */
 
 .cert {
-   padding: 2% 30% }
+   padding: 5% }
 
 .cert img {
    height: 100px }
 
 .cert h2 {
-   float:right;
+   float: left;
    padding-top: 5% }
 
   /* DOWNLOADS SECTION */
 
  .downloads {
-   height: 270px;
+   height: 100%;
    padding: 3% 15% }
 
  .download-bg {
@@ -221,9 +204,14 @@ img {
    padding:2% 1% 1% 1% }
 
 .vertical {
+   height: 100%;
    border-left: 1px solid #000 }
 
 /*  FOOTER  */
+
+.footer {
+    padding:2%
+}
 
 .footer p {
    color: #f0f0f0 }
