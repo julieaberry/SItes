@@ -1,0 +1,788 @@
+/*  COLORS  */
+
+.black {background-color: #333}
+.red {background-color: #c4391d}
+.brown {background-color: #bd9e6e}
+.tan {background-color: #e3d6c3}
+.text-black {color: #333}
+.text-red {color: #c4391d}
+.text-brown {color: #bd9e6e}
+.text-tan {color: #e3d6c3}
+
+/*  TESIING */
+
+.blue {background-color: rgba(22, 46, 167, 0.58)}
+.green {background-color: rgba(57, 167, 22, 0.6)}
+.purple {background-color: rgba(117, 22, 167, 0.6)}
+.teal {background-color: rgba(25, 208, 199, 0.6)}
+.pink {background-color: rgba(214, 70, 150, 0.35)}
+.orange {background-color: rgba(208, 118, 25, 0.6)}
+.yellow {background-color: rgba(243, 247, 9, 0.9)}
+
+
+
+/* GLOBAL OVERRIDES */
+
+.center {
+    margin: 0 auto;
+    margin-right: auto;
+    float: none }
+
+.text-center {
+    text-align: center!important;
+}
+    
+.right {
+    float: right!important;
+    text-align: right;
+    margin-right: 0
+
+}
+
+.panel {
+    border-style: none !important; 
+    border-width: 0 !important;
+    border-color: #d8d8d8 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    background: inherit !important;
+}
+
+
+body {
+	background-color: #e3d6c3;
+	font-family: "acumin-pro";
+	font-size: 14px;
+    max-width: 100%;
+    margin-left: 1%; }
+
+.column, .columns {
+	padding-left: 0;
+    padding-right: 0;
+    width: auto }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    color: inherit;
+    font-size: 60%;
+    line-height: inherit }
+
+table {
+    width: 100%;
+}
+
+.row.contactInfo {
+    padding: 3% 1%;
+    min-height: 30px;
+}
+
+.col-md-6.right {
+    padding-left: 0 }
+
+.col-md-6.left {
+    padding-right: 0
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+
+
+/*  TYPOGRAPHY */
+ 
+p, li {
+	font-family: "acumin-pro";
+	font-size: .8rem;
+    margin-bottom: 0 }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+ 
+h1 {
+    font-size: 20px;
+    letter-spacing: .9px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1 }
+
+
+h2 {
+    font-size: 18px}
+
+h3 {
+    font-size: 16px }
+
+h4 {
+    font-size: 14px }
+    
+h5 {
+    font-size: 12px }
+
+
+
+/* LIST STYLES */
+
+ul {
+    margin-bottom: 0;
+    list-style-type: square;
+    list-style-position: outside
+     }
+
+li {
+    line-height: 1.2;
+    margin-bottom: 4%;
+    list-style-position: outside;
+}
+
+/* BOX STYLES */
+
+
+.border {
+	border: 3px solid #333;
+ }
+
+.full {
+	 width: 100%;
+	 height: auto; }
+
+/* SECTIONS */
+
+
+h1.title {
+    font-size: 2em;
+    color: #c4391d;
+    }
+
+h2.subTitle {
+    font-size: 1.3em;;
+    color: #bd9e6e }
+
+.row.myInfo {
+    padding: 1% 3%;
+}
+
+
+
+.leftInfo, .rightInfo {
+    width: 100%;
+}
+
+
+h4.leftInfo, h4.rightInfo {
+    color: #e3d6c3;
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+    line-height: .7;
+}
+
+/* ASSETS TABLE */
+
+table.assets {
+    margin-bottom: 1%;
+    width: 101%;
+}
+
+td.leftThird {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.tanMargin {
+    padding: 5%;
+}
+
+/* HIRE ME */
+
+.hireMe {
+    padding: 2%;
+    margin: 1% 1% 1% 0;
+}
+
+img.hireMe {
+    max-width: 90%;
+}
+
+/* SCHOOL */
+
+h5.schoolTitle {
+    font-size: 2.6rem;
+    margin-top: 5%;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+table.schoolTable {
+    margin-top: -15%;
+    width: 100%;
+}
+
+img.schoolLogo {
+    max-width: 70%;
+    /*padding-left: 8%;*/
+    padding-right: 0;
+}
+ td.schoolLogo {
+    width: 70%;
+ }
+
+
+h3.myDegree {
+    font-size: 1.7rem;
+    margin-top: 3%;
+}
+
+td.myDegree {
+    padding-right: 15%;
+}
+
+h5.degree {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h5.degree.m {
+    margin-bottom: -35%;
+}
+
+h5.degree.d {
+    margin-top: -25%;
+}
+
+/* WHAT I CAN DO */
+
+td.assets {
+    margin-right: -2%;
+}
+
+ul.assets {
+    color: #e3d6c3;
+    margin-top: 8%;
+    margin-left: 0;
+    padding-left: 13%;
+}
+
+li.assets {
+    font-size: 1em;
+    color: #e3d6c3;
+}
+
+.header-box {
+    max-width: 90%;
+}
+
+h3.assetsTitle {
+    font-size: 1.5em;
+    color:#bd9e6e;
+    border-top: 6px solid #c4391d;
+    margin-top: -9%;
+    padding: 2%;
+}
+
+/* ARROWS */
+
+.arrows {
+    max-height: 20px;
+    min-height: 20px;
+    margin: 1px 0;
+}
+
+.width10 {
+    width: 10%
+}
+
+.width12 {
+    width: 12%
+}
+
+.width30 {
+    width: 30%
+}
+
+.width40 {
+    width: 40%
+}
+
+.width50 {
+    width: 50%
+}
+
+.width60 {
+    width: 60%
+}
+
+.width70 {
+    width: 70%
+}
+
+.width90 {
+    width: 70%
+}
+
+.width100 {
+    width: 100%
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    min-height: 25px;
+}
+
+.container-fluid.skills {
+    border-top: 2px solid #333;
+}
+
+.row.skills {
+    margin-top: 5px;
+    margin-bottom: 1%;
+}
+
+h4.skills {
+    font-size: 1.2em;
+}
+
+h5.skills {
+    font-size: 1.6rem;
+}
+
+
+.softwearLogo {
+    max-width: 25px;
+    margin-right: 3px;
+}
+
+/* WORK SECTION */
+
+.workBlock {
+    max-width: 100%;
+    margin-top: 1%;
+}
+
+.workLogo {
+    max-width: 50px;
+    margin-right: 2%;
+}
+
+
+h1.work {
+    font-size: 2.1rem;
+}
+
+
+
+h2.work {
+    font-size: 1rem;
+}
+
+h3.work {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+h4.work {
+    font-size: 1.8rem;
+    line-height: .6;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle!important;
+}
+
+.row.work {
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-top: 1px solid #333;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+.infoBlock {
+    padding-top: 2%;
+    margin-left: -2%;
+}
+
+.row.workPad {
+    margin: 1%;
+}
+
+.workTitle {
+    margin: 1% .2% 1.2% .2%;
+
+}
+
+/* FOOTER */
+
+.socialIcon {
+    font-size: 4em
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+/*  TYPOGRAPHY */
+ 
+p, li {
+    font-family: "acumin-pro";
+    font-size: .8rem;
+    margin-bottom: 0 }
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+ 
+h1 {
+    font-size: 20px;
+    letter-spacing: .9px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1 }
+
+
+h2 {
+    font-size: 18px}
+
+h3 {
+    font-size: 16px }
+
+h4 {
+    font-size: 14px }
+    
+h5 {
+    font-size: 12px }
+
+
+
+/* LIST STYLES */
+
+ul {
+    margin-bottom: 0;
+    list-style-type: square;
+    list-style-position: outside
+     }
+
+li {
+    line-height: 1.2;
+    margin-bottom: 4%;
+    list-style-position: outside;
+}
+
+/* BOX STYLES */
+
+
+.border {
+    border: 3px solid #333;
+ }
+
+.full {
+     width: 100%;
+     height: auto; }
+
+/* SECTIONS */
+
+
+h1.title {
+    font-size: 2.9rem;
+    color: #c4391d;
+    text-align: center;
+    }
+
+h2.subTitle {
+    font-size: 1.86rem;;
+    color: #bd9e6e }
+
+.row.myInfo {
+    padding: 1% 3%;
+}
+
+
+
+.leftInfo, .rightInfo {
+    width: 100%;
+}
+
+
+h4.leftInfo, h4.rightInfo {
+    color: #e3d6c3;
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+    line-height: .7;
+}
+
+/* ASSETS TABLE */
+
+table.assets {
+    margin-bottom: 1%;
+    width: 101%;
+}
+
+td.leftThird {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.tanMargin {
+    padding: 5%;
+}
+
+/* HIRE ME */
+
+.hireMe {
+    padding: 2%;
+    margin: 1% 1% 1% 0;
+}
+
+img.hireMe {
+    max-width: 90%;
+}
+
+/* SCHOOL */
+
+h5.schoolTitle {
+    font-size: 2.6rem;
+    margin-top: 5%;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+table.schoolTable {
+    margin-top: -15%;
+    width: 100%;
+}
+
+img.schoolLogo {
+    max-width: 70%;
+    /*padding-left: 8%;*/
+    padding-right: 0;
+}
+ td.schoolLogo {
+    width: 70%;
+ }
+
+
+h3.myDegree {
+    font-size: 1.7rem;
+    margin-top: 3%;
+}
+
+td.myDegree {
+    padding-right: 15%;
+}
+
+h5.degree {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h5.degree.m {
+    margin-bottom: -35%;
+}
+
+h5.degree.d {
+    margin-top: -25%;
+}
+
+/* WHAT I CAN DO */
+
+td.assets {
+    margin-right: -2%;
+}
+
+ul.assets {
+    color: #e3d6c3;
+    margin-top: 8%;
+    margin-left: 0;
+    padding-left: 13%;
+}
+
+li.assets {
+    font-size: 1.2rem;
+    color: #e3d6c3;
+}
+
+.header-box {
+    max-width: 90%;
+}
+
+h3.assetsTitle {
+    font-size: 1.5em;
+    color:#bd9e6e;
+    border-top: 6px solid #c4391d;
+    margin-top: -9%;
+    padding: 2%;
+}
+
+/* ARROWS */
+
+.arrows {
+    max-height: 20px;
+    min-height: 20px;
+    margin: 1px 0;
+}
+
+.width10 {
+    width: 10%
+}
+
+.width12 {
+    width: 12%
+}
+
+.width30 {
+    width: 30%
+}
+
+.width40 {
+    width: 40%
+}
+
+.width50 {
+    width: 50%
+}
+
+.width60 {
+    width: 60%
+}
+
+.width70 {
+    width: 70%
+}
+
+.width90 {
+    width: 70%
+}
+
+.width100 {
+    width: 100%
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    min-height: 25px;
+}
+
+.container-fluid.skills {
+    border-top: 2px solid #333;
+}
+
+.row.skills {
+    margin-top: 5px;
+    margin-bottom: 1%;
+}
+
+h4.skills {
+    font-size: 1.2em;
+}
+
+h5.skills {
+    font-size: 1.6rem;
+}
+
+
+.softwearLogo {
+    max-width: 25px;
+    margin-right: 3px;
+}
+
+/* WORK SECTION */
+
+.workBlock {
+    max-width: 100%;
+    margin-top: 1%;
+}
+
+.workLogo {
+    max-width: 50px;
+    margin-right: 2%;
+}
+
+
+h1.work {
+    font-size: 2.1rem;
+}
+
+
+
+h2.work {
+    font-size: 1rem;
+}
+
+h3.work {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+h4.work {
+    font-size: 1.8rem;
+    line-height: .6;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle!important;
+}
+
+.row.work {
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-top: 1px solid #333;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+.infoBlock {
+    padding-top: 2%;
+    margin-left: -2%;
+}
+
+.row.workPad {
+    margin: 1%;
+}
+
+.workTitle {
+    margin: 1% .2% 1.2% .2%;
+
+}
+
+/* FOOTER */
+
+.socialIcon {
+    font-size: 4em
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+/*  TESTING */
