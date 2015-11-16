@@ -39,5 +39,21 @@ Status: Live
 
 -----------------------------------
 
+##julieaberry.com/makeover
+
+*I am giving my resume a complete makeover*
+*Starting with the mobile version first and working up.*
+
+Status: Live and In-progress
+
+
+####Resume Page
+
+*This is the digital version of my resume.*
+
+Status: in-progress
+
+-----------------------------------
+
 
 
