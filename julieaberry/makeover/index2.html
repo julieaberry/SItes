@@ -14,7 +14,13 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+	
     <link rel="stylesheet" href="assets/css/makeover.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    
+    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     
     <script src="https://use.typekit.net/kzr8kmy.js"></script>
@@ -35,25 +41,22 @@
     
 <div class = "container-fluid">  <!-- REASON: design should extend to the edges -->
      
-	<div class="row">
-	    <div class="col-xs-12 col-md-12">
+	<div class="row title">
+	    <div class="col-xs-12 col-md-12 col-lg-6 title">
 	        <h1 class = "title text-center center">JUNIOR DEVELOPER</h1>
 	    </div>
-	</div>
-
-	<div class="row">
-		<div class="col-xs-12 col-md-12">
+		<div class="col-xs-12 col-md-12 col-lg-6 subTitle">
 		    <h2 class = "subTitle text-center center text-center text-brown">MOBILE FIRST <i class="fa fa-eye"></i> EYE ON DESIGN</h2>	
 		</div>
 	</div>
 	<div class="row contactInfo black row-eq-height">
-		<div class="col-xs-6 col-md-6 left pull-left">
+		<div class="col-xs-6 col-md-6 col-lg-6 left pull-left">
 		    <div class = "leftlInfo">
 	            <h4 class = "leftInfo">JULIE BERRY</h4>
 	            <h4 class = "leftInfo"><small>Seattle, WA</small></h4>
 	        </div>
 		</div>
-		<div class="col-xs-6 col-md-6 right row-eq-height">
+		<div class="col-xs-6 col-md-6 col-lg-6 right row-eq-height">
 	      	<div class = "rightInfo text-right">
 	            <h4 class = "rightInfo">phone</h4>
 	            <h4 class = "rightInfo"><small>julie@julieaberry.com</small></h4>
@@ -64,39 +67,66 @@
 </div>  <!--CLOSE container -->	
 
 <div class = "container-fluid"> 
-	<div class="row">
+	<div class="row ">  <!-- MAIN ROW -->
 
 
-						<div class="col-xs-5 col-md-5 col-lg-5 assetsLeft">
-							<img class = "hireMe" src="assets/images/hireMe.png"><br>
-							<h5 class = "assetsLeft schoolTitle text-center">SCHOOL</h5><br> <!-- HIRE ME -->
-							<img class = "schoolLogo left" src="assets/images/fsLogo.png">
-							<div class = "myDegree right">
-			    				<h5 class = "degree m right">M</h5><br>
-			    				<h5 class = "degree d right">D</h5>
-				    		</div>
-				    		<h3 class = "myDegree">B.S. Mobile<br> Development<br>Class of 2017</h3>
-						</div>
+		<div class="col-xs-5 col-md-5 col-lg-5 assetsLeft">  <!-- ASSETS LEFT  5 COL-->
+
+				<div class = "row schoolSection">
+					<div class="col-xs-6 col-md-6 col-lg-6 hireMe">
+						<img class = "hireMe border" src="assets/images/hireMe.png"><br>  <!-- ./ IMAGE  BLOCK -->
+					</div>   <!-- CLOSE ROW -->
+					<div class = "mySchool">
+						<div class="col-xs-6 col-md-6 col-lg-6">
+
+								
+									<h5 class = "schoolTitle text-center">SCHOOL</h5><br> <!-- HIRE ME -->
+									<div class = "schoolDegree">
+										<img class = "schoolLogo left" src="assets/images/fsLogo.png">
+										<div class = "myDegree right">
+							    			<h5 class = "degree m right">M</h5><br>
+							    			<h5 class = "degree d right">D</h5>
+								    	</div>
+								    </div>   <!-- ./ schoolDegree -->
+								</div>    <!-- ./ mySchool  BLOCK -->
+
+					</div>  <!-- ./ col -->
+				</div>   <!--  CLOSE SchoolSection row -->
 
 
-						<div class="col-xs-7 col-md-7 col-lg-7 assetsRight red pull-right">
-							<div class = "black header-box text-brown text-center center">
-	                     		<h3 class = "assetsTitle">WHAT I CAN DO</h3>
-	               			</div>
-								<ul class = "assets">
-			                        <li class = "assets">Make websites Mobile</li>
-			                        <li class = "assets">Use Responsive Frameworks</li>
-			                        <li class = "assets">Implement Media Queries</li>
-			                        <li class = "assets">Update Your Designs</li>
-			                        <li class = "assets">Communicate Professionally</li>
-			                        <li class = "assets">Use Mac and PC</li>
-			                        <li class = "assets">Work With Your Team</li>
-			                        <li class = "assets">Make this website</li>
-			                        <li class = "assets">Learn More</li>
-				                </ul>
-							</div>
-						</div>
 
+		    <div class = "row myDegree">
+			    	<div class="col-xs-12 col-md-12 col-lg-12">
+			    		<h3 class = "myDegree">B.S. Mobile Development</h3> 
+			    	</div>  <!-- ./ col -->
+		    </div>   <!-- ./ myDegree -->
+		    <div class = "row">
+			    	<div class="col-xs-4 col-md-4 col-lg-12">
+			    		<h3 class = "myDegree">Class of 2017</h3>
+			    	</div>
+		    </div>   <!-- ./ row -->
+
+		</div>   <!-- ./ CLOSE assetsLeft -->
+	
+
+
+		<div class="col-xs-7 col-md-7 col-lg-7 assetsRight red pull-right">  <!-- ASSETS RIGHT  7 COL-->
+			<div class = "black header-box text-brown text-center center">
+         		<h3 class = "assetsTitle">WHAT I CAN DO</h3>
+   			</div>
+				<ul class = "assets">
+                    <li class = "assets">Make websites Mobile</li>
+                    <li class = "assets">Use Responsive Frameworks</li>
+                    <li class = "assets">Implement Media Queries</li>
+                    <li class = "assets">Update Your Designs</li>
+                    <li class = "assets">Communicate Professionally</li>
+                    <li class = "assets">Use Mac and PC</li>
+                    <li class = "assets">Work With Your Team</li>
+                    <li class = "assets">Make this website</li>
+                    <li class = "assets">Learn More</li>
+                </ul>
+			</div>
+		</div>
 
 
 	</div> <!--CLOSE main row -->
@@ -105,30 +135,30 @@
 
 <div class = "container-fluid skills"> 
 	<div class="row skills">
-	  	<div class="col-xs-6 col-md-6 red skills"><h4 class="text-tan skills">Web Development</h4></div>
-	  	<div class="col-xs-1 col-md-1 black skills"><h5 class="text-tan skills">6</h5></div>
-	  	<div class="col-xs-5 col-md-5 skills right">
+	  	<div class="col-xs-7 col-md-7 col-lg-7 width50 red skills"><h4 class="text-tan skills">Web Development</h4></div>
+	  	<div class="col-xs-1 col-md-1 col-lg-1 black skills"><h5 class="text-tan skills">6</h5></div>
+	  	<div class="col-xs-4 col-md-4 col-lg-4 skillsLogos">
 	  		<img class = "softwearLogo" src="assets/images/htmlIcon.png">
 	  		<img class = "softwearLogo" src="assets/images/jsLogo.png">
 	  	</div>
 	</div>
 	<div class="row skills">
-	  	<div class="col-xs-6 col-md-6 red skills"><h4 class="text-tan skills">Frameworks</h4></div>
-	  	<div class="col-xs-1 col-md-1 black skills"><h5 class="text-tan skills">6</h5></div>
-	  	<div class="col-xs-5 col-md-5 skills right">
+	  	<div class="col-xs-6 col-md-6 red skills width30"><h4 class="text-tan skills">Frameworks</h4></div>
+	  	<div class="col-xs-1 col-md-1 col-lg black skills"><h5 class="text-tan skills">5</h5></div>
+	  	<div class="col-xs-5 col-md-5 col-lg-5 skillsLogos">
 	  		<img class = "softwearLogo" src="assets/images/foundationLogo50.png">
 	  		<img class = "softwearLogo" src="assets/images/bootstrapLogo50.png">
 	  	</div>
 	</div>
 	<div class="row skills">
-		<div class="col-xs-9 col-md-9 red skills"><h4 class="text-tan skills">Design</h4></div>
-	  	<div class="col-xs-1 col-md-1 black skills"><h5 class="text-tan skills">12</h5></div>
-	  	<div class="col-xs-2 col-md-2 skills right"><img class = "softwearLogo" src="assets/images/ccLogo.png"></div>
+		<div class="col-xs-9 col-md-9 red scol-lg-9 skills width60"><h4 class="text-tan skills">Design</h4></div>
+	  	<div class="col-xs-1 col-md-1 col-lg black skills"><h5 class="text-tan skills">12</h5></div>
+	  	<div class="col-xs-2 col-md-2 skillsLogos "><img class = "softwearLogo" src="assets/images/ccLogo.png"></div>
 	</div>
 	<div class="row skills">
-		<div class="col-xs-4 col-md-4 red skills"><h4 class="text-tan skills">Mobile Dev</h4></div>
-	  	<div class="col-xs-1 col-md-1 black skills"><h5 class="text-tan skills">3</h5></div>
-	  	<div class="col-xs-7 col-md-7 skills right"><img class = "softwearLogo" src="assets/images/appcLogo.png"></div>
+		<div class="col-xs-5 col-md-5 col-lg-5 width20 red skills"><h4 class="text-tan skills">Mobile Dev</h4></div>
+	  	<div class="col-xs-1 col-md-1 col-lg 1 black skills"><h5 class="text-tan skills">3</h5></div>
+	  	<div class="col-xs-6 col-md-6 skillsLogos "><img class = "softwearLogo" src="assets/images/appcLogo.png"></div>
 	</div>
 
 </div> <!-- CLOSE CONTAINER-->
