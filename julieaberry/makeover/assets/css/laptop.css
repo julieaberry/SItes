@@ -1,0 +1,346 @@
+/*  MEDIA QUERIES  */
+
+@media screen   /* ----------- Retina Screens ----------- */
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .row.title {
+        min-height: 60px }
+
+    .col-lg-6.title {
+        float: left }
+
+    .col-lg-6.subTitle {
+        float: right }
+
+    h1.title {
+        font-size: 3.8em;
+        left: 0 }
+
+    h2.subTitle {
+        font-size: 3.0em;
+        line-height: 1.4;
+        right: 0;
+        float: right}
+
+    .row.contactInfo {
+        padding: 2% 1%;
+        min-height: 30px }
+
+
+    h4.leftInfo, h4.rightInfo {
+        font-size: 2.4em;
+        padding: 0;
+        margin: 0;
+        line-height: .7 }
+
+/* ASSETS DIV */
+
+    .assetsLeft {
+        max-width: 40%;
+    }
+
+    .assetsRight {
+        max-width: 60%;
+    }
+
+    /* HIRE ME */
+
+    img.hireMe {
+        max-width: 150%;
+    }
+
+    .hireMe {
+        padding: 2%;
+        margin: 1% 0;
+        max-width: 60%;
+        float: none;
+    }
+
+    /* SCHOOL */
+
+    .row.schoolSection {
+        width: 100%;
+    }
+
+    .mySchool {
+        float: left;
+        max-width: 50%;
+        margin-top: 4%;
+    }
+
+    h5.schoolTitle {  
+        font-size: 4.3em;
+    }
+
+    img.schoolLogo {
+        margin-top: 5%;
+        max-width: 45%;
+        padding-left: 15%;
+    }
+
+    .schoolDegree {
+        margin-bottom: 5%; 
+        }
+
+    h3.myDegree {
+        font-size: 1.4em; 
+    }
+
+
+    /* WHAT I CAN DO */
+
+    ul.assets {
+        padding-bottom: 5%;
+        margin-top: 7%;
+    }
+
+    li.assets {
+        font-size: 1.6em;
+        margin-bottom: 3.5%;
+    }
+
+    h3.assetsTitle {
+        font-size: 1.4em;
+    }
+
+
+    /* SKILLS SECTION */
+
+    .row.skills {
+        margin: 0;
+    }
+
+    .skills {
+        min-height: 27px;
+    }
+
+    h4.skills, h5.skills {
+        font-size: 3em;
+        margin-top: 3px;
+    }
+
+    .softwearLogo {
+        max-height: 50px;
+    }
+
+/* WORK SECTION */
+
+.workBlock {
+    max-width: 100%;
+    min-width: 98%;
+    margin-top: 1%;
+}
+
+.workLogo {
+    max-width: 50px;
+    margin-right: 2%;
+}
+
+p.work {
+    font-size: .8em;
+    margin-top: 0;
+}
+h1.work {
+    font-size: 1.77em;
+}
+
+
+
+h2.work {
+    font-size: .8em;
+}
+
+h3.work {
+    font-size: .9em;
+    font-weight: 500;
+}
+
+h4.work {
+    font-size: 1.5em;
+    line-height: .6;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle!important;
+}
+
+.row.work {
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-top: 1px solid #333;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
+.infoBlock {
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.row.workPad {
+    margin: 1%;
+}
+
+.workTitle {
+    margin: 1% .2% 1.2% .2%;
+
+}
+
+/* FOOTER */
+
+.socialIcon {
+    font-size: 4em
+}
+
+
+}
+
+
+@media screen  /* ----------- Non-Retina Screens ----------- */
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    body {
+        max-width: 100%;
+    }
+
+    .row.title {
+        min-height: 60px;
+    }
+
+    .col-lg-6.title {
+        float: left;
+    }
+
+    .col-lg-6.subTitle {
+        float: right;
+    }
+
+    h1.title {
+        left: 0;
+        float:left;
+        }
+
+    h2.subTitle {
+        line-height: 1.4;
+        right: 0;
+        float: right;
+         }
+
+    .row.contactInfo {
+        padding: 1% 1% 2%;
+        min-height: 35px;
+    }
+
+
+    h4.leftInfo, h4.rightInfo {
+        color: #e3d6c3;
+        font-size: 2.4em;
+        padding: 0;
+        margin: 0;
+        line-height: .7;
+    }
+
+/* ASSETS DIV */
+
+    .assetsLeft {
+        max-width: 40%;
+    }
+
+    .assetsRight {
+        max-width: 60%;
+    }
+
+    /* HIRE ME */
+
+    img.hireMe {
+        max-width: 150%;
+    }
+
+    .hireMe {
+        padding: 2%;
+        margin: 1% 0;
+        max-width: 60%;
+        float: none;
+    }
+
+    /* SCHOOL */
+
+    .row.schoolSection {
+        width: 100%;
+    }
+
+    .mySchool {
+        float: left;
+        max-width: 100%;
+        margin-top: 4%;
+    }
+
+    h5.schoolTitle {  
+        font-size: 4.3em;
+    }
+
+    img.schoolLogo {
+        margin-top: 5%;
+        max-width: 45%;
+        padding-left: 15%;
+    }
+
+    .schoolDegree {
+        margin-bottom: 5%; 
+        }
+
+    h3.myDegree {
+        font-size: 1.4em; 
+    }
+
+
+    /* WHAT I CAN DO */
+
+    ul.assets {
+        padding-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    li.assets {
+        font-size: 1.6em;
+        margin-bottom: 1%;
+    }
+
+    h3.assetsTitle {
+        font-size: 1.4em;
+    }
+
+
+    /* SKILLS SECTION */
+
+    .row.skills {
+        margin: 0;
+    }
+
+    .skills {
+        min-height: 27px;
+    }
+
+    h4.skills, h5.skills {
+        font-size: 3em;
+        margin-top: 3px;
+    }
+
+    .softwearLogo {
+        max-height: 50px;
+    }
+
+}
+
+
+
+
+
+
+

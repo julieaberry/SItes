@@ -1,0 +1,359 @@
+
+
+ /* LANDSCAPES */  /* LANDSCAPES */  /* LANDSCAPES */  /* LANDSCAPES */  /* LANDSCAPES */
+
+ @media only screen     /* Kindle Fire HD 8.9" - Landscape */
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+@media only screen     /* Kindle Fire HD 7" - Landscape */
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: landscape) {
+
+}
+
+
+@media only screen     /* iPad 3 and 4 - Landscape */
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+ @media only screen  /* iPad mini and iPad 1 and 2- Landscape */
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .row.title {
+        min-height: 50px;
+    }
+
+
+    h1.title {
+        font-size: 2.9em;
+        left: 0;
+        }
+
+    h2.subTitle {
+        font-size: 2.3em;
+        line-height: 1.4;
+        right: 0;
+        float: right;
+         }
+
+    .row.contactInfo {
+        padding: 2% 1% 3% 1%;
+    }
+
+
+    h4.leftInfo, h4.rightInfo {
+        font-size: 2.2em;
+
+    }
+
+/* ASSETS DIV */
+
+    .assetsLeft {
+        max-width: 35%;
+    }
+
+    .assetsRight {
+        max-width: 60%;
+    }
+
+    /* HIRE ME */
+
+    .hireMe {
+        max-width: 100%;
+        float: none;
+    }
+
+    img.hireMe {
+        max-width: 100%;
+    }
+
+
+    /* SCHOOL */
+
+    .row.schoolSection {
+        width: 100%;
+    }
+
+    .mySchool {
+        float: left;
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
+
+    h5.schoolTitle {  
+        font-size: 4.3em;
+    }
+
+    img.schoolLogo {
+        margin-top: 5%;
+        max-width: 45%;
+        padding-left: 15%;
+    }
+
+    .schoolDegree {
+        margin-bottom: 5%; 
+    }
+
+    h3.myDegree {
+        font-size: 3.4em;
+        margin-top: 0;
+    }
+
+    h5.degree {       
+        font-size: 5em;
+    }
+
+
+/* WHAT I CAN DO */
+
+    ul.assets {
+        padding-bottom: 5%;
+        margin-top: 7%;
+    }
+
+    li.assets {
+        font-size: 2.3em;
+        margin-bottom: 3.5%;
+    }
+
+    h3.assetsTitle {
+        font-size: 1.4em;
+    }
+
+
+/* SKILLS SECTION */
+
+    .row.skills {
+        margin: 0;
+    }
+
+    .skills {
+        min-height: 27px;
+    }
+
+    h4.skills, h5.skills {
+        font-size: 3em;
+        margin-top: 3px;
+    }
+
+    .softwearLogo {
+        max-height: 50px;
+    }
+
+}
+
+
+@media     /* Galaxy Tab 10.1 - Landscape */
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+
+@media screen     /* Asus Nexus 7 - Landscape */
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: landscape) {
+
+}
+
+
+
+
+
+/* PORTRAITS  */ /* PORTRAITS  */ /* PORTRAITS  */ /* PORTRAITS  */ /* PORTRAITS  */ /* PORTRAITS  */
+
+
+
+
+@media only screen     /* Kindle Fire HD 8.9" - Portrait */
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+}
+
+@media only screen     /* Kindle Fire HD 7" - Portrait */
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) 
+  and (orientation: portrait) {
+}
+
+@media only screen     /* iPad 3 and 4 - Portrait */
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+
+
+
+@media only screen    /* iPad mini and iPad 1 and 2 - Portrait */
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .row.title {
+        min-height: 50px;
+    }
+
+
+    h1.title {
+        font-size: 2.2em;
+        left: 0;
+    }
+
+    h2.subTitle {
+        font-size: 1.7em;
+        line-height: 1.5;
+    }
+
+    .row.contactInfo {
+        padding: 1.5% 1% 3% 1;
+        min-height: 30px;    }
+
+
+    h4.leftInfo, h4.rightInfo {
+        font-size: 2.2em;
+        line-height: .7;
+
+    }
+
+
+/* ASSETS DIV */
+
+    .assetsLeft {
+        max-width: 35%;
+    }
+
+    .assetsRight {
+        max-width: 60%;
+    }
+
+    /* HIRE ME */
+
+    img.hireMe {
+        max-width: 150%;
+    }
+
+    .hireMe {
+        padding: 2%;
+        margin: 1% 0;
+        max-width: 60%;
+        float: none;
+    }
+
+    
+    /* SCHOOL */
+
+    .row.schoolSection {
+        width: 100%;
+    }
+
+    .mySchool {
+        float: none;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    h5.schoolTitle {  
+        font-size: 3em;
+        margin: 0;
+    }
+
+    img.schoolLogo {
+        margin-top: 4%;
+        max-width: 50%;
+        padding-left: 15%;
+    }
+
+    .schoolDegree {
+        margin-bottom: 5%; 
+    }
+
+    h3.myDegree {
+        font-size: 1.4em; 
+    }
+
+    h5.degree {       
+        font-size: 3em;
+    }
+
+
+    /* WHAT I CAN DO */
+
+    ul.assets {
+        padding-bottom: 5%;
+    }
+
+    li.assets {
+        font-size: 1.5em;
+        margin-bottom: 3.5%;
+    }
+
+    h3.assetsTitle {
+        font-size: 1.4em;
+    }
+
+
+    /* SKILLS SECTION */
+
+    .row.skills {
+        margin: 0;
+    }
+
+    .skills {
+        min-height: 27px;
+    }
+
+    h4.skills, h5.skills {
+        font-size: 1.3em;
+        margin-top: 7px;
+    }
+
+    .softwearLogo {
+        max-height: 30px;
+    }
+
+}
+
+
+@media     /* Galaxy Tab 10.1 - Portrait */
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+@media screen     /* Asus Nexus 7 - Portrait */
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+
+}
+
+
+
