@@ -209,18 +209,18 @@ li {
 
 
 h1.title {
-    font-size: 3.8em;
+    font-size: 12em;
     color: #c4391d;
 }
 
 h2.subTitle {
-    font-size: 2.8em;
+    font-size: 10em;
     color: #bd9e6e;
 }
 
 .row.contactInfo {
-    padding: 2.5% 1%;
-    min-height: 35px;
+    padding: 1% 1%;
+    min-height: 140px;
 }
 
 
@@ -231,7 +231,7 @@ h2.subTitle {
 
 h4.leftInfo, h4.rightInfo {
     color: #e3d6c3;
-    font-size: 2.0em;
+    font-size: 7em;
     padding: 0;
     margin: 0;
     line-height: .7;
@@ -258,10 +258,12 @@ h4.leftInfo, h4.rightInfo {
     margin: 1% 0;
     max-width: 60%;
     float: right;
+    margin-right: -50%;
 }
 
 img.hireMe {
-    max-width: 90%;
+    width: 90%;
+    min-width: 20em;
 }
 
 /* SCHOOL */
@@ -277,7 +279,7 @@ img.hireMe {
 }
 
 h5.schoolTitle {
-    font-size: 3.6em;
+    font-size: 12em;
     margin: 1%;
     font-weight: 500;
 }
